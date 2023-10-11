@@ -7,7 +7,7 @@ import (
 	"github.com/cosmos/cosmos-sdk/telemetry"
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	authtypes "github.com/cosmos/cosmos-sdk/x/auth/types"
-	abci "github.com/tendermint/tendermint/abci/types"
+	abci "github.com/cometbft/cometbft/abci/types"
 
 	"bitbucket.org/decimalteam/go-smart-node/utils/formulas"
 	"bitbucket.org/decimalteam/go-smart-node/utils/helpers"

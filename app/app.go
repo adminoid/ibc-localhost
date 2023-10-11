@@ -18,10 +18,18 @@ import (
 	"github.com/spf13/viper"
 
 	// Tendermint
-	abci "github.com/tendermint/tendermint/abci/types"
-	tmlog "github.com/tendermint/tendermint/libs/log"
-	tmos "github.com/tendermint/tendermint/libs/os"
-	tmdb "github.com/tendermint/tm-db"
+	//abci "github.com/cometbft/cometbft/abci/types"
+	abci "github.com/cometbft/cometbft/abci/types"
+	tmlog "github.com/cometbft/cometbft/libs/log"
+	tmos "github.com/cometbft/cometbft/libs/os"
+	//tmdb "github.com/tendermint/tm-db"
+	tmdb "github.com/cometbft/cometbft-db"
+
+	// SimApp stuff
+	//"cosmossdk.io/simapp" // todo -- replace to actual here
+	//"github.com/cosmos/cosmos-sdk/simapp"
+	//simappparams "github.com/cosmos/cosmos-sdk/simapp/params"
+	runtime "github.com/cosmos/cosmos-sdk/runtime"
 
 	// SDK
 	"github.com/cosmos/cosmos-sdk/baseapp"
@@ -32,8 +40,6 @@ import (
 	"github.com/cosmos/cosmos-sdk/server/api"
 	"github.com/cosmos/cosmos-sdk/server/config"
 	servertypes "github.com/cosmos/cosmos-sdk/server/types"
-	"github.com/cosmos/cosmos-sdk/simapp"
-	simappparams "github.com/cosmos/cosmos-sdk/simapp/params"
 	store "github.com/cosmos/cosmos-sdk/store/types"
 	"github.com/cosmos/cosmos-sdk/telemetry"
 	sdk "github.com/cosmos/cosmos-sdk/types"
@@ -52,9 +58,10 @@ import (
 	bank "github.com/cosmos/cosmos-sdk/x/bank"
 	bankkeeper "github.com/cosmos/cosmos-sdk/x/bank/keeper"
 	banktypes "github.com/cosmos/cosmos-sdk/x/bank/types"
-	capability "github.com/cosmos/cosmos-sdk/x/capability"
-	capabilitykeeper "github.com/cosmos/cosmos-sdk/x/capability/keeper"
-	capabilitytypes "github.com/cosmos/cosmos-sdk/x/capability/types"
+	// todo -- capability moved to `https://github.com/cosmos/ibc-go/`
+	//capability "github.com/cosmos/cosmos-sdk/x/capability"
+	//capabilitykeeper "github.com/cosmos/cosmos-sdk/x/capability/keeper"
+	//capabilitytypes "github.com/cosmos/cosmos-sdk/x/capability/types"
 	crisis "github.com/cosmos/cosmos-sdk/x/crisis"
 	crisiskeeper "github.com/cosmos/cosmos-sdk/x/crisis/keeper"
 	crisistypes "github.com/cosmos/cosmos-sdk/x/crisis/types"
@@ -76,7 +83,11 @@ import (
 	paramskeeper "github.com/cosmos/cosmos-sdk/x/params/keeper"
 	paramstypes "github.com/cosmos/cosmos-sdk/x/params/types"
 	paramproposal "github.com/cosmos/cosmos-sdk/x/params/types/proposal"
-	upgradeclient "github.com/cosmos/cosmos-sdk/x/upgrade/client"
+	capability "github.com/cosmos/ibc-go/modules/capability"
+	capabilitykeeper "github.com/cosmos/ibc-go/modules/capability/keeper"
+	capabilitytypes "github.com/cosmos/ibc-go/modules/capability/types"
+	// todo -- paths below is absent in modern version
+	upgradeclient "github.com/cosmos/cosmos-sdk/x/upgrade/client/cli"
 	upgradekeeper "github.com/cosmos/cosmos-sdk/x/upgrade/keeper"
 	upgradetypes "github.com/cosmos/cosmos-sdk/x/upgrade/types"
 
@@ -218,8 +229,8 @@ var (
 )
 
 var (
-	_ servertypes.Application = (*DSC)(nil)
-	_ simapp.App              = (*DSC)(nil)
+	_ servertypes.Application 	= (*DSC)(nil)
+	_ runtime.AppI              = (*DSC)(nil)
 	//_ ibctesting.TestingApp   = (*DSC)(nil)
 )
 
@@ -970,6 +981,8 @@ func (app *DSC) RegisterAPIRoutes(apiSvr *api.Server, apiConfig config.APIConfig
 func (app *DSC) RegisterTxService(clientCtx client.Context) {
 	authtx.RegisterTxService(app.BaseApp.GRPCQueryRouter(), clientCtx, app.BaseApp.Simulate, app.interfaceRegistry)
 }
+
+// todo: rename Tendermint to CometBFT
 
 func (app *DSC) RegisterTendermintService(clientCtx client.Context) {
 	tmservice.RegisterTendermintService(clientCtx, app.BaseApp.GRPCQueryRouter(), app.interfaceRegistry, app.Query)

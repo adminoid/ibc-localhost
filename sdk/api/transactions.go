@@ -4,7 +4,7 @@ import (
 	"context"
 
 	cosmostx "github.com/cosmos/cosmos-sdk/types/tx"
-	tmtypes "github.com/tendermint/tendermint/abci/types"
+	tmtypes "github.com/cometbft/cometbft/abci/types"
 )
 
 type TxResult struct {

@@ -7,7 +7,7 @@ import (
 
 	sdkmath "cosmossdk.io/math"
 	sdk "github.com/cosmos/cosmos-sdk/types"
-	"github.com/tendermint/tendermint/libs/strings"
+	"github.com/cometbft/cometbft/libs/strings"
 
 	stormTypes "bitbucket.org/decimalteam/go-smart-node/cmd/sendstorm/types"
 	dscApi "bitbucket.org/decimalteam/go-smart-node/sdk/api"

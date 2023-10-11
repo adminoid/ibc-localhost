@@ -5,13 +5,13 @@ import (
 	"time"
 
 	"github.com/stretchr/testify/require"
-	abci "github.com/tendermint/tendermint/abci/types"
+	abci "github.com/cometbft/cometbft/abci/types"
 
 	sdkmath "cosmossdk.io/math"
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	"github.com/cosmos/cosmos-sdk/x/bank/testutil"
-	tmproto "github.com/tendermint/tendermint/proto/tendermint/types"
-	tmversion "github.com/tendermint/tendermint/proto/tendermint/version"
+	tmproto "github.com/cometbft/cometbft/proto/tendermint/types"
+	tmversion "github.com/cometbft/cometbft/proto/tendermint/version"
 
 	"bitbucket.org/decimalteam/go-smart-node/app"
 	cmdcfg "bitbucket.org/decimalteam/go-smart-node/cmd/config"

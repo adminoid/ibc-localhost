@@ -13,7 +13,7 @@ import (
 	_ "github.com/gogo/protobuf/gogoproto"
 	proto "github.com/gogo/protobuf/proto"
 	github_com_gogo_protobuf_types "github.com/gogo/protobuf/types"
-	types2 "github.com/tendermint/tendermint/proto/tendermint/types"
+	types2 "github.com/cometbft/cometbft/proto/tendermint/types"
 	_ "google.golang.org/protobuf/types/known/timestamppb"
 	io "io"
 	math "math"

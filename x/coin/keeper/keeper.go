@@ -8,7 +8,7 @@ import (
 	feeTypes "bitbucket.org/decimalteam/go-smart-node/x/fee/types"
 	sdkmath "cosmossdk.io/math"
 
-	"github.com/tendermint/tendermint/libs/log"
+	"github.com/cometbft/cometbft/libs/log"
 
 	"github.com/cosmos/cosmos-sdk/codec"
 	store "github.com/cosmos/cosmos-sdk/store/types"

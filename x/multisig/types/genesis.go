@@ -3,7 +3,7 @@ package types
 import (
 	"bitbucket.org/decimalteam/go-smart-node/x/multisig/errors"
 	sdk "github.com/cosmos/cosmos-sdk/types"
-	"github.com/tendermint/tendermint/libs/strings"
+	"github.com/cometbft/cometbft/libs/strings"
 )
 
 // NewGenesisState creates a new genesis state.

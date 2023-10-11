@@ -9,7 +9,7 @@ import (
 	dscApi "bitbucket.org/decimalteam/go-smart-node/sdk/api"
 	dscTx "bitbucket.org/decimalteam/go-smart-node/sdk/tx"
 	sdk "github.com/cosmos/cosmos-sdk/types"
-	"github.com/tendermint/tendermint/libs/strings"
+	"github.com/cometbft/cometbft/libs/strings"
 )
 
 type SignMultisigTransactionGenerator struct {

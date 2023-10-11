@@ -257,7 +257,8 @@ package transfertesting
 import (
     "encoding/json"
 
-    "github.com/tendermint/tendermint/libs/log"
+    "github.com/cometbft/cometbft/libs/log"
+	// todo: now replaced to <github.com/cometbft/cometbft-db>
     dbm "github.com/tendermint/tm-db"
 
     "github.com/cosmos/ibc-go/v5/modules/apps/transfer/simapp"
