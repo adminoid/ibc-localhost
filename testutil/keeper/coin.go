@@ -1,7 +1,7 @@
 package keeper
 
 import (
-	"github.com/cosmos/cosmos-sdk/simapp"
+	"github.com/evmos/cosmos-sdk/simapp"
 	ethsrvflags "github.com/evmos/ethermint/server/flags"
 	evmkeeper "github.com/evmos/ethermint/x/evm/keeper"
 	evmtypes "github.com/evmos/ethermint/x/evm/types"

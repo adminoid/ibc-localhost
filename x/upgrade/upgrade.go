@@ -19,7 +19,7 @@ import (
 
 	sdk "github.com/cosmos/cosmos-sdk/types"
 
-	"github.com/cosmos/cosmos-sdk/x/upgrade/types"
+	"github.com/evmos/cosmos-sdk/x/upgrade/types"
 
 	cmdcfg "bitbucket.org/decimalteam/go-smart-node/cmd/config"
 )

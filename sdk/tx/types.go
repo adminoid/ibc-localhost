@@ -9,7 +9,7 @@ import (
 	multisigtypes "bitbucket.org/decimalteam/go-smart-node/x/multisig/types"
 	nfttypes "bitbucket.org/decimalteam/go-smart-node/x/nft/types"
 	validatortypes "bitbucket.org/decimalteam/go-smart-node/x/validator/types"
-	upgradetypes "github.com/cosmos/cosmos-sdk/x/upgrade/types"
+	upgradetypes "github.com/evmos/cosmos-sdk/x/upgrade/types"
 )
 
 type (

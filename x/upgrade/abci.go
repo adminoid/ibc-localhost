@@ -10,8 +10,8 @@ import (
 	"github.com/cosmos/cosmos-sdk/telemetry"
 	sdk "github.com/cosmos/cosmos-sdk/types"
 
-	"github.com/cosmos/cosmos-sdk/x/upgrade/keeper"
-	"github.com/cosmos/cosmos-sdk/x/upgrade/types"
+	"github.com/evmos/cosmos-sdk/x/upgrade/keeper"
+	"github.com/evmos/cosmos-sdk/x/upgrade/types"
 
 	cmdcfg "bitbucket.org/decimalteam/go-smart-node/cmd/config"
 )

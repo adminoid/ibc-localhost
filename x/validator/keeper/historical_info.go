@@ -2,7 +2,7 @@ package keeper
 
 import (
 	sdk "github.com/cosmos/cosmos-sdk/types"
-	stakingtypes "github.com/cosmos/cosmos-sdk/x/staking/types"
+	stakingtypes "github.com/evmos/cosmos-sdk/x/staking/types"
 
 	"bitbucket.org/decimalteam/go-smart-node/x/validator/types"
 )

@@ -6,7 +6,7 @@ import (
 	sdkerrors "github.com/cosmos/cosmos-sdk/types/errors"
 
 	"github.com/cosmos/cosmos-sdk/x/authz"
-	stakingtypes "github.com/cosmos/cosmos-sdk/x/staking/types"
+	stakingtypes "github.com/evmos/cosmos-sdk/x/staking/types"
 )
 
 var minCommission = sdk.NewDecWithPrec(5, 2) // 5%

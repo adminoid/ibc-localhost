@@ -243,6 +243,8 @@ require (
 )
 
 replace (
+	github.com/cosmos/cosmos-sdk => github.com/evmos/cosmos-sdk v0.47.4-evmos.2
+
 	github.com/tendermint/tendermint => github.com/cometbft/cometbft v0.34.27
 	// use cosmos fork of keyring
 	github.com/99designs/keyring => github.com/cosmos/keyring v1.2.0
@@ -266,7 +268,6 @@ replace (
 	//github.com/cosmos/cosmos-sdk => github.com/evmos/cosmos-sdk v0.47.4-evmos.2
 	//github.com/cosmos/cosmos-sdk/client/grpc/tmservice => github.com/evmos/cosmos-sdk/client/grpc/tmservice v0.47.5-evmos.2
 	//github.com/cosmos/cosmos-sdk/x/distribution/client =>
-	github.com/cosmos/cosmos-sdk => github.com/evmos/cosmos-sdk v0.47.4-evmos.2
 
 )
 

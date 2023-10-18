@@ -27,15 +27,15 @@ import (
 
 	// SimApp stuff
 	//"cosmossdk.io/simapp" // todo -- replace to actual here
-	//"github.com/cosmos/cosmos-sdk/simapp"
-	//simappparams "github.com/cosmos/cosmos-sdk/simapp/params"
-	runtime "github.com/cosmos/cosmos-sdk/runtime"
+	//"github.com/evmos/cosmos-sdk/simapp"
+	//simappparams "github.com/evmos/cosmos-sdk/simapp/params"
+	runtime "github.com/evmos/cosmos-sdk/runtime"
 
 	// SDK
 	"github.com/cosmos/cosmos-sdk/baseapp"
 	"github.com/cosmos/cosmos-sdk/client"
-	"github.com/evmos/cosmos-sdk/client/grpc/gtmservice"
-	//github.com/cosmos/cosmos-sdk => github.com/evmos/cosmos-sdk v0.47.4-evmos.2
+	"github.com/cosmos/cosmos-sdk/client/grpc/gtmservice"
+	//github.com/evmos/cosmos-sdk => github.com/evmos/cosmos-sdk v0.47.4-evmos.2
 	"github.com/cosmos/cosmos-sdk/codec"
 	"github.com/cosmos/cosmos-sdk/codec/types"
 	"github.com/cosmos/cosmos-sdk/server/api"
@@ -60,13 +60,13 @@ import (
 	bankkeeper "github.com/cosmos/cosmos-sdk/x/bank/keeper"
 	banktypes "github.com/cosmos/cosmos-sdk/x/bank/types"
 	// todo -- capability moved to `https://github.com/cosmos/ibc-go/`
-	//capability "github.com/cosmos/cosmos-sdk/x/capability"
-	//capabilitykeeper "github.com/cosmos/cosmos-sdk/x/capability/keeper"
-	//capabilitytypes "github.com/cosmos/cosmos-sdk/x/capability/types"
+	//capability "github.com/evmos/cosmos-sdk/x/capability"
+	//capabilitykeeper "github.com/evmos/cosmos-sdk/x/capability/keeper"
+	//capabilitytypes "github.com/evmos/cosmos-sdk/x/capability/types"
 	crisis "github.com/cosmos/cosmos-sdk/x/crisis"
 	crisiskeeper "github.com/cosmos/cosmos-sdk/x/crisis/keeper"
 	crisistypes "github.com/cosmos/cosmos-sdk/x/crisis/types"
-	distrclient "github.com/evmos/cosmos-sdk/x/distribution/client"
+	distrclient "github.com/cosmos/cosmos-sdk/x/distribution/client"
 	distrtypes "github.com/cosmos/cosmos-sdk/x/distribution/types"
 	feegrant "github.com/cosmos/cosmos-sdk/x/feegrant"
 	feegrantkeeper "github.com/cosmos/cosmos-sdk/x/feegrant/keeper"
@@ -88,9 +88,9 @@ import (
 	capabilitykeeper "github.com/cosmos/ibc-go/modules/capability/keeper"
 	capabilitytypes "github.com/cosmos/ibc-go/modules/capability/types"
 	// todo -- paths below is absent in modern version
-	upgradeclient "github.com/cosmos/cosmos-sdk/x/upgrade/client/cli"
-	upgradekeeper "github.com/cosmos/cosmos-sdk/x/upgrade/keeper"
-	upgradetypes "github.com/cosmos/cosmos-sdk/x/upgrade/types"
+	upgradeclient "github.com/evmos/cosmos-sdk/x/upgrade/client/cli"
+	upgradekeeper "github.com/evmos/cosmos-sdk/x/upgrade/keeper"
+	upgradetypes "github.com/evmos/cosmos-sdk/x/upgrade/types"
 
 	// IBC
 	ibc "github.com/cosmos/ibc-go/v7/modules/core"

@@ -84,7 +84,7 @@ func (g *commissionGasMeter) ConsumeGas(amount sdk.Gas, descriptor string) {
 //
 // Use case: This functionality enables refunding gas to the transaction or block gas pools so that
 // EVM-compatible chains can fully support the go-ethereum StateDb interface.
-// See https://github.com/cosmos/cosmos-sdk/pull/9403 for reference.
+// See https://github.com/evmos/cosmos-sdk/pull/9403 for reference.
 func (g *commissionGasMeter) RefundGas(amount sdk.Gas, descriptor string) {
 	if g.consumed < amount {
 		panic(sdkStore.ErrorNegativeGasConsumed{Descriptor: descriptor})
