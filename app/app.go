@@ -34,7 +34,8 @@ import (
 	// SDK
 	"github.com/cosmos/cosmos-sdk/baseapp"
 	"github.com/cosmos/cosmos-sdk/client"
-	"github.com/cosmos/cosmos-sdk/client/grpc/cmtservice"
+	//"github.com/cosmos/cosmos-sdk/client/grpc/tmservice"
+	"github.com/cosmos/cosmos-sdk/client/grpc/tmservice"
 	//github.com/evmos/cosmos-sdk => github.com/evmos/cosmos-sdk v0.47.4-evmos.2
 	"github.com/cosmos/cosmos-sdk/codec"
 	"github.com/cosmos/cosmos-sdk/codec/types"
@@ -66,7 +67,7 @@ import (
 	crisis "github.com/cosmos/cosmos-sdk/x/crisis"
 	crisiskeeper "github.com/cosmos/cosmos-sdk/x/crisis/keeper"
 	crisistypes "github.com/cosmos/cosmos-sdk/x/crisis/types"
-	distrclient "github.com/cosmos/cosmos-sdk/x/distribution/client"
+	//distrclient "github.com/cosmos/cosmos-sdk/x/distribution/client"
 	distrtypes "github.com/cosmos/cosmos-sdk/x/distribution/types"
 	feegrant "github.com/cosmos/cosmos-sdk/x/feegrant"
 	feegrantkeeper "github.com/cosmos/cosmos-sdk/x/feegrant/keeper"
@@ -172,10 +173,11 @@ var (
 		capability.AppModuleBasic{},
 		//staking.AppModuleBasic{},
 		//distr.AppModuleBasic{},
-		gov.NewAppModuleBasic([]govclient.ProposalHandler{
+		gov.NewAppModuleBasic(
+			[]govclient.ProposalHandler{
 			// SDK proposal handlers
 			paramsclient.ProposalHandler,
-			distrclient.ProposalHandler,
+			//distrclient.ProposalHandler,
 			upgradeclient.LegacyProposalHandler,
 			upgradeclient.LegacyCancelProposalHandler,
 			// IBC proposal handlers
@@ -183,7 +185,8 @@ var (
 			ibcclientclient.UpgradeProposalHandler,
 			// Decimal proposal handlers
 			// TODO: ...
-		}),
+			},
+		),
 		params.AppModuleBasic{},
 		crisis.AppModuleBasic{},
 		//slashing.AppModuleBasic{},
