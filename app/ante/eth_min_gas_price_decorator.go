@@ -6,7 +6,7 @@ import (
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	sdkerrors "github.com/cosmos/cosmos-sdk/types/errors"
 	ethtypes "github.com/ethereum/go-ethereum/core/types"
-	evmante "github.com/evmos/evmos/app/ante"
+	evmante "github.com/evmos/evmos/v15/app/ante"
 	evmtypes "github.com/evmos/evmos/x/evm/types"
 )
 

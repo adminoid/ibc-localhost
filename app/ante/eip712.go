@@ -22,7 +22,7 @@ import (
 	"github.com/evmos/evmos/ethereum/eip712"
 	ethermint "github.com/evmos/evmos/types"
 
-	ethante "github.com/evmos/evmos/app/ante"
+	ethante "github.com/evmos/evmos/v15/app/ante"
 	evmtypes "github.com/evmos/evmos/x/evm/types"
 )
 

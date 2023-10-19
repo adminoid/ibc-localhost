@@ -15,7 +15,7 @@ import (
 	ibcante "github.com/cosmos/ibc-go/v7/modules/core/ante"
 	ibckeeper "github.com/cosmos/ibc-go/v7/modules/core/keeper"
 
-	ethante "github.com/evmos/evmos/app/ante"
+	ethante "github.com/evmos/evmos/v15/app/ante"
 	evmtypes "github.com/evmos/evmos/x/evm/types"
 
 	cointypes "bitbucket.org/decimalteam/go-smart-node/x/coin/types"

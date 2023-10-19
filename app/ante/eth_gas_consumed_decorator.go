@@ -10,7 +10,7 @@ import (
 	sdkerrors "github.com/cosmos/cosmos-sdk/types/errors"
 	sdkAuthTypes "github.com/cosmos/cosmos-sdk/x/auth/types"
 
-	ethante "github.com/evmos/evmos/app/ante"
+	ethante "github.com/evmos/evmos/v15/app/ante"
 	ethermint "github.com/evmos/evmos/types"
 	evmkeeper "github.com/evmos/evmos/x/evm/keeper"
 	evmtypes "github.com/evmos/evmos/x/evm/types"

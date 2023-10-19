@@ -7,7 +7,7 @@ import (
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	sdkerrors "github.com/cosmos/cosmos-sdk/types/errors"
 	bankkeeper "github.com/cosmos/cosmos-sdk/x/bank/keeper"
-	ethante "github.com/evmos/evmos/app/ante"
+	ethante "github.com/evmos/evmos/v15/app/ante"
 	evmtypes "github.com/evmos/evmos/x/evm/types"
 )
 

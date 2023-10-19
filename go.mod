@@ -236,7 +236,7 @@ replace (
 	//
 
 	// use Evmos geth fork
-	github.com/ethereum/go-ethereum => github.com/evmos/go-ethereum v1.10.26-evmos-rc2
+	//github.com/ethereum/go-ethereum => github.com/evmos/go-ethereum v1.10.26-evmos-rc2
 	//github.com/gogo/protobuf => github.com/protocolbuffers/protobuf-go v1.13.0
 	//github.com/gogo/protobuf => github.com/protocolbuffers/protobuf-go v1.13.0
 	//github.com/golang/protobuf => github.com/protocolbuffers/protobuf-go v1.5.2
