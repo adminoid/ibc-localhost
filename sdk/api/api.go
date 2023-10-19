@@ -6,8 +6,8 @@ import (
 
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/credentials/insecure"
-
-	tmservice "github.com/cosmos/cosmos-sdk/client/grpc/ctmservice"
+	//tmservice "github.com/cosmos/cosmos-sdk/client/grpc/ctmservice"
+	"github.com/cosmos/cosmos-sdk/client/grpc/tmservice"
 	"github.com/cosmos/cosmos-sdk/codec"
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	bankTypes "github.com/cosmos/cosmos-sdk/x/bank/types"

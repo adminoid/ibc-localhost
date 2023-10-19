@@ -251,4 +251,5 @@ replace (
 
 	//github.com/cosmos/cosmos-sdk/store/types =>
 
+	bitbucket.org/decimalteam/go-smart-node => ./
 )

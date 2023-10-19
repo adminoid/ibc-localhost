@@ -29,7 +29,11 @@ import (
 	//"cosmossdk.io/simapp" // todo -- replace to actual here
 	//"github.com/cosmos/cosmos-sdk/simapp"
 	//simappparams "github.com/cosmos/cosmos-sdk/simapp/params"
-	runtime "github.com/evmos/cosmos-sdk/runtime"
+	// todo -- example from evmos/evmos
+	//runtimeservices "github.com/cosmos/cosmos-sdk/runtime/services"
+
+	// now it's injected
+	//runtime "github.com/evmos/cosmos-sdk/runtime"
 
 	// SDK
 	"github.com/cosmos/cosmos-sdk/baseapp"
