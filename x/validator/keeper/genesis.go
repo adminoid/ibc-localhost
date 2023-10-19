@@ -8,7 +8,7 @@ import (
 	sdkmath "cosmossdk.io/math"
 	sdk "github.com/cosmos/cosmos-sdk/types"
 
-	ethtypes "github.com/evmos/ethermint/types"
+	ethtypes "github.com/evmos/evmos/types"
 
 	"bitbucket.org/decimalteam/go-smart-node/x/validator/types"
 )

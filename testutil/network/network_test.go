@@ -12,7 +12,7 @@ import (
 
 	"github.com/ethereum/go-ethereum/ethclient"
 
-	"github.com/evmos/ethermint/server/config"
+	"github.com/evmos/evmos/server/config"
 	//"github.com/evmos/ethermint/testutil/network"
 
 	dscnetwork "bitbucket.org/decimalteam/go-smart-node/testutil/network"

@@ -12,7 +12,7 @@ import (
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	"github.com/cosmos/cosmos-sdk/types/bech32"
 	ethereumCommon "github.com/ethereum/go-ethereum/common"
-	"github.com/evmos/ethermint/crypto/ethsecp256k1"
+	"github.com/evmos/evmos/crypto/ethsecp256k1"
 
 	cmdcfg "bitbucket.org/decimalteam/go-smart-node/cmd/config"
 )
