@@ -8,7 +8,7 @@ import (
 	sdkmath "cosmossdk.io/math"
 	"github.com/stretchr/testify/require"
 
-	"github.com/evmos/cosmos-sdk/simapp"
+	"github.com/cosmos/cosmos-sdk/simapp"
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	"github.com/cosmos/cosmos-sdk/types/query"
 

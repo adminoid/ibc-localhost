@@ -4,11 +4,11 @@ import (
 	"math/rand"
 
 	"github.com/cosmos/cosmos-sdk/baseapp"
-	simappparams "github.com/evmos/cosmos-sdk/simapp/params"
+	simappparams "github.com/cosmos/cosmos-sdk/simapp/params"
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	"github.com/cosmos/cosmos-sdk/types/module"
 	simtypes "github.com/cosmos/cosmos-sdk/types/simulation"
-	"github.com/evmos/cosmos-sdk/x/simulation"
+	"github.com/cosmos/cosmos-sdk/x/simulation"
 
 	coinsim "bitbucket.org/decimalteam/go-smart-node/x/swap/simulation"
 	"bitbucket.org/decimalteam/go-smart-node/x/swap/types"

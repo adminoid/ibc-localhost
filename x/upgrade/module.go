@@ -16,9 +16,9 @@ import (
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	"github.com/cosmos/cosmos-sdk/types/module"
 
-	"github.com/evmos/cosmos-sdk/x/upgrade/client/cli"
-	"github.com/evmos/cosmos-sdk/x/upgrade/keeper"
-	"github.com/evmos/cosmos-sdk/x/upgrade/types"
+	"github.com/cosmos/cosmos-sdk/x/upgrade/client/cli"
+	"github.com/cosmos/cosmos-sdk/x/upgrade/keeper"
+	"github.com/cosmos/cosmos-sdk/x/upgrade/types"
 )
 
 // TODO: Is this necessary?
