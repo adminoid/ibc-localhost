@@ -6,7 +6,7 @@ import (
 	"errors"
 	"fmt"
 	//evmgeth "github.com/evmos/evmos/v15/x/evm/vm/geth"
-	evmgeth "github.com/evmos/go-ethereum/common"
+	evmgeth "github.com/ethereum/go-ethereum/common"
 	"io"
 	"net/http"
 	"os"

@@ -19,8 +19,11 @@ import (
 	ethtypes "github.com/ethereum/go-ethereum/core/types"
 	ethante "github.com/evmos/evmos/v15/app/ante"
 	"github.com/evmos/evmos/v15/x/evm/statedb"
+
+	// todo -- there is doubtful code
 	evmtypes "github.com/evmos/evmos/v15/x/evm/types"
-	evm "github.com/evmos/evmos/v15/x/evm/vm"
+	evm "github.com/evmos/evmos/v15/x/evm"
+	//evm "github.com/ethereum/go-ethereum"
 )
 
 const (

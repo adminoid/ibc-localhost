@@ -6,7 +6,7 @@ import (
 	evmkeeper "github.com/evmos/evmos/v15/x/evm/keeper"
 	evmtypes "github.com/evmos/evmos/v15/x/evm/types"
 	//evmgeth "github.com/evmos/evmos/v15/x/evm/vm/geth"
-	evmgeth "github.com/evmos/go-ethereum/common"
+	evmgeth "github.com/ethereum/go-ethereum/common"
 	"github.com/spf13/cast"
 	"testing"
 

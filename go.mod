@@ -33,7 +33,8 @@ require (
 
 	github.com/cosmos/ibc-go/v7 v7.3.0
 	github.com/dustin/go-humanize v1.0.1
-	github.com/ethereum/go-ethereum v1.11.5
+	//github.com/ethereum/go-ethereum v1.11.5
+	//github.com/ethereum/go-ethereum v1.10.26-evmos-rc2
 	github.com/go-resty/resty/v2 v2.7.0
 	github.com/gogo/protobuf v1.3.3
 	github.com/golang/mock v1.6.0
@@ -236,7 +237,7 @@ replace (
 	//
 
 	// use Evmos geth fork
-	//github.com/ethereum/go-ethereum => github.com/evmos/go-ethereum v1.10.26-evmos-rc2
+	//github.com/ethereum/go-ethereum => github.com/ethereum/go-ethereum v1.10.26-evmos-rc2
 	//github.com/gogo/protobuf => github.com/protocolbuffers/protobuf-go v1.13.0
 	//github.com/gogo/protobuf => github.com/protocolbuffers/protobuf-go v1.13.0
 	//github.com/golang/protobuf => github.com/protocolbuffers/protobuf-go v1.5.2
