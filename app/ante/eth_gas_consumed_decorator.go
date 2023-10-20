@@ -11,9 +11,9 @@ import (
 	sdkAuthTypes "github.com/cosmos/cosmos-sdk/x/auth/types"
 
 	ethante "github.com/evmos/evmos/v15/app/ante"
-	ethermint "github.com/evmos/evmos/types"
-	evmkeeper "github.com/evmos/evmos/x/evm/keeper"
-	evmtypes "github.com/evmos/evmos/x/evm/types"
+	ethermint "github.com/evmos/evmos/v15/types"
+	evmkeeper "github.com/evmos/evmos/v15/x/evm/keeper"
+	evmtypes "github.com/evmos/evmos/v15/x/evm/types"
 
 	"bitbucket.org/decimalteam/go-smart-node/cmd/config"
 	"bitbucket.org/decimalteam/go-smart-node/utils/events"

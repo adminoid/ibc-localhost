@@ -17,7 +17,7 @@ import (
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	"github.com/cosmos/cosmos-sdk/types/module"
 
-	feemarkettypes "github.com/evmos/evmos/x/feemarket/types"
+	feemarkettypes "github.com/evmos/evmos/v15/x/feemarket/types"
 
 	"bitbucket.org/decimalteam/go-smart-node/x/fee/client/cli"
 	"bitbucket.org/decimalteam/go-smart-node/x/fee/keeper"

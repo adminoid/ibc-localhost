@@ -7,7 +7,7 @@ import (
 	query "github.com/cosmos/cosmos-sdk/types/query"
 	authTypes "github.com/cosmos/cosmos-sdk/x/auth/types"
 	bankTypes "github.com/cosmos/cosmos-sdk/x/bank/types"
-	ethermintTypes "github.com/evmos/evmos/types"
+	ethermintTypes "github.com/evmos/evmos/v15/types"
 	"github.com/gogo/protobuf/proto"
 	"google.golang.org/grpc/codes"
 	"google.golang.org/grpc/status"

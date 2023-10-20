@@ -2,10 +2,11 @@ package keeper
 
 import (
 	"github.com/cosmos/cosmos-sdk/simapp"
-	ethsrvflags "github.com/evmos/evmos/server/flags"
-	evmkeeper "github.com/evmos/evmos/x/evm/keeper"
-	evmtypes "github.com/evmos/evmos/x/evm/types"
-	evmgeth "github.com/evmos/evmos/x/evm/vm/geth"
+	ethsrvflags "github.com/evmos/evmos/v15/server/flags"
+	evmkeeper "github.com/evmos/evmos/v15/x/evm/keeper"
+	evmtypes "github.com/evmos/evmos/v15/x/evm/types"
+	//evmgeth "github.com/evmos/evmos/v15/x/evm/vm/geth"
+	evmgeth "github.com/evmos/go-ethereum/common"
 	"github.com/spf13/cast"
 	"testing"
 
@@ -14,7 +15,7 @@ import (
 	"github.com/cosmos/cosmos-sdk/codec"
 	sdk "github.com/cosmos/cosmos-sdk/types"
 
-	feemarkettypes "github.com/evmos/evmos/x/feemarket/types"
+	feemarkettypes "github.com/evmos/evmos/v15/x/feemarket/types"
 
 	"bitbucket.org/decimalteam/go-smart-node/app"
 	"bitbucket.org/decimalteam/go-smart-node/x/coin/keeper"

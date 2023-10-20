@@ -11,7 +11,7 @@ import (
 	"bitbucket.org/decimalteam/go-smart-node/x/swap/types"
 
 	sdk "github.com/cosmos/cosmos-sdk/types"
-	feemarkettypes "github.com/evmos/evmos/x/feemarket/types"
+	feemarkettypes "github.com/evmos/evmos/v15/x/feemarket/types"
 	"github.com/stretchr/testify/require"
 	tmproto "github.com/cometbft/cometbft/proto/tendermint/types"
 )

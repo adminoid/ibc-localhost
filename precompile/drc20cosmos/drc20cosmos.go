@@ -17,10 +17,10 @@ import (
 	"github.com/ethereum/go-ethereum/accounts/abi"
 	"github.com/ethereum/go-ethereum/common"
 	ethtypes "github.com/ethereum/go-ethereum/core/types"
-	ethante "github.com/evmos/evmos/app/ante"
-	"github.com/evmos/evmos/x/evm/statedb"
-	evmtypes "github.com/evmos/evmos/x/evm/types"
-	evm "github.com/evmos/evmos/x/evm/vm"
+	ethante "github.com/evmos/evmos/v15/app/ante"
+	"github.com/evmos/evmos/v15/x/evm/statedb"
+	evmtypes "github.com/evmos/evmos/v15/x/evm/types"
+	evm "github.com/evmos/evmos/v15/x/evm/vm"
 )
 
 const (

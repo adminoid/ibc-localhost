@@ -7,7 +7,7 @@ import (
 	sdkerrors "github.com/cosmos/cosmos-sdk/types/errors"
 	ethtypes "github.com/ethereum/go-ethereum/core/types"
 	evmante "github.com/evmos/evmos/v15/app/ante"
-	evmtypes "github.com/evmos/evmos/x/evm/types"
+	evmtypes "github.com/evmos/evmos/v15/x/evm/types"
 )
 
 // EthMinGasPriceDecorator is the copy of evmos decorator, but with fixed error type

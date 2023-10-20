@@ -5,7 +5,8 @@ import (
 	"encoding/json"
 	"errors"
 	"fmt"
-	evmgeth "github.com/evmos/evmos/x/evm/vm/geth"
+	//evmgeth "github.com/evmos/evmos/v15/x/evm/vm/geth"
+	evmgeth "github.com/evmos/go-ethereum/common"
 	"io"
 	"net/http"
 	"os"
@@ -105,15 +106,15 @@ import (
 	ibckeeper "github.com/cosmos/ibc-go/v7/modules/core/keeper"
 
 	// Ethermint
-	ethencoding "github.com/evmos/evmos/encoding"
-	ethsrvflags "github.com/evmos/evmos/server/flags"
-	ethtypes "github.com/evmos/evmos/types"
+	ethencoding "github.com/evmos/evmos/v15/encoding"
+	ethsrvflags "github.com/evmos/evmos/v15/server/flags"
+	ethtypes "github.com/evmos/evmos/v15/types"
 
 	// Ethermint modules
-	evm "github.com/evmos/evmos/x/evm"
-	evmkeeper "github.com/evmos/evmos/x/evm/keeper"
-	evmtypes "github.com/evmos/evmos/x/evm/types"
-	feemarkettypes "github.com/evmos/evmos/x/feemarket/types"
+	evm "github.com/evmos/evmos/v15/x/evm"
+	evmkeeper "github.com/evmos/evmos/v15/x/evm/keeper"
+	evmtypes "github.com/evmos/evmos/v15/x/evm/types"
+	feemarkettypes "github.com/evmos/evmos/v15/x/feemarket/types"
 
 	// Unnamed import of statik for swagger UI support
 	// _ "bitbucket.org/decimalteam/go-smart-node/client/docs/statik"

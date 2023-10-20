@@ -11,7 +11,7 @@ import (
 	"github.com/cometbft/cometbft/libs/strings"
 	tmproto "github.com/cometbft/cometbft/proto/tendermint/types"
 
-	feemarkettypes "github.com/evmos/evmos/x/feemarket/types"
+	feemarkettypes "github.com/evmos/evmos/v15/x/feemarket/types"
 
 	"bitbucket.org/decimalteam/go-smart-node/app"
 	"bitbucket.org/decimalteam/go-smart-node/cmd/config"

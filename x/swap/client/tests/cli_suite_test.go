@@ -13,8 +13,8 @@ import (
 	sdkTx "github.com/cosmos/cosmos-sdk/types/tx"
 	signingtypes "github.com/cosmos/cosmos-sdk/types/tx/signing"
 	"github.com/cosmos/cosmos-sdk/x/auth/signing"
-	etherminthd "github.com/evmos/evmos/crypto/hd"
-	"github.com/evmos/evmos/encoding"
+	etherminthd "github.com/evmos/evmos/v15/crypto/hd"
+	"github.com/evmos/evmos/v15/encoding"
 	"github.com/spf13/cobra"
 	"github.com/stretchr/testify/require"
 )
