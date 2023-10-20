@@ -16,9 +16,9 @@ require (
 	github.com/cosmos/btcutil v1.0.5
 	github.com/cosmos/cosmos-proto v1.0.0-beta.3
 	// todo -- it was github.com/cosmos/cosmos-sdk v0.46.6
-	github.com/cosmos/cosmos-sdk v0.47.4
+	github.com/cosmos/cosmos-sdk v0.47.5
 	//github.com/cosmos/cosmos-sdk v0.50.0-rc.1
-	github.com/cosmos/cosmos-sdk/simapp v0.0.0-00010101000000-000000000000
+	//github.com/cosmos/cosmos-sdk/simapp v0.0.0-00010101000000-000000000000
 	github.com/cosmos/go-bip39 v1.0.0
 	github.com/cosmos/ibc-go/modules/capability v1.0.0-rc6
 	// todo -- check it out
@@ -65,7 +65,7 @@ require (
 	cosmossdk.io/core v0.12.0 // indirect
 	cosmossdk.io/depinject v1.0.0-alpha.4 // indirect
 	cosmossdk.io/log v1.2.1 // indirect
-	cosmossdk.io/simapp v0.0.0-20230608160436-666c345ad23d // indirect
+	//cosmossdk.io/simapp v0.0.0-20230608160436-666c345ad23d // indirect
 	cosmossdk.io/store v1.0.0-rc.0 // indirect
 	cosmossdk.io/x/tx v0.10.0 // indirect
 	filippo.io/edwards25519 v1.0.0 // indirect
@@ -221,7 +221,7 @@ replace (
 	github.com/99designs/keyring => github.com/cosmos/keyring v1.2.0
 
 	// todo -- working here
-	github.com/cosmos/cosmos-sdk => github.com/evmos/cosmos-sdk v0.47.4-evmos.2
+	//github.com/cosmos/cosmos-sdk => github.com/evmos/cosmos-sdk v0.47.4-evmos.2
 
 	// use Cosmos-SDK fork to enable Ledger functionality
 	//github.com/cosmos/cosmos-sdk => github.com/evmos/cosmos-sdk v0.47.4-evmos

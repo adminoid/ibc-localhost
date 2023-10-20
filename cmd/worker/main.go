@@ -8,7 +8,7 @@ import (
 
 	"github.com/cometbft/cometbft/libs/log"
 
-	"github.com/cosmos/cosmos-sdk/simapp/params"
+	"cosmossdk.io/simapp/params"
 	sdk "github.com/cosmos/cosmos-sdk/types"
 
 	"github.com/evmos/evmos/v15/encoding"
