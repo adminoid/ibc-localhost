@@ -14,7 +14,7 @@ import (
 	govtypes "github.com/cosmos/cosmos-sdk/x/gov/types"
 	stakingtypes "github.com/cosmos/cosmos-sdk/x/staking/types"
 
-	evmtypes "github.com/evmos/evmos/v15/x/evm/types"
+	evmtypes "github.com/evmos/evmos/v14/x/evm/types"
 
 	cointypes "bitbucket.org/decimalteam/go-smart-node/x/coin/types"
 	feetypes "bitbucket.org/decimalteam/go-smart-node/x/fee/types"

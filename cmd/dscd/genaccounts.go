@@ -18,8 +18,8 @@ import (
 	"github.com/cosmos/cosmos-sdk/x/genutil"
 	genutiltypes "github.com/cosmos/cosmos-sdk/x/genutil/types"
 
-	ethermint "github.com/evmos/evmos/v15/types"
-	evmtypes "github.com/evmos/evmos/v15/x/evm/types"
+	ethermint "github.com/evmos/evmos/v14/types"
+	evmtypes "github.com/evmos/evmos/v14/x/evm/types"
 
 	dsckr "bitbucket.org/decimalteam/go-smart-node/crypto/keyring"
 )

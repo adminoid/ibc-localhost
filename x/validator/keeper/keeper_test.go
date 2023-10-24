@@ -3,7 +3,7 @@ package keeper_test
 import (
 	"testing"
 
-	feemarkettypes "github.com/evmos/evmos/v15/x/feemarket/types"
+	feemarkettypes "github.com/evmos/evmos/v14/x/feemarket/types"
 	"github.com/stretchr/testify/require"
 	"github.com/stretchr/testify/suite"
 

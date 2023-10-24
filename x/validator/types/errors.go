@@ -9,7 +9,7 @@ import (
 // TODO: Many of these errors are redundant. They should be removed and replaced
 // by sdkerrors.ErrInvalidRequest.
 //
-// REF: https://github.com/evmos/cosmos-sdk/issues/5450
+// REF: https://github.com/adminoid/cosmos-sdk/issues/5450
 var (
 	ErrEmptyValidatorAddr              = sdkerrors.Register(ModuleName, 2, "empty validator address")
 	ErrNoValidatorFound                = sdkerrors.Register(ModuleName, 3, "validator does not exist")

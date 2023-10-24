@@ -9,7 +9,7 @@ import (
 
 	sdkmath "cosmossdk.io/math"
 	sdk "github.com/cosmos/cosmos-sdk/types"
-	ethtypes "github.com/evmos/evmos/v15/types"
+	ethtypes "github.com/evmos/evmos/v14/types"
 	gogotypes "github.com/gogo/protobuf/types"
 	abci "github.com/cometbft/cometbft/abci/types"
 

@@ -12,7 +12,7 @@ import (
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	sdktx "github.com/cosmos/cosmos-sdk/types/tx"
 
-	feemarkettypes "github.com/evmos/evmos/v15/x/feemarket/types"
+	feemarkettypes "github.com/evmos/evmos/v14/x/feemarket/types"
 
 	"bitbucket.org/decimalteam/go-smart-node/utils/formulas"
 	feeconfig "bitbucket.org/decimalteam/go-smart-node/x/fee/config"

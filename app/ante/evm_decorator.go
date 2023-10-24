@@ -7,8 +7,8 @@ import (
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	sdkerrors "github.com/cosmos/cosmos-sdk/types/errors"
 	bankkeeper "github.com/cosmos/cosmos-sdk/x/bank/keeper"
-	ethante "github.com/evmos/evmos/v15/app/ante"
-	evmtypes "github.com/evmos/evmos/v15/x/evm/types"
+	ethante "github.com/evmos/evmos/v14/app/ante"
+	evmtypes "github.com/evmos/evmos/v14/x/evm/types"
 )
 
 // EVMDecorator execute evm action to cosmos

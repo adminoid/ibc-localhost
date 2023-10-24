@@ -9,7 +9,7 @@ import (
 
 	"bitbucket.org/decimalteam/go-smart-node/x/fee/types"
 	sdk "github.com/cosmos/cosmos-sdk/types"
-	feemarkettypes "github.com/evmos/evmos/v15/x/feemarket/types"
+	feemarkettypes "github.com/evmos/evmos/v14/x/feemarket/types"
 )
 
 // implementation of interface FeeMarketKeeper

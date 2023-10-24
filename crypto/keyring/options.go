@@ -4,7 +4,7 @@ import (
 	"github.com/cosmos/cosmos-sdk/crypto/hd"
 	"github.com/cosmos/cosmos-sdk/crypto/keyring"
 
-	ethhd "github.com/evmos/evmos/v15/crypto/hd"
+	ethhd "github.com/evmos/evmos/v14/crypto/hd"
 )
 
 var (

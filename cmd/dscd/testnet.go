@@ -38,11 +38,11 @@ import (
 	govtypesv1 "github.com/cosmos/cosmos-sdk/x/gov/types/v1"
 	stakingtypes "github.com/cosmos/cosmos-sdk/x/staking/types"
 
-	"github.com/evmos/evmos/v15/crypto/hd"
-	"github.com/evmos/evmos/v15/server/config"
-	srvflags "github.com/evmos/evmos/v15/server/flags"
-	ethtypes "github.com/evmos/evmos/v15/types"
-	evmtypes "github.com/evmos/evmos/v15/x/evm/types"
+	"github.com/evmos/evmos/v14/crypto/hd"
+	"github.com/evmos/evmos/v14/server/config"
+	srvflags "github.com/evmos/evmos/v14/server/flags"
+	ethtypes "github.com/evmos/evmos/v14/types"
+	evmtypes "github.com/evmos/evmos/v14/x/evm/types"
 
 	cmdcfg "bitbucket.org/decimalteam/go-smart-node/cmd/config"
 	dsckr "bitbucket.org/decimalteam/go-smart-node/crypto/keyring"

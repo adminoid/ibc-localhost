@@ -8,7 +8,7 @@ import (
 	"bitbucket.org/decimalteam/go-smart-node/app"
 	codectypes "github.com/cosmos/cosmos-sdk/codec/types"
 	sdk "github.com/cosmos/cosmos-sdk/types"
-	"github.com/evmos/evmos/v15/encoding"
+	"github.com/evmos/evmos/v14/encoding"
 )
 
 func FuzzPossibleProtoErrors(f *testing.F) {

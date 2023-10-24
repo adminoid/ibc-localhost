@@ -10,10 +10,10 @@ import (
 	sdkerrors "github.com/cosmos/cosmos-sdk/types/errors"
 	sdkAuthTypes "github.com/cosmos/cosmos-sdk/x/auth/types"
 
-	ethante "github.com/evmos/evmos/v15/app/ante"
-	ethermint "github.com/evmos/evmos/v15/types"
-	evmkeeper "github.com/evmos/evmos/v15/x/evm/keeper"
-	evmtypes "github.com/evmos/evmos/v15/x/evm/types"
+	ethante "github.com/evmos/evmos/v14/app/ante"
+	ethermint "github.com/evmos/evmos/v14/types"
+	evmkeeper "github.com/evmos/evmos/v14/x/evm/keeper"
+	evmtypes "github.com/evmos/evmos/v14/x/evm/types"
 
 	"bitbucket.org/decimalteam/go-smart-node/cmd/config"
 	"bitbucket.org/decimalteam/go-smart-node/utils/events"
@@ -147,7 +147,7 @@ func (egcd EthGasConsumeDecorator) AnteHandle(ctx sdk.Context, tx sdk.Tx, simula
 		}
 	}
 
-	// TODO: deprecate after https://github.com/evmos/cosmos-sdk/issues/9514  is fixed on SDK
+	// TODO: deprecate after https://github.com/adminoid/cosmos-sdk/issues/9514  is fixed on SDK
 	blockGasLimit := ethermint.BlockGasLimit(ctx)
 
 	// NOTE: safety check

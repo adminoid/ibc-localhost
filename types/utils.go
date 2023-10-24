@@ -13,7 +13,7 @@ import (
 	"github.com/cosmos/cosmos-sdk/types/bech32"
 	sdkerrors "github.com/cosmos/cosmos-sdk/types/errors"
 
-	"github.com/evmos/evmos/v15/crypto/ethsecp256k1"
+	"github.com/evmos/evmos/v14/crypto/ethsecp256k1"
 )
 
 // IsSupportedKey returns true if the pubkey type is supported by the chain.

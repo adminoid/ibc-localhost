@@ -5,9 +5,21 @@ go 1.21
 toolchain go1.21.2
 
 require (
-	bitbucket.org/decimalteam/go-smart-node v0.2.1
+	////bitbucket.org/decimalteam/go-smart-node v0.2.1
+	//cosmossdk.io/errors v1.0.0
+	//cosmossdk.io/math v1.1.3-rc.1
+	////cosmossdk.io/math v1.1.2
+	//cosmossdk.io/core v0.6.1
+	//cosmossdk.io/api v0.3.1
+	//cosmossdk.io/simapp v0.0.0-20230608160436-666c345ad23d
+	////cosmossdk.io/tools/rosetta v0.2.1
+
+	cosmossdk.io/api v0.3.1
 	cosmossdk.io/errors v1.0.0
-	cosmossdk.io/math v1.1.3-rc.1
+	cosmossdk.io/math v1.0.1
+	//cosmossdk.io/simapp v0.0.0-20230608160436-666c345ad23d
+	//cosmossdk.io/tools/rosetta v0.2.1
+
 	//github.com/coinbase/rosetta-sdk-go v0.10.0 // indirect
 	//github.com/cometbft/cometbft v0.38.0 // indirect
 	github.com/cometbft/cometbft v0.38.0 // todo -- previous version for evmos update compatibility
@@ -16,11 +28,16 @@ require (
 	github.com/cosmos/btcutil v1.0.5
 	github.com/cosmos/cosmos-proto v1.0.0-beta.3
 	// todo -- it was github.com/cosmos/cosmos-sdk v0.46.6
-	github.com/cosmos/cosmos-sdk v0.47.5
+	//github.com/cosmos/cosmos-sdk v0.47.5
 	//github.com/cosmos/cosmos-sdk v0.50.0-rc.1
-	//github.com/cosmos/cosmos-sdk/simapp v0.0.0-00010101000000-000000000000
+	//cosmossdk.io/simapp v0.0.0-20230608160436-666c345ad23d
+	//github.com/cosmos/cosmos-sdk/simapp v0.47.5
+	//cosmossdk.io/simapp v0.0.0-20230608160436-666c345ad23d
 	github.com/cosmos/go-bip39 v1.0.0
-	github.com/cosmos/ibc-go/modules/capability v1.0.0-rc6
+
+	//github.com/cosmos/ibc-go/modules/capability v1.0.0-rc6
+	// todo -- replace from api/cosmos/capability
+
 	// todo -- check it out
 	//pgregory.net/rapid v0.5.5 // indirect
 
@@ -30,6 +47,8 @@ require (
 
 	//github.com/cosmos/cosmos-sdk/client/grpc/tmservice v0.50.0-rc.1
 	//github.com/cosmos/cosmos-sdk/client/grpc/cmtservice v0.50.0-rc.1
+
+	//cosmossdk.io/simapp v0.0.0-20230608160436-666c345ad23d
 
 	github.com/cosmos/ibc-go/v7 v7.3.0
 	github.com/dustin/go-humanize v1.0.1
@@ -59,15 +78,16 @@ require (
 )
 
 require (
+	//github.com/cosmos/ibc-go/modules/capability v1.0.0-rc6
 	//cosmossdk.io/api v0.3.1
-	cosmossdk.io/api v0.7.1 // indirect
-	cosmossdk.io/collections v0.4.0 // indirect
-	cosmossdk.io/core v0.12.0 // indirect
-	cosmossdk.io/depinject v1.0.0-alpha.4 // indirect
-	cosmossdk.io/log v1.2.1 // indirect
+	//cosmossdk.io/api v0.7.1 // indirect
+	//cosmossdk.io/collections v0.4.0 // indirect
+	//cosmossdk.io/core v0.12.0 // indirect
+	//cosmossdk.io/depinject v1.0.0-alpha.4 // indirect
+	//cosmossdk.io/log v1.2.1 // indirect
 	//cosmossdk.io/simapp v0.0.0-20230608160436-666c345ad23d // indirect
-	cosmossdk.io/store v1.0.0-rc.0 // indirect
-	cosmossdk.io/x/tx v0.10.0 // indirect
+	//cosmossdk.io/store v1.0.0-rc.0 // indirect
+	//cosmossdk.io/x/tx v0.10.0 // indirect
 	filippo.io/edwards25519 v1.0.0 // indirect
 	github.com/99designs/go-keychain v0.0.0-20191008050251-8e49817e8af4 // indirect
 	github.com/99designs/keyring v1.2.2 // indirect
@@ -219,21 +239,28 @@ require (
 replace (
 	// use cosmos fork of keyring
 	github.com/99designs/keyring => github.com/cosmos/keyring v1.2.0
-
-	// todo -- working here
-	//github.com/cosmos/cosmos-sdk => github.com/evmos/cosmos-sdk v0.47.4-evmos.2
+	// use Cosmos-SDK fork to enable Ledger functionality
+	github.com/cosmos/cosmos-sdk => github.com/adminoid/cosmos-sdk v0.47.4-evmos
+	// also replace cosmossdk.io
+	cosmossdk.io => github.com/adminoid/cosmos-sdk v0.47.4-evmos
+	// use Evmos geth fork
+	github.com/ethereum/go-ethereum => github.com/evmos/go-ethereum v1.10.26-evmos-rc2
+	// replace broken goleveldb
+	github.com/syndtr/goleveldb => github.com/syndtr/goleveldb v1.0.1-0.20210819022825-2ae1ddf74ef7
 
 	// use Cosmos-SDK fork to enable Ledger functionality
-	//github.com/cosmos/cosmos-sdk => github.com/evmos/cosmos-sdk v0.47.4-evmos
-	github.com/cosmos/cosmos-sdk/simapp => cosmossdk.io/simapp v0.0.0-20230608160436-666c345ad23d
+	//github.com/cosmos/cosmos-sdk => github.com/adminoid/cosmos-sdk v0.47.4-evmos
+	//github.com/cosmos/cosmos-sdk/simapp => cosmossdk.io/simapp v0.0.0-20230608160436-666c345ad23d
 	//github.com/cosmos/cosmos-sdk/store => cosmossdk.io/store v0.50.0-rc.1
-	//github.com/cosmos/cosmos-sdk/store => github.com/evmos/cosmos-sdk/store v0.47.4-evmos.2
-	github.com/cosmos/cosmos-sdk/store => github.com/evmos/cosmos-sdk/store v0.47.5-evmos
+	//github.com/cosmos/cosmos-sdk/store => github.com/adminoid/cosmos-sdk/store v0.47.4-evmos.2
+	//github.com/cosmos/cosmos-sdk/store => github.com/adminoid/cosmos-sdk/store v0.47.5-evmos
 	//github.com/cosmos/cosmos-sdk/x/evidence => cosmossdk.io/x/evidence
 	//cosmossdk.io/x/evidence => github.com/cosmos/cosmos-sdk/x/evidence v0.50.0-rc.1
-	github.com/cosmos/cosmos-sdk/x/evidence => cosmossdk.io/x/evidence v0.47.5
-	github.com/cosmos/cosmos-sdk/x/feegrant => cosmossdk.io/x/feegrant v0.47.5
-	github.com/cosmos/cosmos-sdk/x/upgrade => cosmossdk.io/x/upgrade v0.47.5
+
+	//github.com/cosmos/cosmos-sdk/x/evidence => cosmossdk.io/x/evidence v0.47.5
+	//github.com/cosmos/cosmos-sdk/x/feegrant => cosmossdk.io/x/feegrant v0.47.5
+	//github.com/cosmos/cosmos-sdk/x/upgrade => cosmossdk.io/x/upgrade v0.47.5
+	//github.com/cosmos/cosmos-sdk/x/api => cosmossdk.io/x/upgrade v0.47.5
 	//
 
 	// use Evmos geth fork
@@ -242,15 +269,20 @@ replace (
 	//github.com/gogo/protobuf => github.com/protocolbuffers/protobuf-go v1.13.0
 	//github.com/golang/protobuf => github.com/protocolbuffers/protobuf-go v1.5.2
 	github.com/gogo/protobuf => github.com/regen-network/protobuf v1.3.3-alpha.regen.1
-	// replace broken goleveldb
-	github.com/syndtr/goleveldb => github.com/syndtr/goleveldb v1.0.1-0.20210819022825-2ae1ddf74ef7
 
 	github.com/tendermint/tendermint => github.com/cometbft/cometbft v0.34.27
-//github.com/cosmos/cosmos-sdk => github.com/evmos/cosmos-sdk v0.47.4-evmos.2
-//github.com/cosmos/cosmos-sdk/client/grpc/tmservice => github.com/evmos/cosmos-sdk/client/grpc/tmservice v0.47.5-evmos.2
+//github.com/cosmos/cosmos-sdk => github.com/adminoid/cosmos-sdk v0.47.4-evmos.2
+//github.com/cosmos/cosmos-sdk/client/grpc/tmservice => github.com/adminoid/cosmos-sdk/client/grpc/tmservice v0.47.5-evmos.2
 //github.com/cosmos/cosmos-sdk/x/distribution/client =>
 
 	//github.com/cosmos/cosmos-sdk/store/types =>
+
+	//cosmossdk.io/api/cosmos/capability => github.com/cosmos/cosmos-sdk/x/capability v1
+	//https://github.com/adminoid/cosmos-sdk/tree/main/ --- api/cosmos/capability/module/v1
+	//cosmossdk.io/api/cosmos/capability/module/v1 => https://github.com/adminoid/cosmos-sdk/api/cosmos/capability/module/v1
+	//cosmossdk.io/api/cosmos/capability => https://github.com/adminoid/cosmos-sdk/api/cosmos/capability
+	//github.com/cosmos/cosmos-sdk => github.com/adminoid/cosmos-sdk v0.47.4-evmos
+	//github.com/cosmos/cosmos-sdk => github.com/adminoid/cosmos-sdk v0.47.4-evmos.2
 
 	bitbucket.org/decimalteam/go-smart-node => ./
 )

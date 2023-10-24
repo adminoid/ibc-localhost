@@ -8,7 +8,7 @@ import (
 	sdkmath "cosmossdk.io/math"
 	sdk "github.com/cosmos/cosmos-sdk/types"
 
-	ethtypes "github.com/evmos/evmos/v15/types"
+	ethtypes "github.com/evmos/evmos/v14/types"
 
 	"bitbucket.org/decimalteam/go-smart-node/x/validator/types"
 )
@@ -171,7 +171,7 @@ func (k Keeper) InitGenesis(ctx sdk.Context, data *types.GenesisState) (res []ab
 		panic(fmt.Sprintf("%s module account has not been set", types.BondedPoolName))
 	}
 
-	// TODO: remove with genesis 2-phases refactor https://github.com/evmos/cosmos-sdk/issues/2862
+	// TODO: remove with genesis 2-phases refactor https://github.com/adminoid/cosmos-sdk/issues/2862
 	bondedBalance := k.bankKeeper.GetAllBalances(ctx, bondedPool.GetAddress())
 	if bondedBalance.IsZero() {
 		k.authKeeper.SetModuleAccount(ctx, bondedPool)

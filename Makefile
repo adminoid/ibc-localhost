@@ -124,6 +124,9 @@ build-linux:
 	GOOS=linux GOARCH=amd64 LEDGER_ENABLED=false $(MAKE) build
 
 $(BUILD_TARGETS): go.sum $(BUILDDIR)/
+	echo $(BUILD_FLAGS)/
+	echo $(BUILD_ARGS)/
+	echo $@/
 	go $@ $(BUILD_FLAGS) $(BUILD_ARGS) ./...
 
 $(BUILDDIR)/:

@@ -21,7 +21,7 @@ import (
 	"github.com/cosmos/cosmos-sdk/types/module"
 
 	govtypes "github.com/cosmos/cosmos-sdk/x/gov/types/v1beta1"
-	"github.com/evmos/cosmos-sdk/keeper"
+	"github.com/adminoid/cosmos-sdk/keeper"
 	"github.com/cosmos/cosmos-sdk/types"
 
 	"bitbucket.org/decimalteam/go-smart-node/x/upgrade"

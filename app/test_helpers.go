@@ -27,8 +27,8 @@ import (
 
 	"github.com/cosmos/ibc-go/v7/testing/simapp"
 
-	"github.com/evmos/evmos/v15/encoding"
-	feemarkettypes "github.com/evmos/evmos/v15/x/feemarket/types"
+	"github.com/evmos/evmos/v14/encoding"
+	feemarkettypes "github.com/evmos/evmos/v14/x/feemarket/types"
 
 	cmdcfg "bitbucket.org/decimalteam/go-smart-node/cmd/config"
 	dsctestutil "bitbucket.org/decimalteam/go-smart-node/testutil/dsc"

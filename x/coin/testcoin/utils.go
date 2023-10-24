@@ -7,7 +7,7 @@ import (
 
 	sdk "github.com/cosmos/cosmos-sdk/types"
 
-	"github.com/evmos/evmos/v15/crypto/ethsecp256k1"
+	"github.com/evmos/evmos/v14/crypto/ethsecp256k1"
 
 	"bitbucket.org/decimalteam/go-smart-node/x/coin/types"
 )

@@ -6,7 +6,7 @@ import (
 
 	sdk "github.com/cosmos/cosmos-sdk/types"
 
-	ethermint "github.com/evmos/evmos/v15/types"
+	ethermint "github.com/evmos/evmos/v14/types"
 )
 
 const (

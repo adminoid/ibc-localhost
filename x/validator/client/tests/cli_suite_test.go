@@ -16,8 +16,8 @@ import (
 	signingtypes "github.com/cosmos/cosmos-sdk/types/tx/signing"
 	"github.com/cosmos/cosmos-sdk/x/auth/signing"
 
-	etherminthd "github.com/evmos/evmos/v15/crypto/hd"
-	"github.com/evmos/evmos/v15/encoding"
+	etherminthd "github.com/evmos/evmos/v14/crypto/hd"
+	"github.com/evmos/evmos/v14/encoding"
 
 	"bitbucket.org/decimalteam/go-smart-node/app"
 )

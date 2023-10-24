@@ -7,8 +7,8 @@ import (
 	"github.com/ethereum/go-ethereum/common"
 	ethtypes "github.com/ethereum/go-ethereum/core/types"
 	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/evmos/evmos/v15/crypto/ethsecp256k1"
-	evmtypes "github.com/evmos/evmos/v15/x/evm/types"
+	"github.com/evmos/evmos/v14/crypto/ethsecp256k1"
+	evmtypes "github.com/evmos/evmos/v14/x/evm/types"
 	"math/big"
 	"testing"
 

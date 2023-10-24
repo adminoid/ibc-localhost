@@ -8,7 +8,7 @@ import (
 
 	sdkAuthTypes "github.com/cosmos/cosmos-sdk/x/auth/types"
 
-	evmTypes "github.com/evmos/evmos/v15/x/evm/types"
+	evmTypes "github.com/evmos/evmos/v14/x/evm/types"
 
 	"bitbucket.org/decimalteam/go-smart-node/cmd/config"
 	"bitbucket.org/decimalteam/go-smart-node/utils/events"

@@ -8,10 +8,10 @@ import (
 
 	"github.com/cometbft/cometbft/libs/log"
 
-	"cosmossdk.io/simapp/params"
+	"github.com/adminoid/cosmos-sdk/simapp/params"
 	sdk "github.com/cosmos/cosmos-sdk/types"
 
-	"github.com/evmos/evmos/v15/encoding"
+	"github.com/evmos/evmos/v14/encoding"
 
 	"bitbucket.org/decimalteam/go-smart-node/app"
 	cmdcfg "bitbucket.org/decimalteam/go-smart-node/cmd/config"

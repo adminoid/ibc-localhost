@@ -19,7 +19,7 @@ import (
 	rpc "github.com/cometbft/cometbft/rpc/client/http"
 	ctypes "github.com/cometbft/cometbft/rpc/core/types"
 
-	"cosmossdk.io/simapp/params"
+	"github.com/adminoid/cosmos-sdk/simapp/params"
 
 	"bitbucket.org/decimalteam/go-smart-node/utils/helpers"
 )
