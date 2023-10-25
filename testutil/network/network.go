@@ -39,7 +39,7 @@ import (
 	cryptotypes "github.com/cosmos/cosmos-sdk/crypto/types"
 
 	//ptypes "github.com/cosmos/cosmos-sdk/pruning/types"
-	ptypes "github.com/cosmos/cosmos-sdk/store/pruning/types"
+	ptypes "github.com/adminoid/cosmos-sdk/store/pruning/types"
 
 	"github.com/cosmos/cosmos-sdk/server"
 	"github.com/cosmos/cosmos-sdk/server/api"

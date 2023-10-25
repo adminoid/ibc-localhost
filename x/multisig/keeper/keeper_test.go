@@ -9,7 +9,7 @@ import (
 	"bitbucket.org/decimalteam/go-smart-node/x/multisig/types"
 	"github.com/cosmos/cosmos-sdk/baseapp"
 	"github.com/cosmos/cosmos-sdk/crypto/keys/ed25519"
-	storetypes "github.com/cosmos/cosmos-sdk/store/types"
+	storetypes "github.com/adminoid/cosmos-sdk/store/types"
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	authtypes "github.com/cosmos/cosmos-sdk/x/auth/types"
 	bankkeeper "github.com/cosmos/cosmos-sdk/x/bank/keeper"
