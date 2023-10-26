@@ -4,7 +4,7 @@ import (
 	tmcrypto "github.com/cometbft/cometbft/crypto"
 	tmtypes "github.com/cometbft/cometbft/types"
 
-	cryptocodec "github.com/cosmos/cosmos-sdk/crypto/codec"
+	cryptocodec "github.com/adminoid/cosmos-sdk/crypto/codec"
 
 	"bitbucket.org/decimalteam/go-smart-node/x/validator/types"
 )

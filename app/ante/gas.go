@@ -5,7 +5,7 @@ import (
 	"math"
 
 	sdkStore "github.com/adminoid/cosmos-sdk/store/types"
-	sdk "github.com/cosmos/cosmos-sdk/types"
+	sdk "github.com/adminoid/cosmos-sdk/types"
 )
 
 // Gas consumption descriptors.

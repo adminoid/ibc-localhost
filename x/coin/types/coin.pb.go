@@ -5,10 +5,10 @@ package types
 
 import (
 	bytes "bytes"
-	cosmossdk_io_math "cosmossdk.io/math"
+	cosmossdk_io_math "github.com/adminoid/cosmos-sdk/math"
 	fmt "fmt"
 	_ "github.com/cosmos/cosmos-proto"
-	types "github.com/cosmos/cosmos-sdk/types"
+	types "github.com/adminoid/cosmos-sdk/types"
 	_ "github.com/gogo/protobuf/gogoproto"
 	proto "github.com/gogo/protobuf/proto"
 	io "io"
@@ -38,18 +38,18 @@ type Coin struct {
 	// crr defines the coin constant reserve ratio determining coin tokenomics.
 	CRR uint32 `protobuf:"varint,4,opt,name=crr,proto3" json:"crr,omitempty"`
 	// limit_volume defines maximum allowed supply for the coin.
-	LimitVolume cosmossdk_io_math.Int `protobuf:"bytes,5,opt,name=limit_volume,json=limitVolume,proto3,customtype=cosmossdk.io/math.Int" json:"limit_volume"`
+	LimitVolume cosmossdk_io_math.Int `protobuf:"bytes,5,opt,name=limit_volume,json=limitVolume,proto3,customtype=github.com/adminoid/cosmos-sdk/math.Int" json:"limit_volume"`
 	// identity is a string containing any other information related to the coin.
 	Identity string `protobuf:"bytes,6,opt,name=identity,proto3" json:"identity,omitempty"`
 	// volume defines the coin supply.
 	// NOTE: actual values are stored as CoinVR records in KVStore.
-	Volume cosmossdk_io_math.Int `protobuf:"bytes,7,opt,name=volume,proto3,customtype=cosmossdk.io/math.Int" json:"volume"`
+	Volume cosmossdk_io_math.Int `protobuf:"bytes,7,opt,name=volume,proto3,customtype=github.com/adminoid/cosmos-sdk/math.Int" json:"volume"`
 	// reserve defines the coin reserve in base coin.
 	// NOTE: actual values are stored as CoinVR records in KVStore.
-	Reserve cosmossdk_io_math.Int `protobuf:"bytes,8,opt,name=reserve,proto3,customtype=cosmossdk.io/math.Int" json:"reserve"`
+	Reserve cosmossdk_io_math.Int `protobuf:"bytes,8,opt,name=reserve,proto3,customtype=github.com/adminoid/cosmos-sdk/math.Int" json:"reserve"`
 	// min_volume defines optional minimal allowed supply for the coin.
 	// NOTE: when value is zero it means that the coin does not support minimal supply limitations.
-	MinVolume cosmossdk_io_math.Int `protobuf:"bytes,9,opt,name=min_volume,json=minVolume,proto3,customtype=cosmossdk.io/math.Int" json:"min_volume"`
+	MinVolume cosmossdk_io_math.Int `protobuf:"bytes,9,opt,name=min_volume,json=minVolume,proto3,customtype=github.com/adminoid/cosmos-sdk/math.Int" json:"min_volume"`
 	// drc20_address is the hex address of ERC20 contract token
 	Drc20Address string `protobuf:"bytes,10,opt,name=drc20_address,json=drc20Address,proto3" json:"drc20_address,omitempty"`
 }
@@ -100,11 +100,11 @@ type Check struct {
 	// lock defines specific data needed to ensure the check correctness.
 	Lock []byte `protobuf:"bytes,5,opt,name=lock,proto3" json:"lock,omitempty"`
 	// v defines `v` value of the check signature.
-	V cosmossdk_io_math.Int `protobuf:"bytes,6,opt,name=v,proto3,customtype=cosmossdk.io/math.Int" json:"v"`
+	V cosmossdk_io_math.Int `protobuf:"bytes,6,opt,name=v,proto3,customtype=github.com/adminoid/cosmos-sdk/math.Int" json:"v"`
 	// r defines `r` value of the check signature.
-	R cosmossdk_io_math.Int `protobuf:"bytes,7,opt,name=r,proto3,customtype=cosmossdk.io/math.Int" json:"r"`
+	R cosmossdk_io_math.Int `protobuf:"bytes,7,opt,name=r,proto3,customtype=github.com/adminoid/cosmos-sdk/math.Int" json:"r"`
 	// s defines `s` value of the check signature.
-	S cosmossdk_io_math.Int `protobuf:"bytes,8,opt,name=s,proto3,customtype=cosmossdk.io/math.Int" json:"s"`
+	S cosmossdk_io_math.Int `protobuf:"bytes,8,opt,name=s,proto3,customtype=github.com/adminoid/cosmos-sdk/math.Int" json:"s"`
 }
 
 func (m *Check) Reset()      { *m = Check{} }
@@ -142,9 +142,9 @@ var xxx_messageInfo_Check proto.InternalMessageInfo
 // CoinVR defines object containing just volume and reserve of the coin.
 type CoinVR struct {
 	// volume defines the coin supply.
-	Volume cosmossdk_io_math.Int `protobuf:"bytes,1,opt,name=volume,proto3,customtype=cosmossdk.io/math.Int" json:"volume"`
+	Volume cosmossdk_io_math.Int `protobuf:"bytes,1,opt,name=volume,proto3,customtype=github.com/adminoid/cosmos-sdk/math.Int" json:"volume"`
 	// reserve defines the coin reserve in base coin.
-	Reserve cosmossdk_io_math.Int `protobuf:"bytes,2,opt,name=reserve,proto3,customtype=cosmossdk.io/math.Int" json:"reserve"`
+	Reserve cosmossdk_io_math.Int `protobuf:"bytes,2,opt,name=reserve,proto3,customtype=github.com/adminoid/cosmos-sdk/math.Int" json:"reserve"`
 }
 
 func (m *CoinVR) Reset()         { *m = CoinVR{} }

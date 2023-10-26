@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"time"
 
-	cryptotypes "github.com/cosmos/cosmos-sdk/crypto/types"
-	sdk "github.com/cosmos/cosmos-sdk/types"
+	cryptotypes "github.com/adminoid/cosmos-sdk/crypto/types"
+	sdk "github.com/adminoid/cosmos-sdk/types"
 	"github.com/cometbft/cometbft/crypto"
 
 	cmdcfg "bitbucket.org/decimalteam/go-smart-node/cmd/config"

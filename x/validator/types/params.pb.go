@@ -5,7 +5,7 @@ package types
 
 import (
 	fmt "fmt"
-	github_com_cosmos_cosmos_sdk_types "github.com/cosmos/cosmos-sdk/types"
+	github_com_cosmos_cosmos_sdk_types "github.com/adminoid/cosmos-sdk/types"
 	_ "github.com/gogo/protobuf/gogoproto"
 	proto "github.com/gogo/protobuf/proto"
 	github_com_gogo_protobuf_types "github.com/gogo/protobuf/types"
@@ -47,13 +47,13 @@ type Params struct {
 	// width of sliding window for downtime slashing
 	SignedBlocksWindow int64 `protobuf:"varint,10,opt,name=signed_blocks_window,json=signedBlocksWindow,proto3" json:"signed_blocks_window,omitempty"`
 	// minimum blocks signed per window
-	MinSignedPerWindow github_com_cosmos_cosmos_sdk_types.Dec `protobuf:"bytes,11,opt,name=min_signed_per_window,json=minSignedPerWindow,proto3,customtype=github.com/cosmos/cosmos-sdk/types.Dec" json:"min_signed_per_window"`
+	MinSignedPerWindow github_com_cosmos_cosmos_sdk_types.Dec `protobuf:"bytes,11,opt,name=min_signed_per_window,json=minSignedPerWindow,proto3,customtype=github.com/adminoid/cosmos-sdk/types.Dec" json:"min_signed_per_window"`
 	// downtime jail duration
 	DowntimeJailDuration time.Duration `protobuf:"bytes,12,opt,name=downtime_jail_duration,json=downtimeJailDuration,proto3,stdduration" json:"downtime_jail_duration"`
 	// fraction of power slashed in case of double sign
-	SlashFractionDoubleSign github_com_cosmos_cosmos_sdk_types.Dec `protobuf:"bytes,13,opt,name=slash_fraction_double_sign,json=slashFractionDoubleSign,proto3,customtype=github.com/cosmos/cosmos-sdk/types.Dec" json:"slash_fraction_double_sign"`
+	SlashFractionDoubleSign github_com_cosmos_cosmos_sdk_types.Dec `protobuf:"bytes,13,opt,name=slash_fraction_double_sign,json=slashFractionDoubleSign,proto3,customtype=github.com/adminoid/cosmos-sdk/types.Dec" json:"slash_fraction_double_sign"`
 	// fraction of power slashed for downtime
-	SlashFractionDowntime github_com_cosmos_cosmos_sdk_types.Dec `protobuf:"bytes,14,opt,name=slash_fraction_downtime,json=slashFractionDowntime,proto3,customtype=github.com/cosmos/cosmos-sdk/types.Dec" json:"slash_fraction_downtime"`
+	SlashFractionDowntime github_com_cosmos_cosmos_sdk_types.Dec `protobuf:"bytes,14,opt,name=slash_fraction_downtime,json=slashFractionDowntime,proto3,customtype=github.com/adminoid/cosmos-sdk/types.Dec" json:"slash_fraction_downtime"`
 }
 
 func (m *Params) Reset()         { *m = Params{} }

@@ -8,9 +8,9 @@ import (
 	"github.com/spf13/cobra"
 	"github.com/spf13/viper"
 
-	"github.com/cosmos/cosmos-sdk/client"
-	"github.com/cosmos/cosmos-sdk/client/tx"
-	sdk "github.com/cosmos/cosmos-sdk/types"
+	"github.com/adminoid/cosmos-sdk/client"
+	"github.com/adminoid/cosmos-sdk/client/tx"
+	sdk "github.com/adminoid/cosmos-sdk/types"
 
 	cmdcfg "bitbucket.org/decimalteam/go-smart-node/cmd/config"
 	"bitbucket.org/decimalteam/go-smart-node/x/nft/errors"

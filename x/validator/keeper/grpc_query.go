@@ -6,13 +6,13 @@ import (
 	"fmt"
 	"strings"
 
-	sdkmath "cosmossdk.io/math"
+	sdkmath "github.com/adminoid/cosmos-sdk/math"
 	"google.golang.org/grpc/codes"
 	"google.golang.org/grpc/status"
 
 	"github.com/adminoid/cosmos-sdk/store/prefix"
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	"github.com/cosmos/cosmos-sdk/types/query"
+	sdk "github.com/adminoid/cosmos-sdk/types"
+	"github.com/adminoid/cosmos-sdk/types/query"
 
 	"bitbucket.org/decimalteam/go-smart-node/x/validator/errors"
 	"bitbucket.org/decimalteam/go-smart-node/x/validator/types"

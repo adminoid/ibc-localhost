@@ -3,10 +3,10 @@ package ante
 import (
 	"fmt"
 
-	"github.com/cosmos/cosmos-sdk/codec"
-	sdk "github.com/cosmos/cosmos-sdk/types"
+	"github.com/adminoid/cosmos-sdk/codec"
+	sdk "github.com/adminoid/cosmos-sdk/types"
 
-	sdkAuthTypes "github.com/cosmos/cosmos-sdk/x/auth/types"
+	sdkAuthTypes "github.com/adminoid/cosmos-sdk/x/auth/types"
 
 	evmTypes "github.com/evmos/evmos/v14/x/evm/types"
 

@@ -4,8 +4,8 @@ import (
 	"strings"
 	"time"
 
-	"github.com/cosmos/cosmos-sdk/codec"
-	sdk "github.com/cosmos/cosmos-sdk/types"
+	"github.com/adminoid/cosmos-sdk/codec"
+	sdk "github.com/adminoid/cosmos-sdk/types"
 )
 
 var _ DelegationI = Delegation{}

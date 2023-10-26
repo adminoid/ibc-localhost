@@ -7,8 +7,8 @@ import (
 	"google.golang.org/grpc/status"
 
 	"github.com/adminoid/cosmos-sdk/store/prefix"
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	"github.com/cosmos/cosmos-sdk/types/query"
+	sdk "github.com/adminoid/cosmos-sdk/types"
+	"github.com/adminoid/cosmos-sdk/types/query"
 
 	"bitbucket.org/decimalteam/go-smart-node/x/coin/types"
 )

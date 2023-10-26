@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"time"
 
-	sdkmath "cosmossdk.io/math"
-	sdk "github.com/cosmos/cosmos-sdk/types"
+	sdkmath "github.com/adminoid/cosmos-sdk/math"
+	sdk "github.com/adminoid/cosmos-sdk/types"
 	"github.com/go-resty/resty/v2"
 	"github.com/spf13/cobra"
 

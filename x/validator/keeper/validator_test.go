@@ -7,9 +7,9 @@ import (
 	"github.com/stretchr/testify/require"
 	abci "github.com/cometbft/cometbft/abci/types"
 
-	sdkmath "cosmossdk.io/math"
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	"github.com/cosmos/cosmos-sdk/x/bank/testutil"
+	sdkmath "github.com/adminoid/cosmos-sdk/math"
+	sdk "github.com/adminoid/cosmos-sdk/types"
+	"github.com/adminoid/cosmos-sdk/x/bank/testutil"
 	tmproto "github.com/cometbft/cometbft/proto/tendermint/types"
 	tmversion "github.com/cometbft/cometbft/proto/tendermint/version"
 

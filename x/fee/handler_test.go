@@ -5,8 +5,8 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	sdkmath "cosmossdk.io/math"
-	sdk "github.com/cosmos/cosmos-sdk/types"
+	sdkmath "github.com/adminoid/cosmos-sdk/math"
+	sdk "github.com/adminoid/cosmos-sdk/types"
 	tmproto "github.com/cometbft/cometbft/proto/tendermint/types"
 
 	"bitbucket.org/decimalteam/go-smart-node/app"

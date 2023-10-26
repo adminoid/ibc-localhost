@@ -12,7 +12,7 @@ import (
 	stormTypes "bitbucket.org/decimalteam/go-smart-node/cmd/sendstorm/types"
 	dscApi "bitbucket.org/decimalteam/go-smart-node/sdk/api"
 	dscWallet "bitbucket.org/decimalteam/go-smart-node/sdk/wallet"
-	sdk "github.com/cosmos/cosmos-sdk/types"
+	sdk "github.com/adminoid/cosmos-sdk/types"
 	"github.com/spf13/pflag"
 )
 

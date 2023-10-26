@@ -21,7 +21,7 @@ message CoinPrice {
   // price defines the coin price in quote currency.
   string price = 3 [
     (cosmos_proto.scalar) = "cosmos.Dec",
-    (gogoproto.customtype) = "github.com/cosmos/cosmos-sdk/types.Dec",
+    (gogoproto.customtype) = "github.com/adminoid/cosmos-sdk/types.Dec",
     (gogoproto.nullable) = false
   ];
   // updated_at defines the moment of the previous coin price update.

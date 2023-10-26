@@ -8,7 +8,7 @@ import (
 	stormTypes "bitbucket.org/decimalteam/go-smart-node/cmd/sendstorm/types"
 	dscApi "bitbucket.org/decimalteam/go-smart-node/sdk/api"
 	"bitbucket.org/decimalteam/go-smart-node/utils/helpers"
-	sdk "github.com/cosmos/cosmos-sdk/types"
+	sdk "github.com/adminoid/cosmos-sdk/types"
 )
 
 // Generate some action with random parameters

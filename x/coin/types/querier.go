@@ -1,6 +1,6 @@
 package types
 
-import "github.com/cosmos/cosmos-sdk/types/query"
+import "github.com/adminoid/cosmos-sdk/types/query"
 
 const (
 	QueryCoins  = "coins"  // 'custom/coin/coins'

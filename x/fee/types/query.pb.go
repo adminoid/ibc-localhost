@@ -5,7 +5,7 @@ package types
 
 import (
 	context "context"
-	cosmossdk_io_math "cosmossdk.io/math"
+	cosmossdk_io_math "github.com/adminoid/cosmos-sdk/math"
 	fmt "fmt"
 	_ "github.com/cosmos/cosmos-proto"
 	_ "github.com/gogo/protobuf/gogoproto"
@@ -351,7 +351,7 @@ func (m *QueryCalculateCommissionRequest) GetDenom() string {
 }
 
 type QueryCalculateCommissionResponse struct {
-	Commission cosmossdk_io_math.Int `protobuf:"bytes,1,opt,name=commission,proto3,customtype=cosmossdk.io/math.Int" json:"commission"`
+	Commission cosmossdk_io_math.Int `protobuf:"bytes,1,opt,name=commission,proto3,customtype=github.com/adminoid/cosmos-sdk/math.Int" json:"commission"`
 }
 
 func (m *QueryCalculateCommissionResponse) Reset()         { *m = QueryCalculateCommissionResponse{} }

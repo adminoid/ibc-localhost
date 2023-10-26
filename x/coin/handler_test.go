@@ -14,9 +14,9 @@ import (
 	ethereumCrypto "github.com/ethereum/go-ethereum/crypto"
 	"github.com/ethereum/go-ethereum/rlp"
 
-	sdkmath "cosmossdk.io/math"
+	sdkmath "github.com/adminoid/cosmos-sdk/math"
 	"github.com/cosmos/btcutil/base58"
-	sdk "github.com/cosmos/cosmos-sdk/types"
+	sdk "github.com/adminoid/cosmos-sdk/types"
 
 	"github.com/evmos/evmos/v14/crypto/ethsecp256k1"
 

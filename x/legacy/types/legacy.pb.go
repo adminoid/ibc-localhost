@@ -6,8 +6,8 @@ package types
 import (
 	fmt "fmt"
 	_ "github.com/cosmos/cosmos-proto"
-	github_com_cosmos_cosmos_sdk_types "github.com/cosmos/cosmos-sdk/types"
-	types "github.com/cosmos/cosmos-sdk/types"
+	github_com_cosmos_cosmos_sdk_types "github.com/adminoid/cosmos-sdk/types"
+	types "github.com/adminoid/cosmos-sdk/types"
 	_ "github.com/gogo/protobuf/gogoproto"
 	proto "github.com/gogo/protobuf/proto"
 	io "io"
@@ -31,7 +31,7 @@ type Record struct {
 	// legacy_address defines legacy address which is not valid anymore so cannot be used.
 	LegacyAddress string `protobuf:"bytes,1,opt,name=legacy_address,json=legacyAddress,proto3" json:"legacy_address,omitempty"`
 	// coins defines complete list of tokens to be returned.
-	Coins github_com_cosmos_cosmos_sdk_types.Coins `protobuf:"bytes,2,rep,name=coins,proto3,castrepeated=github.com/cosmos/cosmos-sdk/types.Coins" json:"coins"`
+	Coins github_com_cosmos_cosmos_sdk_types.Coins `protobuf:"bytes,2,rep,name=coins,proto3,castrepeated=github.com/adminoid/cosmos-sdk/types.Coins" json:"coins"`
 	// wallets defines complete list of multisig wallets to be returned.
 	Wallets []string `protobuf:"bytes,3,rep,name=wallets,proto3" json:"wallets,omitempty"`
 	// nfts defines list of token ids to be returned

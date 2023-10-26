@@ -7,10 +7,10 @@ package types
 import (
 	"math/big"
 
-	sdkmath "cosmossdk.io/math"
-	"github.com/cosmos/cosmos-sdk/codec"
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	authtypes "github.com/cosmos/cosmos-sdk/x/auth/types"
+	sdkmath "github.com/adminoid/cosmos-sdk/math"
+	"github.com/adminoid/cosmos-sdk/codec"
+	sdk "github.com/adminoid/cosmos-sdk/types"
+	authtypes "github.com/adminoid/cosmos-sdk/x/auth/types"
 
 	cointypes "bitbucket.org/decimalteam/go-smart-node/x/coin/types"
 	feemarkettypes "github.com/evmos/evmos/v14/x/feemarket/types"

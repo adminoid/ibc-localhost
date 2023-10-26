@@ -2,9 +2,9 @@ package types
 
 import (
 	"bitbucket.org/decimalteam/go-smart-node/x/multisig/types"
-	sdkmath "cosmossdk.io/math"
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	authtypes "github.com/cosmos/cosmos-sdk/x/auth/types"
+	sdkmath "github.com/adminoid/cosmos-sdk/math"
+	sdk "github.com/adminoid/cosmos-sdk/types"
+	authtypes "github.com/adminoid/cosmos-sdk/x/auth/types"
 
 	cointypes "bitbucket.org/decimalteam/go-smart-node/x/coin/types"
 	nftypes "bitbucket.org/decimalteam/go-smart-node/x/nft/types"

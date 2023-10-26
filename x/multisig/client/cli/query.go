@@ -7,8 +7,8 @@ import (
 
 	"bitbucket.org/decimalteam/go-smart-node/cmd/config"
 	"bitbucket.org/decimalteam/go-smart-node/x/multisig/types"
-	"github.com/cosmos/cosmos-sdk/client"
-	"github.com/cosmos/cosmos-sdk/client/flags"
+	"github.com/adminoid/cosmos-sdk/client"
+	"github.com/adminoid/cosmos-sdk/client/flags"
 	"github.com/spf13/cobra"
 )
 

@@ -4,7 +4,7 @@
 package types
 
 import (
-	cosmossdk_io_math "cosmossdk.io/math"
+	cosmossdk_io_math "github.com/adminoid/cosmos-sdk/math"
 	fmt "fmt"
 	_ "github.com/cosmos/cosmos-proto"
 	_ "github.com/gogo/protobuf/gogoproto"
@@ -98,7 +98,7 @@ type Swap struct {
 	// recipient defines address of the recipient swapped coins.
 	Recipient string `protobuf:"bytes,3,opt,name=recipient,proto3" json:"recipient,omitempty"`
 	// amount defines amount of coins the swap initialized.
-	Amount cosmossdk_io_math.Int `protobuf:"bytes,4,opt,name=amount,proto3,customtype=cosmossdk.io/math.Int" json:"amount"`
+	Amount cosmossdk_io_math.Int `protobuf:"bytes,4,opt,name=amount,proto3,customtype=github.com/adminoid/cosmos-sdk/math.Int" json:"amount"`
 	// timestamp defines time moment when the swap was initialized.
 	Timestamp uint64 `protobuf:"varint,5,opt,name=timestamp,proto3" json:"timestamp,omitempty"`
 	// redeemed defines if the swap was redeemed.

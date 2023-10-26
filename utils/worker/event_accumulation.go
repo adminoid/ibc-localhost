@@ -5,14 +5,14 @@ import (
 
 	abci "github.com/cometbft/cometbft/abci/types"
 
-	sdkmath "cosmossdk.io/math"
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	"github.com/cosmos/cosmos-sdk/types/bech32"
-	authtypes "github.com/cosmos/cosmos-sdk/x/auth/types"
-	banktypes "github.com/cosmos/cosmos-sdk/x/bank/types"
-	distrtypes "github.com/cosmos/cosmos-sdk/x/distribution/types"
-	govtypes "github.com/cosmos/cosmos-sdk/x/gov/types"
-	stakingtypes "github.com/cosmos/cosmos-sdk/x/staking/types"
+	sdkmath "github.com/adminoid/cosmos-sdk/math"
+	sdk "github.com/adminoid/cosmos-sdk/types"
+	"github.com/adminoid/cosmos-sdk/types/bech32"
+	authtypes "github.com/adminoid/cosmos-sdk/x/auth/types"
+	banktypes "github.com/adminoid/cosmos-sdk/x/bank/types"
+	distrtypes "github.com/adminoid/cosmos-sdk/x/distribution/types"
+	govtypes "github.com/adminoid/cosmos-sdk/x/gov/types"
+	stakingtypes "github.com/adminoid/cosmos-sdk/x/staking/types"
 
 	evmtypes "github.com/evmos/evmos/v14/x/evm/types"
 

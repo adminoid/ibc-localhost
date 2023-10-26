@@ -1,10 +1,10 @@
 package keeper
 
 import (
-	"github.com/cosmos/cosmos-sdk/codec"
+	"github.com/adminoid/cosmos-sdk/codec"
 	store "github.com/adminoid/cosmos-sdk/store/types"
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	"github.com/cosmos/cosmos-sdk/types/bech32"
+	sdk "github.com/adminoid/cosmos-sdk/types"
+	"github.com/adminoid/cosmos-sdk/types/bech32"
 	"github.com/evmos/evmos/v14/crypto/ethsecp256k1"
 
 	"bitbucket.org/decimalteam/go-smart-node/cmd/config"

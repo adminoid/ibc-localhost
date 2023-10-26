@@ -20,7 +20,7 @@ message Params {
   // min_reserve_amount defines minimum allowed reserve for a NFT sub-token in the base coin.
   string min_reserve_amount = 3 [
     (cosmos_proto.scalar) = "cosmos.Int",
-    (gogoproto.customtype) = "cosmossdk.io/math.Int",
+    (gogoproto.customtype) = "github.com/adminoid/cosmos-sdk/math.Int",
     (gogoproto.nullable) = false
   ];
 }

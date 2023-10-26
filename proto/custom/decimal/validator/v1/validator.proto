@@ -28,7 +28,7 @@ message Validator {
   // commission defines the commission rate, as a fraction.
   string commission = 5 [
     (cosmos_proto.scalar) = "cosmos.Dec",
-    (gogoproto.customtype) = "github.com/cosmos/cosmos-sdk/types.Dec",
+    (gogoproto.customtype) = "github.com/adminoid/cosmos-sdk/types.Dec",
     (gogoproto.nullable) = false
   ];
 
@@ -48,14 +48,14 @@ message Validator {
   // NOTE: It is stored separately in the KVStore.
   string rewards = 11 [
     (cosmos_proto.scalar) = "cosmos.Int",
-    (gogoproto.customtype) = "cosmossdk.io/math.Int",
+    (gogoproto.customtype) = "github.com/adminoid/cosmos-sdk/math.Int",
     (gogoproto.nullable) = false
   ];
   // total_rewards defines total amount of all collected rewards.
   // NOTE: It is stored separately in the KVStore.
   string total_rewards = 12 [
     (cosmos_proto.scalar) = "cosmos.Int",
-    (gogoproto.customtype) = "cosmossdk.io/math.Int",
+    (gogoproto.customtype) = "github.com/adminoid/cosmos-sdk/math.Int",
     (gogoproto.nullable) = false
   ];
   // stake is power of all delegations stake
@@ -68,13 +68,13 @@ message ValidatorRS {
   // rewards defines accumulated amount of collected rewards that are not yet distributed to a delegators.
   string rewards = 1 [
     (cosmos_proto.scalar) = "cosmos.Int",
-    (gogoproto.customtype) = "cosmossdk.io/math.Int",
+    (gogoproto.customtype) = "github.com/adminoid/cosmos-sdk/math.Int",
     (gogoproto.nullable) = false
   ];
   // total_rewards defines total amount of all collected rewards.
   string total_rewards = 2 [
     (cosmos_proto.scalar) = "cosmos.Int",
-    (gogoproto.customtype) = "cosmossdk.io/math.Int",
+    (gogoproto.customtype) = "github.com/adminoid/cosmos-sdk/math.Int",
     (gogoproto.nullable) = false
   ];
   // stake is power of all delegations stake
@@ -247,13 +247,13 @@ message Pool {
 
   // bonded defines complete list of coins delegated and currently bonded.
   repeated cosmos.base.v1beta1.Coin bonded = 1 [ 
-    (gogoproto.castrepeated) = "github.com/cosmos/cosmos-sdk/types.Coins",
+    (gogoproto.castrepeated) = "github.com/adminoid/cosmos-sdk/types.Coins",
     (gogoproto.nullable) = false
   ];
   
   // not_bonded defines complete list of coins delegated but not bonded (redelegating or undelegating).
   repeated cosmos.base.v1beta1.Coin not_bonded = 2 [
-    (gogoproto.castrepeated) = "github.com/cosmos/cosmos-sdk/types.Coins",
+    (gogoproto.castrepeated) = "github.com/adminoid/cosmos-sdk/types.Coins",
     (gogoproto.nullable) = false
   ];
 }

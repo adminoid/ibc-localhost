@@ -5,9 +5,9 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	sdkmath "cosmossdk.io/math"
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	"github.com/cosmos/cosmos-sdk/types/query"
+	sdkmath "github.com/adminoid/cosmos-sdk/math"
+	sdk "github.com/adminoid/cosmos-sdk/types"
+	"github.com/adminoid/cosmos-sdk/types/query"
 
 	"bitbucket.org/decimalteam/go-smart-node/x/coin"
 	"bitbucket.org/decimalteam/go-smart-node/x/coin/keeper"

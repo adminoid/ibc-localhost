@@ -1,10 +1,10 @@
 package types
 
 import (
-	"github.com/cosmos/cosmos-sdk/codec"
-	cdctypes "github.com/cosmos/cosmos-sdk/codec/types"
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	"github.com/cosmos/cosmos-sdk/types/msgservice"
+	"github.com/adminoid/cosmos-sdk/codec"
+	cdctypes "github.com/adminoid/cosmos-sdk/codec/types"
+	sdk "github.com/adminoid/cosmos-sdk/types"
+	"github.com/adminoid/cosmos-sdk/types/msgservice"
 )
 
 // ModuleCdc references the global multisig module codec. Note, the codec should

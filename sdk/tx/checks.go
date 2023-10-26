@@ -5,9 +5,9 @@ import (
 	"encoding/base64"
 	"fmt"
 
-	"cosmossdk.io/math"
+	"github.com/adminoid/cosmos-sdk/math"
 	"github.com/cosmos/btcutil/base58"
-	sdk "github.com/cosmos/cosmos-sdk/types"
+	sdk "github.com/adminoid/cosmos-sdk/types"
 	"github.com/ethereum/go-ethereum/crypto"
 	"github.com/ethereum/go-ethereum/rlp"
 	"golang.org/x/crypto/sha3"

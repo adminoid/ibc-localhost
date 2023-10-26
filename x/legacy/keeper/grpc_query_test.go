@@ -5,8 +5,8 @@ import (
 	"fmt"
 
 	"bitbucket.org/decimalteam/go-smart-node/x/legacy/types"
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	"github.com/cosmos/cosmos-sdk/types/query"
+	sdk "github.com/adminoid/cosmos-sdk/types"
+	"github.com/adminoid/cosmos-sdk/types/query"
 )
 
 func (s *KeeperTestSuite) TestGRPCQueryCoinRecords() {

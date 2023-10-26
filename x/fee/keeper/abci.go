@@ -1,7 +1,7 @@
 package keeper
 
 import (
-	sdk "github.com/cosmos/cosmos-sdk/types"
+	sdk "github.com/adminoid/cosmos-sdk/types"
 	abci "github.com/cometbft/cometbft/abci/types"
 
 	"bitbucket.org/decimalteam/go-smart-node/x/fee/types"

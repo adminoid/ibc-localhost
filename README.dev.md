@@ -174,8 +174,8 @@ package main
 import (
 	"fmt"
 
-	"github.com/cosmos/cosmos-sdk/types/bech32"
-	cosmosAuthTypes "github.com/cosmos/cosmos-sdk/x/auth/types"
+	"github.com/adminoid/cosmos-sdk/types/bech32"
+	cosmosAuthTypes "github.com/adminoid/cosmos-sdk/x/auth/types"
 )
 
 func main() {

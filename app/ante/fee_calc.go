@@ -1,12 +1,12 @@
 package ante
 
 import (
-	sdkmath "cosmossdk.io/math"
-	"github.com/cosmos/cosmos-sdk/codec"
-	sdk "github.com/cosmos/cosmos-sdk/types"
+	sdkmath "github.com/adminoid/cosmos-sdk/math"
+	"github.com/adminoid/cosmos-sdk/codec"
+	sdk "github.com/adminoid/cosmos-sdk/types"
 
-	bank "github.com/cosmos/cosmos-sdk/x/bank/types" // add this for keplr
-	upgrade "github.com/cosmos/cosmos-sdk/x/upgrade/types"
+	bank "github.com/adminoid/cosmos-sdk/x/bank/types" // add this for keplr
+	upgrade "github.com/adminoid/cosmos-sdk/x/upgrade/types"
 
 	"bitbucket.org/decimalteam/go-smart-node/utils/helpers"
 	coin "bitbucket.org/decimalteam/go-smart-node/x/coin/types"

@@ -5,12 +5,12 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/cosmos/cosmos-sdk/crypto/keys/ed25519"
-	"github.com/cosmos/cosmos-sdk/crypto/keys/multisig"
-	"github.com/cosmos/cosmos-sdk/crypto/keys/secp256k1"
-	cryptotypes "github.com/cosmos/cosmos-sdk/crypto/types"
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	"github.com/cosmos/cosmos-sdk/types/bech32"
+	"github.com/adminoid/cosmos-sdk/crypto/keys/ed25519"
+	"github.com/adminoid/cosmos-sdk/crypto/keys/multisig"
+	"github.com/adminoid/cosmos-sdk/crypto/keys/secp256k1"
+	cryptotypes "github.com/adminoid/cosmos-sdk/crypto/types"
+	sdk "github.com/adminoid/cosmos-sdk/types"
+	"github.com/adminoid/cosmos-sdk/types/bech32"
 	ethereumCommon "github.com/ethereum/go-ethereum/common"
 	"github.com/evmos/evmos/v14/crypto/ethsecp256k1"
 

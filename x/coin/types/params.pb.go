@@ -4,7 +4,7 @@
 package types
 
 import (
-	cosmossdk_io_math "cosmossdk.io/math"
+	cosmossdk_io_math "github.com/adminoid/cosmos-sdk/math"
 	fmt "fmt"
 	_ "github.com/cosmos/cosmos-proto"
 	_ "github.com/gogo/protobuf/gogoproto"
@@ -32,7 +32,7 @@ type Params struct {
 	// base_title defines title of the base coin.
 	BaseTitle string `protobuf:"bytes,2,opt,name=base_title,json=baseTitle,proto3" json:"base_title,omitempty"`
 	// base_volume defines initial volume of the base coin.
-	BaseVolume cosmossdk_io_math.Int `protobuf:"bytes,3,opt,name=base_volume,json=baseVolume,proto3,customtype=cosmossdk.io/math.Int" json:"base_volume"`
+	BaseVolume cosmossdk_io_math.Int `protobuf:"bytes,3,opt,name=base_volume,json=baseVolume,proto3,customtype=github.com/adminoid/cosmos-sdk/math.Int" json:"base_volume"`
 }
 
 func (m *Params) Reset()         { *m = Params{} }

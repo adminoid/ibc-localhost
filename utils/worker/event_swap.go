@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"strconv"
 
-	sdkmath "cosmossdk.io/math"
+	sdkmath "github.com/adminoid/cosmos-sdk/math"
 
 	abci "github.com/cometbft/cometbft/abci/types"
 )

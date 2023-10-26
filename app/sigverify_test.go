@@ -7,16 +7,16 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/cosmos/cosmos-sdk/crypto/keys/ed25519"
-	kmultisig "github.com/cosmos/cosmos-sdk/crypto/keys/multisig"
-	"github.com/cosmos/cosmos-sdk/crypto/keys/secp256k1"
-	"github.com/cosmos/cosmos-sdk/crypto/keys/secp256r1"
-	cryptotypes "github.com/cosmos/cosmos-sdk/crypto/types"
-	"github.com/cosmos/cosmos-sdk/crypto/types/multisig"
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	"github.com/cosmos/cosmos-sdk/types/tx/signing"
+	"github.com/adminoid/cosmos-sdk/crypto/keys/ed25519"
+	kmultisig "github.com/adminoid/cosmos-sdk/crypto/keys/multisig"
+	"github.com/adminoid/cosmos-sdk/crypto/keys/secp256k1"
+	"github.com/adminoid/cosmos-sdk/crypto/keys/secp256r1"
+	cryptotypes "github.com/adminoid/cosmos-sdk/crypto/types"
+	"github.com/adminoid/cosmos-sdk/crypto/types/multisig"
+	sdk "github.com/adminoid/cosmos-sdk/types"
+	"github.com/adminoid/cosmos-sdk/types/tx/signing"
 
-	authtypes "github.com/cosmos/cosmos-sdk/x/auth/types"
+	authtypes "github.com/adminoid/cosmos-sdk/x/auth/types"
 
 	"github.com/evmos/evmos/v14/crypto/ethsecp256k1"
 )

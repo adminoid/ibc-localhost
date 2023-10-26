@@ -1,16 +1,16 @@
 package ante
 
 import (
-	"github.com/cosmos/cosmos-sdk/codec"
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	sdkerrors "github.com/cosmos/cosmos-sdk/types/errors"
-	"github.com/cosmos/cosmos-sdk/types/tx/signing"
+	"github.com/adminoid/cosmos-sdk/codec"
+	sdk "github.com/adminoid/cosmos-sdk/types"
+	sdkerrors "github.com/adminoid/cosmos-sdk/types/errors"
+	"github.com/adminoid/cosmos-sdk/types/tx/signing"
 
-	authante "github.com/cosmos/cosmos-sdk/x/auth/ante"
-	authsigning "github.com/cosmos/cosmos-sdk/x/auth/signing"
-	authtypes "github.com/cosmos/cosmos-sdk/x/auth/types"
+	authante "github.com/adminoid/cosmos-sdk/x/auth/ante"
+	authsigning "github.com/adminoid/cosmos-sdk/x/auth/signing"
+	authtypes "github.com/adminoid/cosmos-sdk/x/auth/types"
 
-	bankkeeper "github.com/cosmos/cosmos-sdk/x/bank/keeper"
+	bankkeeper "github.com/adminoid/cosmos-sdk/x/bank/keeper"
 
 	ibcante "github.com/cosmos/ibc-go/v7/modules/core/ante"
 	ibckeeper "github.com/cosmos/ibc-go/v7/modules/core/keeper"

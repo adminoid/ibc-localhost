@@ -5,14 +5,14 @@ go 1.21
 toolchain go1.21.2
 
 require (
-	cosmossdk.io/api v0.3.1
-	cosmossdk.io/errors v1.0.0
-	cosmossdk.io/math v1.0.0
-	cosmossdk.io/simapp v0.0.0-20230608160436-666c345ad23d
-	//cosmossdk.io/tools/rosetta v0.2.1
+	github.com/adminoid/cosmos-sdk/api v0.3.1
+	github.com/adminoid/cosmos-sdk/errors v1.0.0
+	github.com/adminoid/cosmos-sdk/math v1.0.0
+	github.com/adminoid/cosmos-sdk/simapp v0.0.0-20230608160436-666c345ad23d
+	//github.com/adminoid/cosmos-sdk/tools/rosetta v0.2.1
 	github.com/cosmos/btcutil v1.0.5
 	github.com/cosmos/cosmos-proto v1.0.0-beta.3
-	github.com/cosmos/cosmos-sdk v0.47.4
+	github.com/adminoid/cosmos-sdk v0.47.4
 	github.com/cosmos/go-bip39 v1.0.0
 	github.com/dustin/go-humanize v1.0.1
 	github.com/evmos/go-ethereum v1.11.5
@@ -45,10 +45,10 @@ require (
 	cloud.google.com/go/compute/metadata v0.2.3 // indirect
 	cloud.google.com/go/iam v1.1.2 // indirect
 	cloud.google.com/go/storage v1.30.1 // indirect
-	cosmossdk.io/api v0.7.1 // indirect
-	cosmossdk.io/core v0.12.0 // indirect
-	cosmossdk.io/depinject v1.0.0-alpha.4 // indirect
-	cosmossdk.io/log v1.2.1 // indirect
+	github.com/adminoid/cosmos-sdk/api v0.7.1 // indirect
+	github.com/adminoid/cosmos-sdk/core v0.12.0 // indirect
+	github.com/adminoid/cosmos-sdk/depinject v1.0.0-alpha.4 // indirect
+	github.com/adminoid/cosmos-sdk/log v1.2.1 // indirect
 	filippo.io/edwards25519 v1.0.0 // indirect
 	github.com/99designs/keyring v1.2.2 // indirect
 	github.com/ChainSafe/go-schnorrkel v0.0.0-20200405005733-88cbf1b4c40d // indirect
@@ -247,18 +247,18 @@ replace (
 	// use cosmos fork of keyring
 	github.com/99designs/keyring => github.com/cosmos/keyring v1.2.0
 	// use Cosmos-SDK fork to enable Ledger functionality
-	//github.com/cosmos/cosmos-sdk => github.com/adminoid/cosmos-sdk v0.47.4-evmos
-	github.com/cosmos/cosmos-sdk/simapp => cosmossdk.io/simapp v0.0.0-20230608160436-666c345ad23d
+	//github.com/adminoid/cosmos-sdk => github.com/adminoid/cosmos-sdk v0.47.4-evmos
+	github.com/adminoid/cosmos-sdk/simapp => github.com/adminoid/cosmos-sdk/simapp v0.0.0-20230608160436-666c345ad23d
 	// use Evmos geth fork
 	github.com/evmos/go-ethereum => github.com/evmos/go-ethereum v1.10.26-evmos-rc2
 	// replace broken goleveldb
 	github.com/syndtr/goleveldb => github.com/syndtr/goleveldb v1.0.1-0.20210819022825-2ae1ddf74ef7
-	github.com/cosmos/cosmos-sdk/store => cosmossdk.io/store v0.47.4
+	github.com/adminoid/cosmos-sdk/store => github.com/adminoid/cosmos-sdk/store v0.47.4
 	//github.com/gogo/protobuf => github.com/protocolbuffers/protobuf-go v1.13.0
 	//github.com/gogo/protobuf => github.com/protocolbuffers/protobuf-go v1.13.0
 	//github.com/golang/protobuf => github.com/protocolbuffers/protobuf-go v1.5.2
 	github.com/gogo/protobuf => github.com/regen-network/protobuf v1.3.3-alpha.regen.1
-	github.com/cosmos/cosmos-sdk/x/evidence => cosmossdk.io/x/evidence
-	//cosmossdk.io/x/evidence => github.com/cosmos/cosmos-sdk/x/evidence
+	github.com/adminoid/cosmos-sdk/x/evidence => github.com/adminoid/cosmos-sdk/x/evidence
+	//github.com/adminoid/cosmos-sdk/x/evidence => github.com/adminoid/cosmos-sdk/x/evidence
 )
 

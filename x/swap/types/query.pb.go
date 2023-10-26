@@ -6,8 +6,8 @@ package types
 import (
 	context "context"
 	fmt "fmt"
-	github_com_cosmos_cosmos_sdk_types "github.com/cosmos/cosmos-sdk/types"
-	types "github.com/cosmos/cosmos-sdk/types"
+	github_com_cosmos_cosmos_sdk_types "github.com/adminoid/cosmos-sdk/types"
+	types "github.com/adminoid/cosmos-sdk/types"
 	_ "github.com/gogo/protobuf/gogoproto"
 	grpc1 "github.com/gogo/protobuf/grpc"
 	proto "github.com/gogo/protobuf/proto"
@@ -242,7 +242,7 @@ var xxx_messageInfo_QueryPoolRequest proto.InternalMessageInfo
 
 // QueryPoolResponse is response type for the Query/Pool RPC method.
 type QueryPoolResponse struct {
-	Amount github_com_cosmos_cosmos_sdk_types.Coins `protobuf:"bytes,1,rep,name=amount,proto3,castrepeated=github.com/cosmos/cosmos-sdk/types.Coins" json:"amount"`
+	Amount github_com_cosmos_cosmos_sdk_types.Coins `protobuf:"bytes,1,rep,name=amount,proto3,castrepeated=github.com/adminoid/cosmos-sdk/types.Coins" json:"amount"`
 }
 
 func (m *QueryPoolResponse) Reset()         { *m = QueryPoolResponse{} }

@@ -6,7 +6,7 @@ import (
 	"bitbucket.org/decimalteam/go-smart-node/utils/events"
 	"bitbucket.org/decimalteam/go-smart-node/x/fee/errors"
 	"bitbucket.org/decimalteam/go-smart-node/x/fee/types"
-	sdk "github.com/cosmos/cosmos-sdk/types"
+	sdk "github.com/adminoid/cosmos-sdk/types"
 )
 
 var _ types.MsgServer = &Keeper{}

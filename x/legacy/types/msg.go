@@ -3,7 +3,7 @@ package types
 import (
 	commonTypes "bitbucket.org/decimalteam/go-smart-node/types"
 	"bitbucket.org/decimalteam/go-smart-node/x/legacy/errors"
-	sdk "github.com/cosmos/cosmos-sdk/types"
+	sdk "github.com/adminoid/cosmos-sdk/types"
 	"github.com/evmos/evmos/v14/crypto/ethsecp256k1"
 )
 

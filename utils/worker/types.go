@@ -5,7 +5,7 @@ import (
 	web3hexutil "github.com/ethereum/go-ethereum/common/hexutil"
 	web3types "github.com/ethereum/go-ethereum/core/types"
 
-	sdk "github.com/cosmos/cosmos-sdk/types"
+	sdk "github.com/adminoid/cosmos-sdk/types"
 )
 
 type Event struct {

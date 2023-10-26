@@ -6,9 +6,9 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/cosmos/cosmos-sdk/client/flags"
-	"github.com/cosmos/cosmos-sdk/crypto/keys/ed25519"
-	sdk "github.com/cosmos/cosmos-sdk/types"
+	"github.com/adminoid/cosmos-sdk/client/flags"
+	"github.com/adminoid/cosmos-sdk/crypto/keys/ed25519"
+	sdk "github.com/adminoid/cosmos-sdk/types"
 
 	"github.com/evmos/evmos/v14/encoding"
 

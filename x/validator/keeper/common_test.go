@@ -6,9 +6,9 @@ import (
 
 	tmproto "github.com/cometbft/cometbft/proto/tendermint/types"
 
-	"github.com/cosmos/cosmos-sdk/codec"
+	"github.com/adminoid/cosmos-sdk/codec"
 	"github.com/adminoid/cosmos-sdk/simapp"
-	sdk "github.com/cosmos/cosmos-sdk/types"
+	sdk "github.com/adminoid/cosmos-sdk/types"
 
 	feemarkettypes "github.com/evmos/evmos/v14/x/feemarket/types"
 

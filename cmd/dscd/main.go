@@ -3,9 +3,9 @@ package main
 import (
 	"os"
 
-	"github.com/cosmos/cosmos-sdk/server"
-	svrcmd "github.com/cosmos/cosmos-sdk/server/cmd"
-	sdk "github.com/cosmos/cosmos-sdk/types"
+	"github.com/adminoid/cosmos-sdk/server"
+	svrcmd "github.com/adminoid/cosmos-sdk/server/cmd"
+	sdk "github.com/adminoid/cosmos-sdk/types"
 
 	"bitbucket.org/decimalteam/go-smart-node/app"
 	cmdcfg "bitbucket.org/decimalteam/go-smart-node/cmd/config"

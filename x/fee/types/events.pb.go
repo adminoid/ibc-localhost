@@ -6,8 +6,8 @@ package types
 import (
 	fmt "fmt"
 	_ "github.com/cosmos/cosmos-proto"
-	github_com_cosmos_cosmos_sdk_types "github.com/cosmos/cosmos-sdk/types"
-	types "github.com/cosmos/cosmos-sdk/types"
+	github_com_cosmos_cosmos_sdk_types "github.com/adminoid/cosmos-sdk/types"
+	types "github.com/adminoid/cosmos-sdk/types"
 	_ "github.com/gogo/protobuf/gogoproto"
 	proto "github.com/gogo/protobuf/proto"
 	io "io"
@@ -82,8 +82,8 @@ func (m *EventUpdateCoinPrices) GetPrices() []CoinPrice {
 // EventPayCommission defines event emitted when any commission for a transaction is payed.
 type EventPayCommission struct {
 	Payer string                                   `protobuf:"bytes,1,opt,name=payer,proto3" json:"payer,omitempty"`
-	Coins github_com_cosmos_cosmos_sdk_types.Coins `protobuf:"bytes,2,rep,name=coins,proto3,castrepeated=github.com/cosmos/cosmos-sdk/types.Coins" json:"coins"`
-	Burnt github_com_cosmos_cosmos_sdk_types.Coins `protobuf:"bytes,3,rep,name=burnt,proto3,castrepeated=github.com/cosmos/cosmos-sdk/types.Coins" json:"burnt"`
+	Coins github_com_cosmos_cosmos_sdk_types.Coins `protobuf:"bytes,2,rep,name=coins,proto3,castrepeated=github.com/adminoid/cosmos-sdk/types.Coins" json:"coins"`
+	Burnt github_com_cosmos_cosmos_sdk_types.Coins `protobuf:"bytes,3,rep,name=burnt,proto3,castrepeated=github.com/adminoid/cosmos-sdk/types.Coins" json:"burnt"`
 }
 
 func (m *EventPayCommission) Reset()         { *m = EventPayCommission{} }

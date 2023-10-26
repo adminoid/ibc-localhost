@@ -6,16 +6,16 @@ import (
 	"strings"
 
 	feeTypes "bitbucket.org/decimalteam/go-smart-node/x/fee/types"
-	sdkmath "cosmossdk.io/math"
+	sdkmath "github.com/adminoid/cosmos-sdk/math"
 
 	"github.com/cometbft/cometbft/libs/log"
 
-	"github.com/cosmos/cosmos-sdk/codec"
+	"github.com/adminoid/cosmos-sdk/codec"
 	store "github.com/adminoid/cosmos-sdk/store/types"
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	auth "github.com/cosmos/cosmos-sdk/x/auth/keeper"
-	bank "github.com/cosmos/cosmos-sdk/x/bank/keeper"
-	paramtypes "github.com/cosmos/cosmos-sdk/x/params/types"
+	sdk "github.com/adminoid/cosmos-sdk/types"
+	auth "github.com/adminoid/cosmos-sdk/x/auth/keeper"
+	bank "github.com/adminoid/cosmos-sdk/x/bank/keeper"
+	paramtypes "github.com/adminoid/cosmos-sdk/x/params/types"
 
 	"bitbucket.org/decimalteam/go-smart-node/utils/formulas"
 	"bitbucket.org/decimalteam/go-smart-node/x/coin/errors"

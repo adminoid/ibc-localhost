@@ -3,7 +3,7 @@ package types
 //go:generate mockgen -destination=../testutil/expected_keepers_mock.go -package=testutil . BankKeeper,NftKeeper,MultisigKeeper,ValidatorKeeper
 
 import (
-	sdk "github.com/cosmos/cosmos-sdk/types"
+	sdk "github.com/adminoid/cosmos-sdk/types"
 
 	multisigtypes "bitbucket.org/decimalteam/go-smart-node/x/multisig/types"
 	nfttypes "bitbucket.org/decimalteam/go-smart-node/x/nft/types"

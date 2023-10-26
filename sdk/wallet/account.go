@@ -1,12 +1,12 @@
 package wallet
 
 import (
-	"github.com/cosmos/cosmos-sdk/types/bech32"
+	"github.com/adminoid/cosmos-sdk/types/bech32"
 
 	config "bitbucket.org/decimalteam/go-smart-node/cmd/config"
 	decimalTypes "bitbucket.org/decimalteam/go-smart-node/types"
-	cryptoTypes "github.com/cosmos/cosmos-sdk/crypto/types"
-	sdk "github.com/cosmos/cosmos-sdk/types"
+	cryptoTypes "github.com/adminoid/cosmos-sdk/crypto/types"
+	sdk "github.com/adminoid/cosmos-sdk/types"
 	"github.com/evmos/evmos/v14/crypto/ethsecp256k1"
 	ethermintHd "github.com/evmos/evmos/v14/crypto/hd"
 	ethermint "github.com/evmos/evmos/v14/types"

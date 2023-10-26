@@ -3,7 +3,7 @@ package errors
 import (
 	"fmt"
 
-	"cosmossdk.io/errors"
+	"github.com/adminoid/cosmos-sdk/errors"
 )
 
 var codespace = "multisig"

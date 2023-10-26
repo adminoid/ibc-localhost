@@ -7,8 +7,8 @@ import (
 	"fmt"
 	"math/big"
 
-	"cosmossdk.io/math"
-	sdk "github.com/cosmos/cosmos-sdk/types"
+	"github.com/adminoid/cosmos-sdk/math"
+	sdk "github.com/adminoid/cosmos-sdk/types"
 	ethcmn "github.com/ethereum/go-ethereum/common"
 	ethmath "github.com/ethereum/go-ethereum/common/math"
 	"github.com/ethereum/go-ethereum/crypto"

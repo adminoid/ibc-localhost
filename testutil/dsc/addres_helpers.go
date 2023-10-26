@@ -11,13 +11,13 @@ import (
 	//tmproto "github.com/cometbft/cometbft/proto/tendermint/types"
 	tmtypes "github.com/cometbft/cometbft/types"
 
-	"github.com/cosmos/cosmos-sdk/crypto/keys/ed25519"
-	"github.com/cosmos/cosmos-sdk/testutil/mock"
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	authtypes "github.com/cosmos/cosmos-sdk/x/auth/types"
-	bankkeeper "github.com/cosmos/cosmos-sdk/x/bank/keeper"
-	banktypes "github.com/cosmos/cosmos-sdk/x/bank/types"
-	stakingkeeper "github.com/cosmos/cosmos-sdk/x/staking/keeper"
+	"github.com/adminoid/cosmos-sdk/crypto/keys/ed25519"
+	"github.com/adminoid/cosmos-sdk/testutil/mock"
+	sdk "github.com/adminoid/cosmos-sdk/types"
+	authtypes "github.com/adminoid/cosmos-sdk/x/auth/types"
+	bankkeeper "github.com/adminoid/cosmos-sdk/x/bank/keeper"
+	banktypes "github.com/adminoid/cosmos-sdk/x/bank/types"
+	stakingkeeper "github.com/adminoid/cosmos-sdk/x/staking/keeper"
 
 	"github.com/evmos/evmos/v14/crypto/ethsecp256k1"
 

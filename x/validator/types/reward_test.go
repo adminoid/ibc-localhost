@@ -3,7 +3,7 @@ package types
 import (
 	"testing"
 
-	sdk "github.com/cosmos/cosmos-sdk/types"
+	sdk "github.com/adminoid/cosmos-sdk/types"
 )
 
 // Test to demonstrate small remainder after rewards pay

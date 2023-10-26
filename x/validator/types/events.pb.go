@@ -4,11 +4,11 @@
 package types
 
 import (
-	cosmossdk_io_math "cosmossdk.io/math"
+	cosmossdk_io_math "github.com/adminoid/cosmos-sdk/math"
 	fmt "fmt"
 	_ "github.com/cosmos/cosmos-proto"
-	github_com_cosmos_cosmos_sdk_types "github.com/cosmos/cosmos-sdk/types"
-	types "github.com/cosmos/cosmos-sdk/types"
+	github_com_cosmos_cosmos_sdk_types "github.com/adminoid/cosmos-sdk/types"
+	types "github.com/adminoid/cosmos-sdk/types"
 	_ "github.com/gogo/protobuf/gogoproto"
 	proto "github.com/gogo/protobuf/proto"
 	github_com_gogo_protobuf_types "github.com/gogo/protobuf/types"
@@ -38,7 +38,7 @@ type EventCreateValidator struct {
 	RewardAddress   string                                 `protobuf:"bytes,3,opt,name=reward_address,json=rewardAddress,proto3" json:"reward_address,omitempty"`
 	ConsensusPubkey string                                 `protobuf:"bytes,4,opt,name=consensus_pubkey,json=consensusPubkey,proto3" json:"consensus_pubkey,omitempty"`
 	Description     Description                            `protobuf:"bytes,5,opt,name=description,proto3" json:"description"`
-	Commission      github_com_cosmos_cosmos_sdk_types.Dec `protobuf:"bytes,6,opt,name=commission,proto3,customtype=github.com/cosmos/cosmos-sdk/types.Dec" json:"commission"`
+	Commission      github_com_cosmos_cosmos_sdk_types.Dec `protobuf:"bytes,6,opt,name=commission,proto3,customtype=github.com/adminoid/cosmos-sdk/types.Dec" json:"commission"`
 	Stake           types.Coin                             `protobuf:"bytes,7,opt,name=stake,proto3" json:"stake"`
 }
 
@@ -342,7 +342,7 @@ type EventDelegate struct {
 	Delegator  string                `protobuf:"bytes,1,opt,name=delegator,proto3" json:"delegator,omitempty"`
 	Validator  string                `protobuf:"bytes,2,opt,name=validator,proto3" json:"validator,omitempty"`
 	Stake      Stake                 `protobuf:"bytes,3,opt,name=stake,proto3" json:"stake"`
-	AmountBase cosmossdk_io_math.Int `protobuf:"bytes,4,opt,name=amount_base,json=amountBase,proto3,customtype=cosmossdk.io/math.Int" json:"amount_base"`
+	AmountBase cosmossdk_io_math.Int `protobuf:"bytes,4,opt,name=amount_base,json=amountBase,proto3,customtype=github.com/adminoid/cosmos-sdk/math.Int" json:"amount_base"`
 }
 
 func (m *EventDelegate) Reset()         { *m = EventDelegate{} }
@@ -405,7 +405,7 @@ type EventRedelegate struct {
 	ValidatorSrc string                `protobuf:"bytes,2,opt,name=validator_src,json=validatorSrc,proto3" json:"validator_src,omitempty"`
 	ValidatorDst string                `protobuf:"bytes,3,opt,name=validator_dst,json=validatorDst,proto3" json:"validator_dst,omitempty"`
 	Stake        Stake                 `protobuf:"bytes,4,opt,name=stake,proto3" json:"stake"`
-	AmountBase   cosmossdk_io_math.Int `protobuf:"bytes,5,opt,name=amount_base,json=amountBase,proto3,customtype=cosmossdk.io/math.Int" json:"amount_base"`
+	AmountBase   cosmossdk_io_math.Int `protobuf:"bytes,5,opt,name=amount_base,json=amountBase,proto3,customtype=github.com/adminoid/cosmos-sdk/math.Int" json:"amount_base"`
 	CompleteAt   time.Time             `protobuf:"bytes,6,opt,name=complete_at,json=completeAt,proto3,stdtime" json:"complete_at"`
 }
 
@@ -551,7 +551,7 @@ type EventUndelegate struct {
 	Delegator  string                `protobuf:"bytes,1,opt,name=delegator,proto3" json:"delegator,omitempty"`
 	Validator  string                `protobuf:"bytes,2,opt,name=validator,proto3" json:"validator,omitempty"`
 	Stake      Stake                 `protobuf:"bytes,3,opt,name=stake,proto3" json:"stake"`
-	AmountBase cosmossdk_io_math.Int `protobuf:"bytes,4,opt,name=amount_base,json=amountBase,proto3,customtype=cosmossdk.io/math.Int" json:"amount_base"`
+	AmountBase cosmossdk_io_math.Int `protobuf:"bytes,4,opt,name=amount_base,json=amountBase,proto3,customtype=github.com/adminoid/cosmos-sdk/math.Int" json:"amount_base"`
 	CompleteAt time.Time             `protobuf:"bytes,5,opt,name=complete_at,json=completeAt,proto3,stdtime" json:"complete_at"`
 }
 
@@ -1000,7 +1000,7 @@ var xxx_messageInfo_EventDelegatedCoinsUpdate proto.InternalMessageInfo
 
 // EventEmission defines event emitted when emission for the block is minted.
 type EventEmission struct {
-	Amount cosmossdk_io_math.Int `protobuf:"bytes,1,opt,name=amount,proto3,customtype=cosmossdk.io/math.Int" json:"amount"`
+	Amount cosmossdk_io_math.Int `protobuf:"bytes,1,opt,name=amount,proto3,customtype=github.com/adminoid/cosmos-sdk/math.Int" json:"amount"`
 }
 
 func (m *EventEmission) Reset()         { *m = EventEmission{} }
@@ -1144,7 +1144,7 @@ func (m *EventLiveness) GetMissedBlocks() uint32 {
 
 type EventUpdateCoinsStaked struct {
 	Denom       string                `protobuf:"bytes,1,opt,name=denom,proto3" json:"denom,omitempty"`
-	TotalAmount cosmossdk_io_math.Int `protobuf:"bytes,2,opt,name=total_amount,json=totalAmount,proto3,customtype=cosmossdk.io/math.Int" json:"total_amount"`
+	TotalAmount cosmossdk_io_math.Int `protobuf:"bytes,2,opt,name=total_amount,json=totalAmount,proto3,customtype=github.com/adminoid/cosmos-sdk/math.Int" json:"total_amount"`
 }
 
 func (m *EventUpdateCoinsStaked) Reset()         { *m = EventUpdateCoinsStaked{} }
@@ -1192,13 +1192,13 @@ type ValidatorReward struct {
 	// validator is the bech32-encoded address of the validator.
 	Validator string `protobuf:"bytes,1,opt,name=validator,proto3" json:"validator,omitempty"`
 	// dao is the amount of the reward in base coin sent to the DAO.
-	Dao cosmossdk_io_math.Int `protobuf:"bytes,2,opt,name=dao,proto3,customtype=cosmossdk.io/math.Int" json:"dao"`
+	Dao cosmossdk_io_math.Int `protobuf:"bytes,2,opt,name=dao,proto3,customtype=github.com/adminoid/cosmos-sdk/math.Int" json:"dao"`
 	// develop is the amount of the reward in base coin sent to the Develop.
-	Develop cosmossdk_io_math.Int `protobuf:"bytes,3,opt,name=develop,proto3,customtype=cosmossdk.io/math.Int" json:"develop"`
+	Develop cosmossdk_io_math.Int `protobuf:"bytes,3,opt,name=develop,proto3,customtype=github.com/adminoid/cosmos-sdk/math.Int" json:"develop"`
 	// commission is the amount of the reward in base coin sent to the validator as it's commission.
-	Commission cosmossdk_io_math.Int `protobuf:"bytes,4,opt,name=commission,proto3,customtype=cosmossdk.io/math.Int" json:"commission"`
+	Commission cosmossdk_io_math.Int `protobuf:"bytes,4,opt,name=commission,proto3,customtype=github.com/adminoid/cosmos-sdk/math.Int" json:"commission"`
 	// accumulated is the total amount of the reward in base coin accumulated for the validator.
-	Accumulated cosmossdk_io_math.Int `protobuf:"bytes,5,opt,name=accumulated,proto3,customtype=cosmossdk.io/math.Int" json:"accumulated"`
+	Accumulated cosmossdk_io_math.Int `protobuf:"bytes,5,opt,name=accumulated,proto3,customtype=github.com/adminoid/cosmos-sdk/math.Int" json:"accumulated"`
 	// delegators is the complete list of delegator rewards.
 	Delegators []DelegatorReward `protobuf:"bytes,6,rep,name=delegators,proto3" json:"delegators"`
 }
@@ -1286,7 +1286,7 @@ type StakeReward struct {
 	// For stake in NFT: contains NFT token ID value.
 	ID string `protobuf:"bytes,1,opt,name=id,proto3" json:"id,omitempty"`
 	// reward is the amount of the reward in base coin.
-	Reward cosmossdk_io_math.Int `protobuf:"bytes,2,opt,name=reward,proto3,customtype=cosmossdk.io/math.Int" json:"reward"`
+	Reward cosmossdk_io_math.Int `protobuf:"bytes,2,opt,name=reward,proto3,customtype=github.com/adminoid/cosmos-sdk/math.Int" json:"reward"`
 	// Id for what is given reward.
 	// For stake in Coin: contains coin denom value.
 	// For stake in NFT: contains NFT token ID value.

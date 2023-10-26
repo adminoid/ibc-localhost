@@ -3,11 +3,11 @@ package cli
 import (
 	"context"
 
-	sdkmath "cosmossdk.io/math"
-	"github.com/cosmos/cosmos-sdk/client"
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	"github.com/cosmos/cosmos-sdk/types/query"
-	bankTypes "github.com/cosmos/cosmos-sdk/x/bank/types"
+	sdkmath "github.com/adminoid/cosmos-sdk/math"
+	"github.com/adminoid/cosmos-sdk/client"
+	sdk "github.com/adminoid/cosmos-sdk/types"
+	"github.com/adminoid/cosmos-sdk/types/query"
+	bankTypes "github.com/adminoid/cosmos-sdk/x/bank/types"
 
 	"bitbucket.org/decimalteam/go-smart-node/x/coin/errors"
 	"bitbucket.org/decimalteam/go-smart-node/x/coin/types"

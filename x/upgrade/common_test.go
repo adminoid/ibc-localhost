@@ -7,11 +7,11 @@ import (
 	"bitbucket.org/decimalteam/go-smart-node/app"
 	"bitbucket.org/decimalteam/go-smart-node/testutil"
 	"bitbucket.org/decimalteam/go-smart-node/x/upgrade"
-	"github.com/cosmos/cosmos-sdk/client/tx"
-	"github.com/cosmos/cosmos-sdk/crypto/hd"
-	"github.com/cosmos/cosmos-sdk/crypto/keyring"
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	"github.com/cosmos/cosmos-sdk/x/upgrade/types"
+	"github.com/adminoid/cosmos-sdk/client/tx"
+	"github.com/adminoid/cosmos-sdk/crypto/hd"
+	"github.com/adminoid/cosmos-sdk/crypto/keyring"
+	sdk "github.com/adminoid/cosmos-sdk/types"
+	"github.com/adminoid/cosmos-sdk/x/upgrade/types"
 	"github.com/stretchr/testify/require"
 )
 

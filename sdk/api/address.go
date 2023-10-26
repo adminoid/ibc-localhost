@@ -3,10 +3,10 @@ package api
 import (
 	"context"
 
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	query "github.com/cosmos/cosmos-sdk/types/query"
-	authTypes "github.com/cosmos/cosmos-sdk/x/auth/types"
-	bankTypes "github.com/cosmos/cosmos-sdk/x/bank/types"
+	sdk "github.com/adminoid/cosmos-sdk/types"
+	query "github.com/adminoid/cosmos-sdk/types/query"
+	authTypes "github.com/adminoid/cosmos-sdk/x/auth/types"
+	bankTypes "github.com/adminoid/cosmos-sdk/x/bank/types"
 	ethermintTypes "github.com/evmos/evmos/v14/types"
 	"github.com/gogo/protobuf/proto"
 	"google.golang.org/grpc/codes"

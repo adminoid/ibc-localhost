@@ -112,7 +112,7 @@ require (
 	github.com/cockroachdb/tokenbucket v0.0.0-20230807174530-cc333fc44b06 // indirect
 	github.com/confio/ics23/go v0.9.1 // indirect
 	github.com/cosmos/cosmos-db v1.0.0 // indirect
-	github.com/cosmos/cosmos-sdk/x/nft v0.1.0-alpha1 // indirect
+	//github.com/cosmos/cosmos-sdk/x/nft v0.1.0-alpha1 // indirect
 	//github.com/cosmos/cosmos-db v1.0.0 // indirect
 	github.com/cosmos/gogogateway v1.2.0 // indirect
 	github.com/cosmos/gogoproto v1.4.11 // indirect
@@ -240,9 +240,9 @@ replace (
 	// use cosmos fork of keyring
 	github.com/99designs/keyring => github.com/cosmos/keyring v1.2.0
 	// use Cosmos-SDK fork to enable Ledger functionality
-	github.com/cosmos/cosmos-sdk => github.com/adminoid/cosmos-sdk v0.47.4-evmos
+	//github.com/cosmos/cosmos-sdk => github.com/adminoid/cosmos-sdk v0.47.4-evmos
 	// also replace cosmossdk.io
-	cosmossdk.io => github.com/adminoid/cosmos-sdk v0.47.4-evmos
+	github.com/adminoid/cosmos-sdk => github.com/adminoid/cosmos-sdk v0.47.4-evmos
 	// use Evmos geth fork
 	github.com/ethereum/go-ethereum => github.com/evmos/go-ethereum v1.10.26-evmos-rc2
 	// replace broken goleveldb
@@ -252,6 +252,9 @@ replace (
 	//github.com/cosmos/cosmos-sdk => github.com/adminoid/cosmos-sdk v0.47.4-evmos
 	//github.com/cosmos/cosmos-sdk/simapp => cosmossdk.io/simapp v0.0.0-20230608160436-666c345ad23d
 	//github.com/cosmos/cosmos-sdk/store => cosmossdk.io/store v0.50.0-rc.1
+
+	//github.com/cosmos/cosmos-sdk/store => github.com/adminoid/cosmos-sdk/store v0.47.4-evmos
+
 	//github.com/cosmos/cosmos-sdk/store => github.com/adminoid/cosmos-sdk/store v0.47.4-evmos.2
 	//github.com/cosmos/cosmos-sdk/store => github.com/adminoid/cosmos-sdk/store v0.47.5-evmos
 	//github.com/cosmos/cosmos-sdk/x/evidence => cosmossdk.io/x/evidence

@@ -4,7 +4,7 @@ import (
 	"context"
 
 	nfttypes "bitbucket.org/decimalteam/go-smart-node/x/nft/types"
-	query "github.com/cosmos/cosmos-sdk/types/query"
+	query "github.com/adminoid/cosmos-sdk/types/query"
 )
 
 type NFTCollection = nfttypes.Collection

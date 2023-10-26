@@ -25,7 +25,7 @@ message Coin {
   // limit_volume defines maximum allowed supply for the coin.
   string limit_volume = 5 [
     (cosmos_proto.scalar) = "cosmos.Int",
-    (gogoproto.customtype) = "cosmossdk.io/math.Int",
+    (gogoproto.customtype) = "github.com/adminoid/cosmos-sdk/math.Int",
     (gogoproto.nullable) = false
   ];
   // identity is a string containing any other information related to the coin.
@@ -35,14 +35,14 @@ message Coin {
   // NOTE: actual values are stored as CoinVR records in KVStore.
   string volume = 7 [
     (cosmos_proto.scalar) = "cosmos.Int",
-    (gogoproto.customtype) = "cosmossdk.io/math.Int",
+    (gogoproto.customtype) = "github.com/adminoid/cosmos-sdk/math.Int",
     (gogoproto.nullable) = false
   ];
   // reserve defines the coin reserve in base coin.
   // NOTE: actual values are stored as CoinVR records in KVStore.
   string reserve = 8 [
     (cosmos_proto.scalar) = "cosmos.Int",
-    (gogoproto.customtype) = "cosmossdk.io/math.Int",
+    (gogoproto.customtype) = "github.com/adminoid/cosmos-sdk/math.Int",
     (gogoproto.nullable) = false
   ];
 
@@ -50,7 +50,7 @@ message Coin {
   // NOTE: when value is zero it means that the coin does not support minimal supply limitations.
   string min_volume = 9 [
     (cosmos_proto.scalar) = "cosmos.Int",
-    (gogoproto.customtype) = "cosmossdk.io/math.Int",
+    (gogoproto.customtype) = "github.com/adminoid/cosmos-sdk/math.Int",
     (gogoproto.nullable) = false
   ];
 
@@ -77,19 +77,19 @@ message Check {
   // v defines `v` value of the check signature.
   string v = 6 [
     (cosmos_proto.scalar) = "cosmos.Int",
-    (gogoproto.customtype) = "cosmossdk.io/math.Int",
+    (gogoproto.customtype) = "github.com/adminoid/cosmos-sdk/math.Int",
     (gogoproto.nullable) = false
   ];
   // r defines `r` value of the check signature.
   string r = 7 [
     (cosmos_proto.scalar) = "cosmos.Int",
-    (gogoproto.customtype) = "cosmossdk.io/math.Int",
+    (gogoproto.customtype) = "github.com/adminoid/cosmos-sdk/math.Int",
     (gogoproto.nullable) = false
   ];
   // s defines `s` value of the check signature.
   string s = 8 [
     (cosmos_proto.scalar) = "cosmos.Int",
-    (gogoproto.customtype) = "cosmossdk.io/math.Int",
+    (gogoproto.customtype) = "github.com/adminoid/cosmos-sdk/math.Int",
     (gogoproto.nullable) = false
   ];
 }
@@ -103,13 +103,13 @@ message CoinVR {
   // volume defines the coin supply.
   string volume = 1 [
     (cosmos_proto.scalar) = "cosmos.Int",
-    (gogoproto.customtype) = "cosmossdk.io/math.Int",
+    (gogoproto.customtype) = "github.com/adminoid/cosmos-sdk/math.Int",
     (gogoproto.nullable) = false
   ];
   // reserve defines the coin reserve in base coin.
   string reserve = 2 [
     (cosmos_proto.scalar) = "cosmos.Int",
-    (gogoproto.customtype) = "cosmossdk.io/math.Int",
+    (gogoproto.customtype) = "github.com/adminoid/cosmos-sdk/math.Int",
     (gogoproto.nullable) = false
   ];
 }

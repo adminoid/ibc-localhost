@@ -6,7 +6,7 @@ import (
 
 	abci "github.com/cometbft/cometbft/abci/types"
 
-	sdk "github.com/cosmos/cosmos-sdk/types"
+	sdk "github.com/adminoid/cosmos-sdk/types"
 )
 
 type LegacyReturnNFT struct {

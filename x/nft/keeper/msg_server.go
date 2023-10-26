@@ -3,8 +3,8 @@ package keeper
 import (
 	"context"
 
-	sdkmath "cosmossdk.io/math"
-	sdk "github.com/cosmos/cosmos-sdk/types"
+	sdkmath "github.com/adminoid/cosmos-sdk/math"
+	sdk "github.com/adminoid/cosmos-sdk/types"
 
 	"bitbucket.org/decimalteam/go-smart-node/utils/events"
 	"bitbucket.org/decimalteam/go-smart-node/x/nft/errors"

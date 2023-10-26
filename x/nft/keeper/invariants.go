@@ -1,7 +1,7 @@
 package keeper
 
 import (
-	sdk "github.com/cosmos/cosmos-sdk/types"
+	sdk "github.com/adminoid/cosmos-sdk/types"
 
 	"bitbucket.org/decimalteam/go-smart-node/x/nft/types"
 )

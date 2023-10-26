@@ -7,7 +7,7 @@ import (
 
 	proto "github.com/gogo/protobuf/proto"
 
-	sdk "github.com/cosmos/cosmos-sdk/types"
+	sdk "github.com/adminoid/cosmos-sdk/types"
 
 	multisigtypes "bitbucket.org/decimalteam/go-smart-node/x/multisig/types"
 )

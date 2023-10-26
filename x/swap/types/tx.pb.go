@@ -5,10 +5,10 @@ package types
 
 import (
 	context "context"
-	cosmossdk_io_math "cosmossdk.io/math"
+	cosmossdk_io_math "github.com/adminoid/cosmos-sdk/math"
 	fmt "fmt"
 	_ "github.com/cosmos/cosmos-proto"
-	_ "github.com/cosmos/cosmos-sdk/types/msgservice"
+	_ "github.com/adminoid/cosmos-sdk/types/msgservice"
 	_ "github.com/gogo/protobuf/gogoproto"
 	grpc1 "github.com/gogo/protobuf/grpc"
 	proto "github.com/gogo/protobuf/proto"
@@ -223,7 +223,7 @@ var xxx_messageInfo_MsgDeactivateChainResponse proto.InternalMessageInfo
 type MsgInitializeSwap struct {
 	Sender            string                `protobuf:"bytes,1,opt,name=sender,proto3" json:"sender,omitempty"`
 	Recipient         string                `protobuf:"bytes,2,opt,name=recipient,proto3" json:"recipient,omitempty"`
-	Amount            cosmossdk_io_math.Int `protobuf:"bytes,3,opt,name=amount,proto3,customtype=cosmossdk.io/math.Int" json:"amount"`
+	Amount            cosmossdk_io_math.Int `protobuf:"bytes,3,opt,name=amount,proto3,customtype=github.com/adminoid/cosmos-sdk/math.Int" json:"amount"`
 	TokenSymbol       string                `protobuf:"bytes,4,opt,name=token_symbol,json=tokenSymbol,proto3" json:"token_symbol,omitempty"`
 	TransactionNumber string                `protobuf:"bytes,5,opt,name=transaction_number,json=transactionNumber,proto3" json:"transaction_number,omitempty"`
 	FromChain         uint32                `protobuf:"varint,6,opt,name=from_chain,json=fromChain,proto3" json:"from_chain,omitempty"`
@@ -305,7 +305,7 @@ type MsgRedeemSwap struct {
 	Sender            string                `protobuf:"bytes,1,opt,name=sender,proto3" json:"sender,omitempty"`
 	From              string                `protobuf:"bytes,2,opt,name=from,proto3" json:"from,omitempty"`
 	Recipient         string                `protobuf:"bytes,3,opt,name=recipient,proto3" json:"recipient,omitempty"`
-	Amount            cosmossdk_io_math.Int `protobuf:"bytes,4,opt,name=amount,proto3,customtype=cosmossdk.io/math.Int" json:"amount"`
+	Amount            cosmossdk_io_math.Int `protobuf:"bytes,4,opt,name=amount,proto3,customtype=github.com/adminoid/cosmos-sdk/math.Int" json:"amount"`
 	TokenSymbol       string                `protobuf:"bytes,5,opt,name=token_symbol,json=tokenSymbol,proto3" json:"token_symbol,omitempty"`
 	TransactionNumber string                `protobuf:"bytes,6,opt,name=transaction_number,json=transactionNumber,proto3" json:"transaction_number,omitempty"`
 	FromChain         uint32                `protobuf:"varint,7,opt,name=from_chain,json=fromChain,proto3" json:"from_chain,omitempty"`

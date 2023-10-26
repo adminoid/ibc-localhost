@@ -1,8 +1,8 @@
 package keeper_test
 
 import (
-	"github.com/cosmos/cosmos-sdk/crypto/keys/ed25519"
-	sdk "github.com/cosmos/cosmos-sdk/types"
+	"github.com/adminoid/cosmos-sdk/crypto/keys/ed25519"
+	sdk "github.com/adminoid/cosmos-sdk/types"
 
 	cmdcfg "bitbucket.org/decimalteam/go-smart-node/cmd/config"
 	"bitbucket.org/decimalteam/go-smart-node/x/nft/keeper"

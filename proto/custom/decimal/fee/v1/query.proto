@@ -68,7 +68,7 @@ message QueryCalculateCommissionRequest {
 message QueryCalculateCommissionResponse {
   string commission = 1 [
     (cosmos_proto.scalar) = "cosmos.Int",
-    (gogoproto.customtype) = "cosmossdk.io/math.Int",
+    (gogoproto.customtype) = "github.com/adminoid/cosmos-sdk/math.Int",
     (gogoproto.nullable) = false
   ];
 }

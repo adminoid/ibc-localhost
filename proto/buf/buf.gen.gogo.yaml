@@ -2,7 +2,7 @@ version: v1
 plugins:
   - name: gocosmos
     out: build/proto/go
-    opt: plugins=grpc,Mgoogle/protobuf/any.proto=github.com/cosmos/cosmos-sdk/codec/types
+    opt: plugins=grpc,Mgoogle/protobuf/any.proto=github.com/adminoid/cosmos-sdk/codec/types
   - name: grpc-gateway
     out: build/proto/go
     opt: logtostderr=true

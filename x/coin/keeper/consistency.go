@@ -1,9 +1,9 @@
 package keeper
 
 import (
-	sdkmath "cosmossdk.io/math"
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	sdkAuthTypes "github.com/cosmos/cosmos-sdk/x/auth/types"
+	sdkmath "github.com/adminoid/cosmos-sdk/math"
+	sdk "github.com/adminoid/cosmos-sdk/types"
+	sdkAuthTypes "github.com/adminoid/cosmos-sdk/x/auth/types"
 
 	"bitbucket.org/decimalteam/go-smart-node/utils/formulas"
 	"bitbucket.org/decimalteam/go-smart-node/x/coin/config"

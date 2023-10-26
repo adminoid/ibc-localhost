@@ -1,10 +1,10 @@
 package ante
 
 import (
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	sdkerrors "github.com/cosmos/cosmos-sdk/types/errors"
+	sdk "github.com/adminoid/cosmos-sdk/types"
+	sdkerrors "github.com/adminoid/cosmos-sdk/types/errors"
 
-	authante "github.com/cosmos/cosmos-sdk/x/auth/ante"
+	authante "github.com/adminoid/cosmos-sdk/x/auth/ante"
 
 	ethante "github.com/evmos/evmos/v14/app/ante"
 )

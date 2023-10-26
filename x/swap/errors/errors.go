@@ -1,7 +1,7 @@
 package errors
 
 import (
-	"cosmossdk.io/errors"
+	"github.com/adminoid/cosmos-sdk/errors"
 )
 
 var codespace = "swap"

@@ -3,8 +3,8 @@ package keeper
 import (
 	"fmt"
 
-	sdkmath "cosmossdk.io/math"
-	sdk "github.com/cosmos/cosmos-sdk/types"
+	sdkmath "github.com/adminoid/cosmos-sdk/math"
+	sdk "github.com/adminoid/cosmos-sdk/types"
 	abci "github.com/cometbft/cometbft/abci/types"
 )
 

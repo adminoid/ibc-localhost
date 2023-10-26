@@ -2,7 +2,7 @@ package types
 
 import (
 	"bitbucket.org/decimalteam/go-smart-node/x/validator/errors"
-	sdk "github.com/cosmos/cosmos-sdk/types"
+	sdk "github.com/adminoid/cosmos-sdk/types"
 )
 
 // NewStakeCoin creates a new Stake instance for stake in the coin.

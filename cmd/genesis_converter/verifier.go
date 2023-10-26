@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"strconv"
 
-	"cosmossdk.io/math"
-	sdk "github.com/cosmos/cosmos-sdk/types"
+	"github.com/adminoid/cosmos-sdk/math"
+	sdk "github.com/adminoid/cosmos-sdk/types"
 )
 
 type SubTokenRecord struct {

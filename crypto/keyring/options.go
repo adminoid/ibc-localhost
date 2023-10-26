@@ -1,8 +1,8 @@
 package keyring
 
 import (
-	"github.com/cosmos/cosmos-sdk/crypto/hd"
-	"github.com/cosmos/cosmos-sdk/crypto/keyring"
+	"github.com/adminoid/cosmos-sdk/crypto/hd"
+	"github.com/adminoid/cosmos-sdk/crypto/keyring"
 
 	ethhd "github.com/evmos/evmos/v14/crypto/hd"
 )

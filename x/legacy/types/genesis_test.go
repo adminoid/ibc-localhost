@@ -7,7 +7,7 @@ import (
 
 	"bitbucket.org/decimalteam/go-smart-node/cmd/config"
 	"bitbucket.org/decimalteam/go-smart-node/x/legacy/types"
-	sdkTypes "github.com/cosmos/cosmos-sdk/types"
+	sdkTypes "github.com/adminoid/cosmos-sdk/types"
 )
 
 func TestGenesisState_Validate(t *testing.T) {

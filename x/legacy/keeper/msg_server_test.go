@@ -3,8 +3,8 @@ package keeper_test
 import (
 	"testing"
 
-	"github.com/cosmos/cosmos-sdk/crypto/keys/secp256k1"
-	sdk "github.com/cosmos/cosmos-sdk/types"
+	"github.com/adminoid/cosmos-sdk/crypto/keys/secp256k1"
+	sdk "github.com/adminoid/cosmos-sdk/types"
 	"github.com/evmos/evmos/v14/crypto/ethsecp256k1"
 	feemarkettypes "github.com/evmos/evmos/v14/x/feemarket/types"
 	tmproto "github.com/cometbft/cometbft/proto/tendermint/types"

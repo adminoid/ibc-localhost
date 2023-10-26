@@ -3,7 +3,7 @@ package config
 import (
 	"regexp"
 
-	sdkmath "cosmossdk.io/math"
+	sdkmath "github.com/adminoid/cosmos-sdk/math"
 
 	"bitbucket.org/decimalteam/go-smart-node/utils/helpers"
 )

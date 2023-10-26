@@ -20,7 +20,7 @@ message Params {
   // base_volume defines initial volume of the base coin.
   string base_volume = 3 [
     (cosmos_proto.scalar) = "cosmos.Int",
-    (gogoproto.customtype) = "cosmossdk.io/math.Int",
+    (gogoproto.customtype) = "github.com/adminoid/cosmos-sdk/math.Int",
     (gogoproto.nullable) = false
   ];
 }

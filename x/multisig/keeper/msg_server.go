@@ -3,7 +3,7 @@ package keeper
 import (
 	"context"
 
-	sdk "github.com/cosmos/cosmos-sdk/types"
+	sdk "github.com/adminoid/cosmos-sdk/types"
 
 	"bitbucket.org/decimalteam/go-smart-node/utils/events"
 	"bitbucket.org/decimalteam/go-smart-node/x/multisig/errors"

@@ -3,14 +3,14 @@ package tx
 import (
 	"fmt"
 
-	sdkmath "cosmossdk.io/math"
-	"github.com/cosmos/cosmos-sdk/client"
-	"github.com/cosmos/cosmos-sdk/codec"
-	codectypes "github.com/cosmos/cosmos-sdk/codec/types"
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	"github.com/cosmos/cosmos-sdk/types/tx/signing"
-	authsigning "github.com/cosmos/cosmos-sdk/x/auth/signing"
-	authTx "github.com/cosmos/cosmos-sdk/x/auth/tx"
+	sdkmath "github.com/adminoid/cosmos-sdk/math"
+	"github.com/adminoid/cosmos-sdk/client"
+	"github.com/adminoid/cosmos-sdk/codec"
+	codectypes "github.com/adminoid/cosmos-sdk/codec/types"
+	sdk "github.com/adminoid/cosmos-sdk/types"
+	"github.com/adminoid/cosmos-sdk/types/tx/signing"
+	authsigning "github.com/adminoid/cosmos-sdk/x/auth/signing"
+	authTx "github.com/adminoid/cosmos-sdk/x/auth/tx"
 
 	appAnte "bitbucket.org/decimalteam/go-smart-node/app/ante"
 	"bitbucket.org/decimalteam/go-smart-node/sdk/wallet"

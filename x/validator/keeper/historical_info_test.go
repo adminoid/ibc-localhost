@@ -4,7 +4,7 @@ import (
 	"reflect"
 	"testing"
 
-	sdk "github.com/cosmos/cosmos-sdk/types"
+	sdk "github.com/adminoid/cosmos-sdk/types"
 	"github.com/stretchr/testify/require"
 	tmproto "github.com/cometbft/cometbft/proto/tendermint/types"
 

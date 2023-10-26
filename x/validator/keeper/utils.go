@@ -4,8 +4,8 @@ import (
 	"bitbucket.org/decimalteam/go-smart-node/utils/formulas"
 	nfttypes "bitbucket.org/decimalteam/go-smart-node/x/nft/types"
 	"bitbucket.org/decimalteam/go-smart-node/x/validator/errors"
-	sdkmath "cosmossdk.io/math"
-	sdk "github.com/cosmos/cosmos-sdk/types"
+	sdkmath "github.com/adminoid/cosmos-sdk/math"
+	sdk "github.com/adminoid/cosmos-sdk/types"
 )
 
 func (k *Keeper) AddAccumRewards(ctx sdk.Context, valAddr sdk.ValAddress, r sdkmath.Int) error {

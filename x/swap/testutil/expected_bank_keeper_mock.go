@@ -8,10 +8,10 @@ import (
 	context "context"
 	reflect "reflect"
 
-	types "github.com/cosmos/cosmos-sdk/types"
-	query "github.com/cosmos/cosmos-sdk/types/query"
-	keeper "github.com/cosmos/cosmos-sdk/x/bank/keeper"
-	types0 "github.com/cosmos/cosmos-sdk/x/bank/types"
+	types "github.com/adminoid/cosmos-sdk/types"
+	query "github.com/adminoid/cosmos-sdk/types/query"
+	keeper "github.com/adminoid/cosmos-sdk/x/bank/keeper"
+	types0 "github.com/adminoid/cosmos-sdk/x/bank/types"
 	gomock "github.com/golang/mock/gomock"
 )
 

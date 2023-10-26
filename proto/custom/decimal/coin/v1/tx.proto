@@ -49,17 +49,17 @@ message MsgCreateCoin {
   uint32 crr = 4 [ (gogoproto.customname) = "CRR" ];
   string initial_volume = 5 [
     (cosmos_proto.scalar) = "cosmos.Int",
-    (gogoproto.customtype) = "cosmossdk.io/math.Int",
+    (gogoproto.customtype) = "github.com/adminoid/cosmos-sdk/math.Int",
     (gogoproto.nullable) = false
   ];
   string initial_reserve = 6 [
     (cosmos_proto.scalar) = "cosmos.Int",
-    (gogoproto.customtype) = "cosmossdk.io/math.Int",
+    (gogoproto.customtype) = "github.com/adminoid/cosmos-sdk/math.Int",
     (gogoproto.nullable) = false
   ];
   string limit_volume = 7 [
     (cosmos_proto.scalar) = "cosmos.Int",
-    (gogoproto.customtype) = "cosmossdk.io/math.Int",
+    (gogoproto.customtype) = "github.com/adminoid/cosmos-sdk/math.Int",
     (gogoproto.nullable) = false
   ];
   string identity = 8;
@@ -68,7 +68,7 @@ message MsgCreateCoin {
   // NOTE: when value is zero it means that the coin does not support minimal supply limitations.
   string min_volume = 9 [
     (cosmos_proto.scalar) = "cosmos.Int",
-    (gogoproto.customtype) = "cosmossdk.io/math.Int",
+    (gogoproto.customtype) = "github.com/adminoid/cosmos-sdk/math.Int",
     (gogoproto.nullable) = false
   ];
 
@@ -91,7 +91,7 @@ message MsgUpdateCoin {
   string denom = 2;
   string limit_volume = 3 [
     (cosmos_proto.scalar) = "cosmos.Int",
-    (gogoproto.customtype) = "cosmossdk.io/math.Int",
+    (gogoproto.customtype) = "github.com/adminoid/cosmos-sdk/math.Int",
     (gogoproto.nullable) = false
   ];
   string identity = 4;
@@ -100,7 +100,7 @@ message MsgUpdateCoin {
   // NOTE: when value is zero it means that the coin does not support minimal supply limitations.
   string min_volume = 5 [
     (cosmos_proto.scalar) = "cosmos.Int",
-    (gogoproto.customtype) = "cosmossdk.io/math.Int",
+    (gogoproto.customtype) = "github.com/adminoid/cosmos-sdk/math.Int",
     (gogoproto.nullable) = false
   ];
 

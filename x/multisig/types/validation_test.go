@@ -5,8 +5,8 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	sdkcodec "github.com/cosmos/cosmos-sdk/codec/types"
-	sdk "github.com/cosmos/cosmos-sdk/types"
+	sdkcodec "github.com/adminoid/cosmos-sdk/codec/types"
+	sdk "github.com/adminoid/cosmos-sdk/types"
 	"github.com/cometbft/cometbft/crypto/ed25519"
 
 	cmdcfg "bitbucket.org/decimalteam/go-smart-node/cmd/config"

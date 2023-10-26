@@ -6,8 +6,8 @@ import (
 
 	"github.com/spf13/cobra"
 
-	"github.com/cosmos/cosmos-sdk/client"
-	"github.com/cosmos/cosmos-sdk/client/flags"
+	"github.com/adminoid/cosmos-sdk/client"
+	"github.com/adminoid/cosmos-sdk/client/flags"
 
 	"bitbucket.org/decimalteam/go-smart-node/cmd/config"
 	"bitbucket.org/decimalteam/go-smart-node/x/swap/types"

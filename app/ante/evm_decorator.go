@@ -4,9 +4,9 @@ import (
 	cointypes "bitbucket.org/decimalteam/go-smart-node/x/coin/types"
 	"encoding/hex"
 
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	sdkerrors "github.com/cosmos/cosmos-sdk/types/errors"
-	bankkeeper "github.com/cosmos/cosmos-sdk/x/bank/keeper"
+	sdk "github.com/adminoid/cosmos-sdk/types"
+	sdkerrors "github.com/adminoid/cosmos-sdk/types/errors"
+	bankkeeper "github.com/adminoid/cosmos-sdk/x/bank/keeper"
 	ethante "github.com/evmos/evmos/v14/app/ante"
 	evmtypes "github.com/evmos/evmos/v14/x/evm/types"
 )

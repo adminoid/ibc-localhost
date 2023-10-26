@@ -5,11 +5,11 @@ package types
 
 import (
 	context "context"
-	cosmossdk_io_math "cosmossdk.io/math"
+	cosmossdk_io_math "github.com/adminoid/cosmos-sdk/math"
 	fmt "fmt"
 	_ "github.com/cosmos/cosmos-proto"
-	github_com_cosmos_cosmos_sdk_types "github.com/cosmos/cosmos-sdk/types"
-	query "github.com/cosmos/cosmos-sdk/types/query"
+	github_com_cosmos_cosmos_sdk_types "github.com/adminoid/cosmos-sdk/types"
+	query "github.com/adminoid/cosmos-sdk/types/query"
 	_ "github.com/gogo/protobuf/gogoproto"
 	grpc1 "github.com/gogo/protobuf/grpc"
 	proto "github.com/gogo/protobuf/proto"
@@ -1595,7 +1595,7 @@ func (m *QueryCustomCoinPriceRequest) GetDenom() string {
 }
 
 type QueryCustomCoinPriceResponse struct {
-	Price github_com_cosmos_cosmos_sdk_types.Dec `protobuf:"bytes,1,opt,name=price,proto3,customtype=github.com/cosmos/cosmos-sdk/types.Dec" json:"price"`
+	Price github_com_cosmos_cosmos_sdk_types.Dec `protobuf:"bytes,1,opt,name=price,proto3,customtype=github.com/adminoid/cosmos-sdk/types.Dec" json:"price"`
 }
 
 func (m *QueryCustomCoinPriceResponse) Reset()         { *m = QueryCustomCoinPriceResponse{} }
@@ -1676,7 +1676,7 @@ func (m *QueryTotalCustomCoinRequest) GetDenom() string {
 }
 
 type QueryTotalCustomCoinResponse struct {
-	TotalAmount cosmossdk_io_math.Int `protobuf:"bytes,1,opt,name=total_amount,json=totalAmount,proto3,customtype=cosmossdk.io/math.Int" json:"total_amount"`
+	TotalAmount cosmossdk_io_math.Int `protobuf:"bytes,1,opt,name=total_amount,json=totalAmount,proto3,customtype=github.com/adminoid/cosmos-sdk/math.Int" json:"total_amount"`
 }
 
 func (m *QueryTotalCustomCoinResponse) Reset()         { *m = QueryTotalCustomCoinResponse{} }

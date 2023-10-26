@@ -4,9 +4,9 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/cosmos/cosmos-sdk/telemetry"
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	authtypes "github.com/cosmos/cosmos-sdk/x/auth/types"
+	"github.com/adminoid/cosmos-sdk/telemetry"
+	sdk "github.com/adminoid/cosmos-sdk/types"
+	authtypes "github.com/adminoid/cosmos-sdk/x/auth/types"
 	abci "github.com/cometbft/cometbft/abci/types"
 
 	"bitbucket.org/decimalteam/go-smart-node/utils/formulas"

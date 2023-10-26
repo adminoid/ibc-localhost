@@ -5,8 +5,8 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	authtypes "github.com/cosmos/cosmos-sdk/x/auth/types"
-	"github.com/cosmos/cosmos-sdk/x/staking/types"
+	authtypes "github.com/adminoid/cosmos-sdk/x/auth/types"
+	"github.com/adminoid/cosmos-sdk/x/staking/types"
 
 	testkeeper "bitbucket.org/decimalteam/go-smart-node/testutil/keeper"
 )

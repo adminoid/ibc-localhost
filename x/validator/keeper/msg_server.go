@@ -4,9 +4,9 @@ import (
 	"context"
 	"time"
 
-	sdkmath "cosmossdk.io/math"
-	cryptotypes "github.com/cosmos/cosmos-sdk/crypto/types"
-	sdk "github.com/cosmos/cosmos-sdk/types"
+	sdkmath "github.com/adminoid/cosmos-sdk/math"
+	cryptotypes "github.com/adminoid/cosmos-sdk/crypto/types"
+	sdk "github.com/adminoid/cosmos-sdk/types"
 
 	"bitbucket.org/decimalteam/go-smart-node/utils/events"
 	"bitbucket.org/decimalteam/go-smart-node/x/validator/errors"
