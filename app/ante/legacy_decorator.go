@@ -3,9 +3,9 @@ package ante
 import (
 	commonTypes "bitbucket.org/decimalteam/go-smart-node/types"
 	legacyTypes "bitbucket.org/decimalteam/go-smart-node/x/legacy/types"
-	sdk "github.com/adminoid/cosmos-sdk/types"
-	sdkerrors "github.com/adminoid/cosmos-sdk/types/errors"
-	authsigning "github.com/adminoid/cosmos-sdk/x/auth/signing"
+	sdk "github.com/cosmos/cosmos-sdk/types"
+	sdkerrors "github.com/cosmos/cosmos-sdk/types/errors"
+	authsigning "github.com/cosmos/cosmos-sdk/x/auth/signing"
 )
 
 type LegacyActualizerDecorator struct {

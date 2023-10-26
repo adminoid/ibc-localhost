@@ -4,7 +4,7 @@ import (
 	"context"
 
 	multisigtypes "bitbucket.org/decimalteam/go-smart-node/x/multisig/types"
-	query "github.com/adminoid/cosmos-sdk/types/query"
+	query "github.com/cosmos/cosmos-sdk/types/query"
 )
 
 type MultisigWallet = multisigtypes.Wallet

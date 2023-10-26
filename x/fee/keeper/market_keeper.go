@@ -8,7 +8,7 @@ import (
 	feeconfig "bitbucket.org/decimalteam/go-smart-node/x/fee/config"
 
 	"bitbucket.org/decimalteam/go-smart-node/x/fee/types"
-	sdk "github.com/adminoid/cosmos-sdk/types"
+	sdk "github.com/cosmos/cosmos-sdk/types"
 	feemarkettypes "github.com/evmos/evmos/v14/x/feemarket/types"
 )
 

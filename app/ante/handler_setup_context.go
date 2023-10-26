@@ -3,8 +3,8 @@ package ante
 import (
 	"fmt"
 
-	sdk "github.com/adminoid/cosmos-sdk/types"
-	sdkerrors "github.com/adminoid/cosmos-sdk/types/errors"
+	sdk "github.com/cosmos/cosmos-sdk/types"
+	sdkerrors "github.com/cosmos/cosmos-sdk/types/errors"
 )
 
 type GasTx interface {

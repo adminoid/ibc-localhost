@@ -10,7 +10,7 @@ import (
 	types "bitbucket.org/decimalteam/go-smart-node/x/multisig/types"
 	types0 "bitbucket.org/decimalteam/go-smart-node/x/nft/types"
 	types1 "bitbucket.org/decimalteam/go-smart-node/x/validator/types"
-	types2 "github.com/adminoid/cosmos-sdk/types"
+	types2 "github.com/cosmos/cosmos-sdk/types"
 	gomock "github.com/golang/mock/gomock"
 )
 

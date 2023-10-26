@@ -3,7 +3,7 @@ package tests
 import (
 	"testing"
 
-	sdk "github.com/adminoid/cosmos-sdk/types"
+	sdk "github.com/cosmos/cosmos-sdk/types"
 	"github.com/stretchr/testify/require"
 
 	"bitbucket.org/decimalteam/go-smart-node/x/multisig/client/cli"

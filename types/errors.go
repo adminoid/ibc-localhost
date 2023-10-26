@@ -1,7 +1,7 @@
 package types
 
 import (
-	sdkerrors "github.com/adminoid/cosmos-sdk/errors"
+	sdkerrors "github.com/cosmos/cosmos-sdk/errors"
 )
 
 // RootCodespace is the codespace for all errors defined in the project.

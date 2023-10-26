@@ -4,7 +4,7 @@ import (
 	"context"
 
 	feetypes "bitbucket.org/decimalteam/go-smart-node/x/fee/types"
-	sdk "github.com/adminoid/cosmos-sdk/types"
+	sdk "github.com/cosmos/cosmos-sdk/types"
 )
 
 const QuotePair = "usd"

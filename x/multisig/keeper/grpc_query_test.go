@@ -4,9 +4,9 @@ import (
 	gocontext "context"
 	"fmt"
 
-	sdkcodec "github.com/adminoid/cosmos-sdk/codec/types"
-	sdk "github.com/adminoid/cosmos-sdk/types"
-	"github.com/adminoid/cosmos-sdk/types/query"
+	sdkcodec "github.com/cosmos/cosmos-sdk/codec/types"
+	sdk "github.com/cosmos/cosmos-sdk/types"
+	"github.com/cosmos/cosmos-sdk/types/query"
 
 	cointypes "bitbucket.org/decimalteam/go-smart-node/x/coin/types"
 	"bitbucket.org/decimalteam/go-smart-node/x/multisig/types"

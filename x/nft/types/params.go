@@ -4,7 +4,7 @@ import (
 	"fmt"
 
 	sdkmath "github.com/adminoid/cosmos-sdk/math"
-	paramtypes "github.com/adminoid/cosmos-sdk/x/params/types"
+	paramtypes "github.com/cosmos/cosmos-sdk/x/params/types"
 
 	"bitbucket.org/decimalteam/go-smart-node/utils/helpers"
 )

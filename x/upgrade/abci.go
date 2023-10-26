@@ -7,11 +7,11 @@ import (
 
 	abci "github.com/cometbft/cometbft/abci/types"
 
-	"github.com/adminoid/cosmos-sdk/telemetry"
-	sdk "github.com/adminoid/cosmos-sdk/types"
+	"github.com/cosmos/cosmos-sdk/telemetry"
+	sdk "github.com/cosmos/cosmos-sdk/types"
 
-	"github.com/adminoid/cosmos-sdk/x/upgrade/keeper"
-	"github.com/adminoid/cosmos-sdk/x/upgrade/types"
+	"github.com/cosmos/cosmos-sdk/x/upgrade/keeper"
+	"github.com/cosmos/cosmos-sdk/x/upgrade/types"
 
 	cmdcfg "bitbucket.org/decimalteam/go-smart-node/cmd/config"
 )

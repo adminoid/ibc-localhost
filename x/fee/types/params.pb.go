@@ -6,7 +6,7 @@ package types
 import (
 	fmt "fmt"
 	_ "github.com/cosmos/cosmos-proto"
-	github_com_cosmos_cosmos_sdk_types "github.com/adminoid/cosmos-sdk/types"
+	github_com_cosmos_cosmos_sdk_types "github.com/cosmos/cosmos-sdk/types"
 	_ "github.com/gogo/protobuf/gogoproto"
 	proto "github.com/gogo/protobuf/proto"
 	io "io"
@@ -28,52 +28,52 @@ const _ = proto.GoGoProtoPackageIsVersion3 // please upgrade the proto package
 // Params defines transaction fees calculation constants for the entire application.
 type Params struct {
 	// tx common fee depends on raw transaction size in bytes
-	TxByteFee github_com_cosmos_cosmos_sdk_types.Dec `protobuf:"bytes,1,opt,name=tx_byte_fee,json=txByteFee,proto3,customtype=github.com/adminoid/cosmos-sdk/types.Dec" json:"tx_byte_fee"`
+	TxByteFee github_com_cosmos_cosmos_sdk_types.Dec `protobuf:"bytes,1,opt,name=tx_byte_fee,json=txByteFee,proto3,customtype=github.com/cosmos/cosmos-sdk/types.Dec" json:"tx_byte_fee"`
 	// coin creation special fee depends on coin ticker length
-	CoinCreateTicker3 github_com_cosmos_cosmos_sdk_types.Dec `protobuf:"bytes,3,opt,name=coin_create_ticker_3,json=coinCreateTicker3,proto3,customtype=github.com/adminoid/cosmos-sdk/types.Dec" json:"coin_create_ticker_3"`
-	CoinCreateTicker4 github_com_cosmos_cosmos_sdk_types.Dec `protobuf:"bytes,4,opt,name=coin_create_ticker_4,json=coinCreateTicker4,proto3,customtype=github.com/adminoid/cosmos-sdk/types.Dec" json:"coin_create_ticker_4"`
-	CoinCreateTicker5 github_com_cosmos_cosmos_sdk_types.Dec `protobuf:"bytes,5,opt,name=coin_create_ticker_5,json=coinCreateTicker5,proto3,customtype=github.com/adminoid/cosmos-sdk/types.Dec" json:"coin_create_ticker_5"`
-	CoinCreateTicker6 github_com_cosmos_cosmos_sdk_types.Dec `protobuf:"bytes,6,opt,name=coin_create_ticker_6,json=coinCreateTicker6,proto3,customtype=github.com/adminoid/cosmos-sdk/types.Dec" json:"coin_create_ticker_6"`
-	CoinCreateTicker7 github_com_cosmos_cosmos_sdk_types.Dec `protobuf:"bytes,7,opt,name=coin_create_ticker_7,json=coinCreateTicker7,proto3,customtype=github.com/adminoid/cosmos-sdk/types.Dec" json:"coin_create_ticker_7"`
+	CoinCreateTicker3 github_com_cosmos_cosmos_sdk_types.Dec `protobuf:"bytes,3,opt,name=coin_create_ticker_3,json=coinCreateTicker3,proto3,customtype=github.com/cosmos/cosmos-sdk/types.Dec" json:"coin_create_ticker_3"`
+	CoinCreateTicker4 github_com_cosmos_cosmos_sdk_types.Dec `protobuf:"bytes,4,opt,name=coin_create_ticker_4,json=coinCreateTicker4,proto3,customtype=github.com/cosmos/cosmos-sdk/types.Dec" json:"coin_create_ticker_4"`
+	CoinCreateTicker5 github_com_cosmos_cosmos_sdk_types.Dec `protobuf:"bytes,5,opt,name=coin_create_ticker_5,json=coinCreateTicker5,proto3,customtype=github.com/cosmos/cosmos-sdk/types.Dec" json:"coin_create_ticker_5"`
+	CoinCreateTicker6 github_com_cosmos_cosmos_sdk_types.Dec `protobuf:"bytes,6,opt,name=coin_create_ticker_6,json=coinCreateTicker6,proto3,customtype=github.com/cosmos/cosmos-sdk/types.Dec" json:"coin_create_ticker_6"`
+	CoinCreateTicker7 github_com_cosmos_cosmos_sdk_types.Dec `protobuf:"bytes,7,opt,name=coin_create_ticker_7,json=coinCreateTicker7,proto3,customtype=github.com/cosmos/cosmos-sdk/types.Dec" json:"coin_create_ticker_7"`
 	// coin fees
-	CoinCreate      github_com_cosmos_cosmos_sdk_types.Dec `protobuf:"bytes,11,opt,name=coin_create,json=coinCreate,proto3,customtype=github.com/adminoid/cosmos-sdk/types.Dec" json:"coin_create"`
-	CoinUpdate      github_com_cosmos_cosmos_sdk_types.Dec `protobuf:"bytes,12,opt,name=coin_update,json=coinUpdate,proto3,customtype=github.com/adminoid/cosmos-sdk/types.Dec" json:"coin_update"`
-	CoinSend        github_com_cosmos_cosmos_sdk_types.Dec `protobuf:"bytes,13,opt,name=coin_send,json=coinSend,proto3,customtype=github.com/adminoid/cosmos-sdk/types.Dec" json:"coin_send"`
-	CoinSendAdd     github_com_cosmos_cosmos_sdk_types.Dec `protobuf:"bytes,14,opt,name=coin_send_add,json=coinSendAdd,proto3,customtype=github.com/adminoid/cosmos-sdk/types.Dec" json:"coin_send_add"`
-	CoinBuy         github_com_cosmos_cosmos_sdk_types.Dec `protobuf:"bytes,15,opt,name=coin_buy,json=coinBuy,proto3,customtype=github.com/adminoid/cosmos-sdk/types.Dec" json:"coin_buy"`
-	CoinSell        github_com_cosmos_cosmos_sdk_types.Dec `protobuf:"bytes,16,opt,name=coin_sell,json=coinSell,proto3,customtype=github.com/adminoid/cosmos-sdk/types.Dec" json:"coin_sell"`
-	CoinRedeemCheck github_com_cosmos_cosmos_sdk_types.Dec `protobuf:"bytes,17,opt,name=coin_redeem_check,json=coinRedeemCheck,proto3,customtype=github.com/adminoid/cosmos-sdk/types.Dec" json:"coin_redeem_check"`
-	CoinBurn        github_com_cosmos_cosmos_sdk_types.Dec `protobuf:"bytes,18,opt,name=coin_burn,json=coinBurn,proto3,customtype=github.com/adminoid/cosmos-sdk/types.Dec" json:"coin_burn"`
+	CoinCreate      github_com_cosmos_cosmos_sdk_types.Dec `protobuf:"bytes,11,opt,name=coin_create,json=coinCreate,proto3,customtype=github.com/cosmos/cosmos-sdk/types.Dec" json:"coin_create"`
+	CoinUpdate      github_com_cosmos_cosmos_sdk_types.Dec `protobuf:"bytes,12,opt,name=coin_update,json=coinUpdate,proto3,customtype=github.com/cosmos/cosmos-sdk/types.Dec" json:"coin_update"`
+	CoinSend        github_com_cosmos_cosmos_sdk_types.Dec `protobuf:"bytes,13,opt,name=coin_send,json=coinSend,proto3,customtype=github.com/cosmos/cosmos-sdk/types.Dec" json:"coin_send"`
+	CoinSendAdd     github_com_cosmos_cosmos_sdk_types.Dec `protobuf:"bytes,14,opt,name=coin_send_add,json=coinSendAdd,proto3,customtype=github.com/cosmos/cosmos-sdk/types.Dec" json:"coin_send_add"`
+	CoinBuy         github_com_cosmos_cosmos_sdk_types.Dec `protobuf:"bytes,15,opt,name=coin_buy,json=coinBuy,proto3,customtype=github.com/cosmos/cosmos-sdk/types.Dec" json:"coin_buy"`
+	CoinSell        github_com_cosmos_cosmos_sdk_types.Dec `protobuf:"bytes,16,opt,name=coin_sell,json=coinSell,proto3,customtype=github.com/cosmos/cosmos-sdk/types.Dec" json:"coin_sell"`
+	CoinRedeemCheck github_com_cosmos_cosmos_sdk_types.Dec `protobuf:"bytes,17,opt,name=coin_redeem_check,json=coinRedeemCheck,proto3,customtype=github.com/cosmos/cosmos-sdk/types.Dec" json:"coin_redeem_check"`
+	CoinBurn        github_com_cosmos_cosmos_sdk_types.Dec `protobuf:"bytes,18,opt,name=coin_burn,json=coinBurn,proto3,customtype=github.com/cosmos/cosmos-sdk/types.Dec" json:"coin_burn"`
 	// multisig fees
-	MultisigCreateWallet      github_com_cosmos_cosmos_sdk_types.Dec `protobuf:"bytes,21,opt,name=multisig_create_wallet,json=multisigCreateWallet,proto3,customtype=github.com/adminoid/cosmos-sdk/types.Dec" json:"multisig_create_wallet"`
-	MultisigCreateTransaction github_com_cosmos_cosmos_sdk_types.Dec `protobuf:"bytes,22,opt,name=multisig_create_transaction,json=multisigCreateTransaction,proto3,customtype=github.com/adminoid/cosmos-sdk/types.Dec" json:"multisig_create_transaction"`
-	MultisigSignTransaction   github_com_cosmos_cosmos_sdk_types.Dec `protobuf:"bytes,23,opt,name=multisig_sign_transaction,json=multisigSignTransaction,proto3,customtype=github.com/adminoid/cosmos-sdk/types.Dec" json:"multisig_sign_transaction"`
+	MultisigCreateWallet      github_com_cosmos_cosmos_sdk_types.Dec `protobuf:"bytes,21,opt,name=multisig_create_wallet,json=multisigCreateWallet,proto3,customtype=github.com/cosmos/cosmos-sdk/types.Dec" json:"multisig_create_wallet"`
+	MultisigCreateTransaction github_com_cosmos_cosmos_sdk_types.Dec `protobuf:"bytes,22,opt,name=multisig_create_transaction,json=multisigCreateTransaction,proto3,customtype=github.com/cosmos/cosmos-sdk/types.Dec" json:"multisig_create_transaction"`
+	MultisigSignTransaction   github_com_cosmos_cosmos_sdk_types.Dec `protobuf:"bytes,23,opt,name=multisig_sign_transaction,json=multisigSignTransaction,proto3,customtype=github.com/cosmos/cosmos-sdk/types.Dec" json:"multisig_sign_transaction"`
 	// nft fees
-	NftMintToken     github_com_cosmos_cosmos_sdk_types.Dec `protobuf:"bytes,31,opt,name=nft_mint_token,json=nftMintToken,proto3,customtype=github.com/adminoid/cosmos-sdk/types.Dec" json:"nft_mint_token"`
-	NftUpdateToken   github_com_cosmos_cosmos_sdk_types.Dec `protobuf:"bytes,32,opt,name=nft_update_token,json=nftUpdateToken,proto3,customtype=github.com/adminoid/cosmos-sdk/types.Dec" json:"nft_update_token"`
-	NftUpdateReserve github_com_cosmos_cosmos_sdk_types.Dec `protobuf:"bytes,33,opt,name=nft_update_reserve,json=nftUpdateReserve,proto3,customtype=github.com/adminoid/cosmos-sdk/types.Dec" json:"nft_update_reserve"`
-	NftSendToken     github_com_cosmos_cosmos_sdk_types.Dec `protobuf:"bytes,34,opt,name=nft_send_token,json=nftSendToken,proto3,customtype=github.com/adminoid/cosmos-sdk/types.Dec" json:"nft_send_token"`
-	NftBurnToken     github_com_cosmos_cosmos_sdk_types.Dec `protobuf:"bytes,35,opt,name=nft_burn_token,json=nftBurnToken,proto3,customtype=github.com/adminoid/cosmos-sdk/types.Dec" json:"nft_burn_token"`
+	NftMintToken     github_com_cosmos_cosmos_sdk_types.Dec `protobuf:"bytes,31,opt,name=nft_mint_token,json=nftMintToken,proto3,customtype=github.com/cosmos/cosmos-sdk/types.Dec" json:"nft_mint_token"`
+	NftUpdateToken   github_com_cosmos_cosmos_sdk_types.Dec `protobuf:"bytes,32,opt,name=nft_update_token,json=nftUpdateToken,proto3,customtype=github.com/cosmos/cosmos-sdk/types.Dec" json:"nft_update_token"`
+	NftUpdateReserve github_com_cosmos_cosmos_sdk_types.Dec `protobuf:"bytes,33,opt,name=nft_update_reserve,json=nftUpdateReserve,proto3,customtype=github.com/cosmos/cosmos-sdk/types.Dec" json:"nft_update_reserve"`
+	NftSendToken     github_com_cosmos_cosmos_sdk_types.Dec `protobuf:"bytes,34,opt,name=nft_send_token,json=nftSendToken,proto3,customtype=github.com/cosmos/cosmos-sdk/types.Dec" json:"nft_send_token"`
+	NftBurnToken     github_com_cosmos_cosmos_sdk_types.Dec `protobuf:"bytes,35,opt,name=nft_burn_token,json=nftBurnToken,proto3,customtype=github.com/cosmos/cosmos-sdk/types.Dec" json:"nft_burn_token"`
 	// swap fees
-	SwapActivateChain   github_com_cosmos_cosmos_sdk_types.Dec `protobuf:"bytes,41,opt,name=swap_activate_chain,json=swapActivateChain,proto3,customtype=github.com/adminoid/cosmos-sdk/types.Dec" json:"swap_activate_chain"`
-	SwapDeactivateChain github_com_cosmos_cosmos_sdk_types.Dec `protobuf:"bytes,42,opt,name=swap_deactivate_chain,json=swapDeactivateChain,proto3,customtype=github.com/adminoid/cosmos-sdk/types.Dec" json:"swap_deactivate_chain"`
-	SwapInitialize      github_com_cosmos_cosmos_sdk_types.Dec `protobuf:"bytes,43,opt,name=swap_initialize,json=swapInitialize,proto3,customtype=github.com/adminoid/cosmos-sdk/types.Dec" json:"swap_initialize"`
-	SwapRedeem          github_com_cosmos_cosmos_sdk_types.Dec `protobuf:"bytes,44,opt,name=swap_redeem,json=swapRedeem,proto3,customtype=github.com/adminoid/cosmos-sdk/types.Dec" json:"swap_redeem"`
+	SwapActivateChain   github_com_cosmos_cosmos_sdk_types.Dec `protobuf:"bytes,41,opt,name=swap_activate_chain,json=swapActivateChain,proto3,customtype=github.com/cosmos/cosmos-sdk/types.Dec" json:"swap_activate_chain"`
+	SwapDeactivateChain github_com_cosmos_cosmos_sdk_types.Dec `protobuf:"bytes,42,opt,name=swap_deactivate_chain,json=swapDeactivateChain,proto3,customtype=github.com/cosmos/cosmos-sdk/types.Dec" json:"swap_deactivate_chain"`
+	SwapInitialize      github_com_cosmos_cosmos_sdk_types.Dec `protobuf:"bytes,43,opt,name=swap_initialize,json=swapInitialize,proto3,customtype=github.com/cosmos/cosmos-sdk/types.Dec" json:"swap_initialize"`
+	SwapRedeem          github_com_cosmos_cosmos_sdk_types.Dec `protobuf:"bytes,44,opt,name=swap_redeem,json=swapRedeem,proto3,customtype=github.com/cosmos/cosmos-sdk/types.Dec" json:"swap_redeem"`
 	// validator fees
-	ValidatorCreateValidator github_com_cosmos_cosmos_sdk_types.Dec `protobuf:"bytes,51,opt,name=validator_create_validator,json=validatorCreateValidator,proto3,customtype=github.com/adminoid/cosmos-sdk/types.Dec" json:"validator_create_validator"`
-	ValidatorEditValidator   github_com_cosmos_cosmos_sdk_types.Dec `protobuf:"bytes,52,opt,name=validator_edit_validator,json=validatorEditValidator,proto3,customtype=github.com/adminoid/cosmos-sdk/types.Dec" json:"validator_edit_validator"`
-	ValidatorDelegate        github_com_cosmos_cosmos_sdk_types.Dec `protobuf:"bytes,53,opt,name=validator_delegate,json=validatorDelegate,proto3,customtype=github.com/adminoid/cosmos-sdk/types.Dec" json:"validator_delegate"`
-	ValidatorDelegateNFT     github_com_cosmos_cosmos_sdk_types.Dec `protobuf:"bytes,54,opt,name=validator_delegate_nft,json=validatorDelegateNft,proto3,customtype=github.com/adminoid/cosmos-sdk/types.Dec" json:"validator_delegate_nft"`
-	ValidatorRedelegate      github_com_cosmos_cosmos_sdk_types.Dec `protobuf:"bytes,55,opt,name=validator_redelegate,json=validatorRedelegate,proto3,customtype=github.com/adminoid/cosmos-sdk/types.Dec" json:"validator_redelegate"`
-	ValidatorRedelegateNFT   github_com_cosmos_cosmos_sdk_types.Dec `protobuf:"bytes,56,opt,name=validator_redelegate_nft,json=validatorRedelegateNft,proto3,customtype=github.com/adminoid/cosmos-sdk/types.Dec" json:"validator_redelegate_nft"`
-	ValidatorUndelegate      github_com_cosmos_cosmos_sdk_types.Dec `protobuf:"bytes,57,opt,name=validator_undelegate,json=validatorUndelegate,proto3,customtype=github.com/adminoid/cosmos-sdk/types.Dec" json:"validator_undelegate"`
-	ValidatorUndelegateNFT   github_com_cosmos_cosmos_sdk_types.Dec `protobuf:"bytes,58,opt,name=validator_undelegate_nft,json=validatorUndelegateNft,proto3,customtype=github.com/adminoid/cosmos-sdk/types.Dec" json:"validator_undelegate_nft"`
-	ValidatorSetOnline       github_com_cosmos_cosmos_sdk_types.Dec `protobuf:"bytes,59,opt,name=validator_set_online,json=validatorSetOnline,proto3,customtype=github.com/adminoid/cosmos-sdk/types.Dec" json:"validator_set_online"`
-	ValidatorSetOffline      github_com_cosmos_cosmos_sdk_types.Dec `protobuf:"bytes,60,opt,name=validator_set_offline,json=validatorSetOffline,proto3,customtype=github.com/adminoid/cosmos-sdk/types.Dec" json:"validator_set_offline"`
+	ValidatorCreateValidator github_com_cosmos_cosmos_sdk_types.Dec `protobuf:"bytes,51,opt,name=validator_create_validator,json=validatorCreateValidator,proto3,customtype=github.com/cosmos/cosmos-sdk/types.Dec" json:"validator_create_validator"`
+	ValidatorEditValidator   github_com_cosmos_cosmos_sdk_types.Dec `protobuf:"bytes,52,opt,name=validator_edit_validator,json=validatorEditValidator,proto3,customtype=github.com/cosmos/cosmos-sdk/types.Dec" json:"validator_edit_validator"`
+	ValidatorDelegate        github_com_cosmos_cosmos_sdk_types.Dec `protobuf:"bytes,53,opt,name=validator_delegate,json=validatorDelegate,proto3,customtype=github.com/cosmos/cosmos-sdk/types.Dec" json:"validator_delegate"`
+	ValidatorDelegateNFT     github_com_cosmos_cosmos_sdk_types.Dec `protobuf:"bytes,54,opt,name=validator_delegate_nft,json=validatorDelegateNft,proto3,customtype=github.com/cosmos/cosmos-sdk/types.Dec" json:"validator_delegate_nft"`
+	ValidatorRedelegate      github_com_cosmos_cosmos_sdk_types.Dec `protobuf:"bytes,55,opt,name=validator_redelegate,json=validatorRedelegate,proto3,customtype=github.com/cosmos/cosmos-sdk/types.Dec" json:"validator_redelegate"`
+	ValidatorRedelegateNFT   github_com_cosmos_cosmos_sdk_types.Dec `protobuf:"bytes,56,opt,name=validator_redelegate_nft,json=validatorRedelegateNft,proto3,customtype=github.com/cosmos/cosmos-sdk/types.Dec" json:"validator_redelegate_nft"`
+	ValidatorUndelegate      github_com_cosmos_cosmos_sdk_types.Dec `protobuf:"bytes,57,opt,name=validator_undelegate,json=validatorUndelegate,proto3,customtype=github.com/cosmos/cosmos-sdk/types.Dec" json:"validator_undelegate"`
+	ValidatorUndelegateNFT   github_com_cosmos_cosmos_sdk_types.Dec `protobuf:"bytes,58,opt,name=validator_undelegate_nft,json=validatorUndelegateNft,proto3,customtype=github.com/cosmos/cosmos-sdk/types.Dec" json:"validator_undelegate_nft"`
+	ValidatorSetOnline       github_com_cosmos_cosmos_sdk_types.Dec `protobuf:"bytes,59,opt,name=validator_set_online,json=validatorSetOnline,proto3,customtype=github.com/cosmos/cosmos-sdk/types.Dec" json:"validator_set_online"`
+	ValidatorSetOffline      github_com_cosmos_cosmos_sdk_types.Dec `protobuf:"bytes,60,opt,name=validator_set_offline,json=validatorSetOffline,proto3,customtype=github.com/cosmos/cosmos-sdk/types.Dec" json:"validator_set_offline"`
 	// commission burn factor
-	CommissionBurnFactor github_com_cosmos_cosmos_sdk_types.Dec `protobuf:"bytes,61,opt,name=commission_burn_factor,json=commissionBurnFactor,proto3,customtype=github.com/adminoid/cosmos-sdk/types.Dec" json:"commission_burn_factor"`
+	CommissionBurnFactor github_com_cosmos_cosmos_sdk_types.Dec `protobuf:"bytes,61,opt,name=commission_burn_factor,json=commissionBurnFactor,proto3,customtype=github.com/cosmos/cosmos-sdk/types.Dec" json:"commission_burn_factor"`
 	// evm tx commissions
-	EvmGasPrice github_com_cosmos_cosmos_sdk_types.Dec `protobuf:"bytes,62,opt,name=evm_gas_price,json=evmGasPrice,proto3,customtype=github.com/adminoid/cosmos-sdk/types.Dec" json:"evm_gas_price"`
+	EvmGasPrice github_com_cosmos_cosmos_sdk_types.Dec `protobuf:"bytes,62,opt,name=evm_gas_price,json=evmGasPrice,proto3,customtype=github.com/cosmos/cosmos-sdk/types.Dec" json:"evm_gas_price"`
 	// oracle defines address empowered to update coin prices.
 	Oracle string `protobuf:"bytes,63,opt,name=oracle,proto3" json:"oracle,omitempty"`
 }

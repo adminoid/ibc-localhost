@@ -9,7 +9,7 @@ import (
 	ethcmn "github.com/ethereum/go-ethereum/common"
 	"github.com/stretchr/testify/require"
 
-	sdk "github.com/adminoid/cosmos-sdk/types"
+	sdk "github.com/cosmos/cosmos-sdk/types"
 )
 
 func TestEcrecover(t *testing.T) {

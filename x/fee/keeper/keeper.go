@@ -5,11 +5,11 @@ import (
 
 	"github.com/cometbft/cometbft/libs/log"
 
-	"github.com/adminoid/cosmos-sdk/codec"
-	sdkstore "github.com/adminoid/cosmos-sdk/store/types"
-	sdk "github.com/adminoid/cosmos-sdk/types"
-	"github.com/adminoid/cosmos-sdk/x/bank/keeper"
-	paramtypes "github.com/adminoid/cosmos-sdk/x/params/types"
+	"github.com/cosmos/cosmos-sdk/codec"
+	sdkstore "github.com/cosmos/cosmos-sdk/store/types"
+	sdk "github.com/cosmos/cosmos-sdk/types"
+	"github.com/cosmos/cosmos-sdk/x/bank/keeper"
+	paramtypes "github.com/cosmos/cosmos-sdk/x/params/types"
 
 	"bitbucket.org/decimalteam/go-smart-node/x/fee/errors"
 	"bitbucket.org/decimalteam/go-smart-node/x/fee/types"

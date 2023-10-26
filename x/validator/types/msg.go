@@ -1,10 +1,10 @@
 package types
 
 import (
-	codectypes "github.com/adminoid/cosmos-sdk/codec/types"
-	cryptotypes "github.com/adminoid/cosmos-sdk/crypto/types"
-	sdk "github.com/adminoid/cosmos-sdk/types"
-	sdkerrors "github.com/adminoid/cosmos-sdk/types/errors"
+	codectypes "github.com/cosmos/cosmos-sdk/codec/types"
+	cryptotypes "github.com/cosmos/cosmos-sdk/crypto/types"
+	sdk "github.com/cosmos/cosmos-sdk/types"
+	sdkerrors "github.com/cosmos/cosmos-sdk/types/errors"
 
 	"bitbucket.org/decimalteam/go-smart-node/x/validator/errors"
 )

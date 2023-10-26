@@ -2,8 +2,8 @@ package keeper
 
 import (
 	sdkmath "github.com/adminoid/cosmos-sdk/math"
-	sdk "github.com/adminoid/cosmos-sdk/types"
-	authtypes "github.com/adminoid/cosmos-sdk/x/auth/types"
+	sdk "github.com/cosmos/cosmos-sdk/types"
+	authtypes "github.com/cosmos/cosmos-sdk/x/auth/types"
 
 	"bitbucket.org/decimalteam/go-smart-node/x/validator/types"
 )

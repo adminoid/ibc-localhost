@@ -1,15 +1,15 @@
 package tx
 
 import (
-	"github.com/adminoid/cosmos-sdk/codec"
-	sdk "github.com/adminoid/cosmos-sdk/types"
+	"github.com/cosmos/cosmos-sdk/codec"
+	sdk "github.com/cosmos/cosmos-sdk/types"
 
 	cointypes "bitbucket.org/decimalteam/go-smart-node/x/coin/types"
 	feetypes "bitbucket.org/decimalteam/go-smart-node/x/fee/types"
 	multisigtypes "bitbucket.org/decimalteam/go-smart-node/x/multisig/types"
 	nfttypes "bitbucket.org/decimalteam/go-smart-node/x/nft/types"
 	validatortypes "bitbucket.org/decimalteam/go-smart-node/x/validator/types"
-	upgradetypes "github.com/adminoid/cosmos-sdk/x/upgrade/types"
+	upgradetypes "github.com/cosmos/cosmos-sdk/x/upgrade/types"
 )
 
 type (

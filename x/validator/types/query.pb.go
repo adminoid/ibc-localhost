@@ -8,8 +8,8 @@ import (
 	cosmossdk_io_math "github.com/adminoid/cosmos-sdk/math"
 	fmt "fmt"
 	_ "github.com/cosmos/cosmos-proto"
-	github_com_cosmos_cosmos_sdk_types "github.com/adminoid/cosmos-sdk/types"
-	query "github.com/adminoid/cosmos-sdk/types/query"
+	github_com_cosmos_cosmos_sdk_types "github.com/cosmos/cosmos-sdk/types"
+	query "github.com/cosmos/cosmos-sdk/types/query"
 	_ "github.com/gogo/protobuf/gogoproto"
 	grpc1 "github.com/gogo/protobuf/grpc"
 	proto "github.com/gogo/protobuf/proto"
@@ -1595,7 +1595,7 @@ func (m *QueryCustomCoinPriceRequest) GetDenom() string {
 }
 
 type QueryCustomCoinPriceResponse struct {
-	Price github_com_cosmos_cosmos_sdk_types.Dec `protobuf:"bytes,1,opt,name=price,proto3,customtype=github.com/adminoid/cosmos-sdk/types.Dec" json:"price"`
+	Price github_com_cosmos_cosmos_sdk_types.Dec `protobuf:"bytes,1,opt,name=price,proto3,customtype=github.com/cosmos/cosmos-sdk/types.Dec" json:"price"`
 }
 
 func (m *QueryCustomCoinPriceResponse) Reset()         { *m = QueryCustomCoinPriceResponse{} }

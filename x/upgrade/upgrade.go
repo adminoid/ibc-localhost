@@ -17,9 +17,9 @@ import (
 
 	"gopkg.in/ini.v1"
 
-	sdk "github.com/adminoid/cosmos-sdk/types"
+	sdk "github.com/cosmos/cosmos-sdk/types"
 
-	"github.com/adminoid/cosmos-sdk/x/upgrade/types"
+	"github.com/cosmos/cosmos-sdk/x/upgrade/types"
 
 	cmdcfg "bitbucket.org/decimalteam/go-smart-node/cmd/config"
 )

@@ -3,8 +3,8 @@ package keeper
 import (
 	"fmt"
 
-	sdk "github.com/adminoid/cosmos-sdk/types"
-	stakingtypes "github.com/adminoid/cosmos-sdk/x/staking/types"
+	sdk "github.com/cosmos/cosmos-sdk/types"
+	stakingtypes "github.com/cosmos/cosmos-sdk/x/staking/types"
 
 	"bitbucket.org/decimalteam/go-smart-node/x/validator/types"
 )

@@ -5,12 +5,12 @@ import (
 
 	"bitbucket.org/decimalteam/go-smart-node/x/fee/errors"
 	"bitbucket.org/decimalteam/go-smart-node/x/fee/types"
-	"github.com/adminoid/cosmos-sdk/client/tx"
+	"github.com/cosmos/cosmos-sdk/client/tx"
 
 	"github.com/spf13/cobra"
 
-	"github.com/adminoid/cosmos-sdk/client"
-	sdk "github.com/adminoid/cosmos-sdk/types"
+	"github.com/cosmos/cosmos-sdk/client"
+	sdk "github.com/cosmos/cosmos-sdk/types"
 )
 
 func GetTxCmd() *cobra.Command {

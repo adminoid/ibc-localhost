@@ -20,7 +20,7 @@ message EventCreateValidator {
   Description description = 5 [ (gogoproto.nullable) = false ];
   string commission = 6 [
     (cosmos_proto.scalar) = "cosmos.Dec",
-    (gogoproto.customtype) = "github.com/adminoid/cosmos-sdk/types.Dec",
+    (gogoproto.customtype) = "github.com/cosmos/cosmos-sdk/types.Dec",
     (gogoproto.nullable) = false
   ];
   cosmos.base.v1beta1.Coin stake = 7 [ (gogoproto.nullable) = false ];

@@ -2,7 +2,7 @@ package types
 
 import (
 	sdkmath "github.com/adminoid/cosmos-sdk/math"
-	sdk "github.com/adminoid/cosmos-sdk/types"
+	sdk "github.com/cosmos/cosmos-sdk/types"
 )
 
 // ContextFeeKey defines special key type used to store fee info to the context.

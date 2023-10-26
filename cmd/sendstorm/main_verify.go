@@ -6,9 +6,9 @@ import (
 
 	"github.com/spf13/cobra"
 
-	sdk "github.com/adminoid/cosmos-sdk/types"
-	"github.com/adminoid/cosmos-sdk/types/bech32"
-	cosmosAuthTypes "github.com/adminoid/cosmos-sdk/x/auth/types"
+	sdk "github.com/cosmos/cosmos-sdk/types"
+	"github.com/cosmos/cosmos-sdk/types/bech32"
+	cosmosAuthTypes "github.com/cosmos/cosmos-sdk/x/auth/types"
 
 	cmdcfg "bitbucket.org/decimalteam/go-smart-node/cmd/config"
 	dscApi "bitbucket.org/decimalteam/go-smart-node/sdk/api"

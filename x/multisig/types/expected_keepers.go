@@ -1,9 +1,9 @@
 package types
 
 import (
-	cryptotypes "github.com/adminoid/cosmos-sdk/crypto/types"
-	sdk "github.com/adminoid/cosmos-sdk/types"
-	"github.com/adminoid/cosmos-sdk/x/auth/types"
+	cryptotypes "github.com/cosmos/cosmos-sdk/crypto/types"
+	sdk "github.com/cosmos/cosmos-sdk/types"
+	"github.com/cosmos/cosmos-sdk/x/auth/types"
 )
 
 // AccountKeeper defines the expected account keeper.

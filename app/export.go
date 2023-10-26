@@ -5,7 +5,7 @@ import (
 
 	tmproto "github.com/cometbft/cometbft/proto/tendermint/types"
 
-	servertypes "github.com/adminoid/cosmos-sdk/server/types"
+	servertypes "github.com/cosmos/cosmos-sdk/server/types"
 
 	validator "bitbucket.org/decimalteam/go-smart-node/x/validator"
 )

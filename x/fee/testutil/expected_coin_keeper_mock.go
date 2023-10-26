@@ -8,7 +8,7 @@ import (
 	reflect "reflect"
 
 	types "bitbucket.org/decimalteam/go-smart-node/x/coin/types"
-	types0 "github.com/adminoid/cosmos-sdk/types"
+	types0 "github.com/cosmos/cosmos-sdk/types"
 	gomock "github.com/golang/mock/gomock"
 )
 

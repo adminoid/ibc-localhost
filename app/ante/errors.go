@@ -1,7 +1,7 @@
 package ante
 
 import (
-	"github.com/adminoid/cosmos-sdk/errors"
+	"github.com/cosmos/cosmos-sdk/errors"
 )
 
 var codespace = "ante"

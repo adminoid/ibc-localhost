@@ -3,8 +3,8 @@ package types
 import (
 	tmprotocrypto "github.com/cometbft/cometbft/proto/tendermint/crypto"
 
-	cryptotypes "github.com/adminoid/cosmos-sdk/crypto/types"
-	sdk "github.com/adminoid/cosmos-sdk/types"
+	cryptotypes "github.com/cosmos/cosmos-sdk/crypto/types"
+	sdk "github.com/cosmos/cosmos-sdk/types"
 )
 
 // ValidatorI defines interface for a validator.

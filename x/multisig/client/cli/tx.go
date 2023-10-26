@@ -5,13 +5,13 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/adminoid/cosmos-sdk/client/flags"
-	"github.com/adminoid/cosmos-sdk/client/tx"
-	sdk "github.com/adminoid/cosmos-sdk/types"
+	"github.com/cosmos/cosmos-sdk/client/flags"
+	"github.com/cosmos/cosmos-sdk/client/tx"
+	sdk "github.com/cosmos/cosmos-sdk/types"
 
 	"github.com/spf13/cobra"
 
-	"github.com/adminoid/cosmos-sdk/client"
+	"github.com/cosmos/cosmos-sdk/client"
 
 	"bitbucket.org/decimalteam/go-smart-node/cmd/config"
 	"bitbucket.org/decimalteam/go-smart-node/x/multisig/types"

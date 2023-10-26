@@ -8,7 +8,7 @@ import (
 
 	stormTypes "bitbucket.org/decimalteam/go-smart-node/cmd/sendstorm/types"
 	dscTx "bitbucket.org/decimalteam/go-smart-node/sdk/tx"
-	sdk "github.com/adminoid/cosmos-sdk/types"
+	sdk "github.com/cosmos/cosmos-sdk/types"
 )
 
 // MsgCreateWallet

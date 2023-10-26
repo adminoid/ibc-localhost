@@ -10,8 +10,8 @@ import (
 
 	tmproto "github.com/cometbft/cometbft/proto/tendermint/types"
 
-	"github.com/adminoid/cosmos-sdk/codec"
-	"github.com/adminoid/cosmos-sdk/codec/legacy"
+	"github.com/cosmos/cosmos-sdk/codec"
+	"github.com/cosmos/cosmos-sdk/codec/legacy"
 
 	"bitbucket.org/decimalteam/go-smart-node/x/validator/types"
 )

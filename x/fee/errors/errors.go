@@ -1,7 +1,7 @@
 package errors
 
 import (
-	"github.com/adminoid/cosmos-sdk/errors"
+	"github.com/cosmos/cosmos-sdk/errors"
 )
 
 var codespace = "fee"

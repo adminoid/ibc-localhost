@@ -4,8 +4,8 @@ import (
 	"testing"
 
 	sdkmath "github.com/adminoid/cosmos-sdk/math"
-	"github.com/adminoid/cosmos-sdk/codec"
-	sdk "github.com/adminoid/cosmos-sdk/types"
+	"github.com/cosmos/cosmos-sdk/codec"
+	sdk "github.com/cosmos/cosmos-sdk/types"
 	"github.com/stretchr/testify/require"
 	abci "github.com/cometbft/cometbft/abci/types"
 	tmproto "github.com/cometbft/cometbft/proto/tendermint/types"

@@ -3,7 +3,7 @@ package api
 import (
 	"context"
 
-	cosmostx "github.com/adminoid/cosmos-sdk/types/tx"
+	cosmostx "github.com/cosmos/cosmos-sdk/types/tx"
 	tmtypes "github.com/cometbft/cometbft/abci/types"
 )
 

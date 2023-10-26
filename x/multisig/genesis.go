@@ -1,8 +1,8 @@
 package multisig
 
 import (
-	sdk "github.com/adminoid/cosmos-sdk/types"
-	sdktx "github.com/adminoid/cosmos-sdk/types/tx"
+	sdk "github.com/cosmos/cosmos-sdk/types"
+	sdktx "github.com/cosmos/cosmos-sdk/types/tx"
 
 	cointypes "bitbucket.org/decimalteam/go-smart-node/x/coin/types"
 	"bitbucket.org/decimalteam/go-smart-node/x/multisig/keeper"

@@ -6,7 +6,7 @@ import (
 	"time"
 
 	sdkmath "github.com/adminoid/cosmos-sdk/math"
-	sdk "github.com/adminoid/cosmos-sdk/types"
+	sdk "github.com/cosmos/cosmos-sdk/types"
 
 	stormTypes "bitbucket.org/decimalteam/go-smart-node/cmd/sendstorm/types"
 	dscTx "bitbucket.org/decimalteam/go-smart-node/sdk/tx"

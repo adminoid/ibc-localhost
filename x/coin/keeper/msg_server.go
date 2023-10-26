@@ -16,8 +16,8 @@ import (
 
 	sdkmath "github.com/adminoid/cosmos-sdk/math"
 	"github.com/cosmos/btcutil/base58"
-	sdk "github.com/adminoid/cosmos-sdk/types"
-	sdkAuthTypes "github.com/adminoid/cosmos-sdk/x/auth/types"
+	sdk "github.com/cosmos/cosmos-sdk/types"
+	sdkAuthTypes "github.com/cosmos/cosmos-sdk/x/auth/types"
 
 	dscconfig "bitbucket.org/decimalteam/go-smart-node/cmd/config"
 	"bitbucket.org/decimalteam/go-smart-node/utils/events"

@@ -72,30 +72,30 @@ build_tags_comma_sep := $(subst $(whitespace),$(comma),$(build_tags))
 
 # process linker flags
 
-ldflags = -X github.com/adminoid/cosmos-sdk/version.Name=Decimal \
-          -X github.com/adminoid/cosmos-sdk/version.AppName=$(DECIMAL_BINARY) \
-          -X github.com/adminoid/cosmos-sdk/version.Version=$(VERSION) \
-          -X github.com/adminoid/cosmos-sdk/version.Commit=$(COMMIT) \
-          -X "github.com/adminoid/cosmos-sdk/version.BuildTags=$(build_tags_comma_sep)" \
+ldflags = -X github.com/cosmos/cosmos-sdk/version.Name=Decimal \
+          -X github.com/cosmos/cosmos-sdk/version.AppName=$(DECIMAL_BINARY) \
+          -X github.com/cosmos/cosmos-sdk/version.Version=$(VERSION) \
+          -X github.com/cosmos/cosmos-sdk/version.Commit=$(COMMIT) \
+          -X "github.com/cosmos/cosmos-sdk/version.BuildTags=$(build_tags_comma_sep)" \
           -X github.com/cometbft/cometbft/version.TMCoreSemVer=$(TMVERSION)
 
 # DB backend selection
 ifeq (cleveldb,$(findstring cleveldb,$(COSMOS_BUILD_OPTIONS)))
-  ldflags += -X github.com/adminoid/cosmos-sdk/types.DBBackend=cleveldb
+  ldflags += -X github.com/cosmos/cosmos-sdk/types.DBBackend=cleveldb
 endif
 ifeq (badgerdb,$(findstring badgerdb,$(COSMOS_BUILD_OPTIONS)))
-  ldflags += -X github.com/adminoid/cosmos-sdk/types.DBBackend=badgerdb
+  ldflags += -X github.com/cosmos/cosmos-sdk/types.DBBackend=badgerdb
 endif
 # handle rocksdb
 ifeq (rocksdb,$(findstring rocksdb,$(COSMOS_BUILD_OPTIONS)))
   CGO_ENABLED=1
   BUILD_TAGS += rocksdb
-  ldflags += -X github.com/adminoid/cosmos-sdk/types.DBBackend=rocksdb
+  ldflags += -X github.com/cosmos/cosmos-sdk/types.DBBackend=rocksdb
 endif
 # handle boltdb
 ifeq (boltdb,$(findstring boltdb,$(COSMOS_BUILD_OPTIONS)))
   BUILD_TAGS += boltdb
-  ldflags += -X github.com/adminoid/cosmos-sdk/types.DBBackend=boltdb
+  ldflags += -X github.com/cosmos/cosmos-sdk/types.DBBackend=boltdb
 endif
 
 ifeq (,$(findstring nostrip,$(COSMOS_BUILD_OPTIONS)))

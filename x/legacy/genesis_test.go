@@ -5,9 +5,9 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	sdk "github.com/adminoid/cosmos-sdk/types"
-	cosmosAuthTypes "github.com/adminoid/cosmos-sdk/x/auth/types"
-	cosmosBankTypes "github.com/adminoid/cosmos-sdk/x/bank/types"
+	sdk "github.com/cosmos/cosmos-sdk/types"
+	cosmosAuthTypes "github.com/cosmos/cosmos-sdk/x/auth/types"
+	cosmosBankTypes "github.com/cosmos/cosmos-sdk/x/bank/types"
 	"github.com/cometbft/cometbft/libs/strings"
 	tmproto "github.com/cometbft/cometbft/proto/tendermint/types"
 

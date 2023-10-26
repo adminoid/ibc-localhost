@@ -5,8 +5,8 @@ import (
 
 	commonTypes "bitbucket.org/decimalteam/go-smart-node/types"
 	"bitbucket.org/decimalteam/go-smart-node/x/legacy/types"
-	sdk "github.com/adminoid/cosmos-sdk/types"
-	"github.com/adminoid/cosmos-sdk/types/query"
+	sdk "github.com/cosmos/cosmos-sdk/types"
+	"github.com/cosmos/cosmos-sdk/types/query"
 	"google.golang.org/grpc/codes"
 	"google.golang.org/grpc/status"
 )

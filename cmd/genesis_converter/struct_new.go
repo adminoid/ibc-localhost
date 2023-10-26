@@ -5,13 +5,13 @@ import (
 	"fmt"
 	"strconv"
 
-	sdk "github.com/adminoid/cosmos-sdk/types"
-	"github.com/adminoid/cosmos-sdk/types/bech32"
+	sdk "github.com/cosmos/cosmos-sdk/types"
+	"github.com/cosmos/cosmos-sdk/types/bech32"
 
 	"github.com/evmos/evmos/v14/crypto/ethsecp256k1"
 
 	cmdcfg "bitbucket.org/decimalteam/go-smart-node/cmd/config"
-	"github.com/adminoid/cosmos-sdk/codec/legacy"
+	"github.com/cosmos/cosmos-sdk/codec/legacy"
 )
 
 type GenesisNew struct {

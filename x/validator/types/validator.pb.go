@@ -7,9 +7,9 @@ import (
 	cosmossdk_io_math "github.com/adminoid/cosmos-sdk/math"
 	fmt "fmt"
 	_ "github.com/cosmos/cosmos-proto"
-	types "github.com/adminoid/cosmos-sdk/codec/types"
-	github_com_cosmos_cosmos_sdk_types "github.com/adminoid/cosmos-sdk/types"
-	types1 "github.com/adminoid/cosmos-sdk/types"
+	types "github.com/cosmos/cosmos-sdk/codec/types"
+	github_com_cosmos_cosmos_sdk_types "github.com/cosmos/cosmos-sdk/types"
+	types1 "github.com/cosmos/cosmos-sdk/types"
 	_ "github.com/gogo/protobuf/gogoproto"
 	proto "github.com/gogo/protobuf/proto"
 	github_com_gogo_protobuf_types "github.com/gogo/protobuf/types"
@@ -114,7 +114,7 @@ type Validator struct {
 	// description defines the description terms for the validator.
 	Description Description `protobuf:"bytes,4,opt,name=description,proto3" json:"description"`
 	// commission defines the commission rate, as a fraction.
-	Commission github_com_cosmos_cosmos_sdk_types.Dec `protobuf:"bytes,5,opt,name=commission,proto3,customtype=github.com/adminoid/cosmos-sdk/types.Dec" json:"commission"`
+	Commission github_com_cosmos_cosmos_sdk_types.Dec `protobuf:"bytes,5,opt,name=commission,proto3,customtype=github.com/cosmos/cosmos-sdk/types.Dec" json:"commission"`
 	// status is the validator status (bonded/unbonding/unbonded).
 	Status BondStatus `protobuf:"varint,6,opt,name=status,proto3,enum=decimal.validator.v1.BondStatus" json:"status,omitempty"`
 	// online is true if the validator participates in the consensus (validator is bonded).
@@ -658,9 +658,9 @@ var xxx_messageInfo_HistoricalInfo proto.InternalMessageInfo
 // Pool is used for tracking bonded and not-bonded token supply of the bond denomination.
 type Pool struct {
 	// bonded defines complete list of coins delegated and currently bonded.
-	Bonded github_com_cosmos_cosmos_sdk_types.Coins `protobuf:"bytes,1,rep,name=bonded,proto3,castrepeated=github.com/adminoid/cosmos-sdk/types.Coins" json:"bonded"`
+	Bonded github_com_cosmos_cosmos_sdk_types.Coins `protobuf:"bytes,1,rep,name=bonded,proto3,castrepeated=github.com/cosmos/cosmos-sdk/types.Coins" json:"bonded"`
 	// not_bonded defines complete list of coins delegated but not bonded (redelegating or undelegating).
-	NotBonded github_com_cosmos_cosmos_sdk_types.Coins `protobuf:"bytes,2,rep,name=not_bonded,json=notBonded,proto3,castrepeated=github.com/adminoid/cosmos-sdk/types.Coins" json:"not_bonded"`
+	NotBonded github_com_cosmos_cosmos_sdk_types.Coins `protobuf:"bytes,2,rep,name=not_bonded,json=notBonded,proto3,castrepeated=github.com/cosmos/cosmos-sdk/types.Coins" json:"not_bonded"`
 }
 
 func (m *Pool) Reset()         { *m = Pool{} }

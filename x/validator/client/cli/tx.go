@@ -8,12 +8,12 @@ import (
 	"github.com/spf13/cobra"
 	flag "github.com/spf13/pflag"
 
-	"github.com/adminoid/cosmos-sdk/client"
-	"github.com/adminoid/cosmos-sdk/client/flags"
-	"github.com/adminoid/cosmos-sdk/client/tx"
-	cryptotypes "github.com/adminoid/cosmos-sdk/crypto/types"
-	sdk "github.com/adminoid/cosmos-sdk/types"
-	"github.com/adminoid/cosmos-sdk/version"
+	"github.com/cosmos/cosmos-sdk/client"
+	"github.com/cosmos/cosmos-sdk/client/flags"
+	"github.com/cosmos/cosmos-sdk/client/tx"
+	cryptotypes "github.com/cosmos/cosmos-sdk/crypto/types"
+	sdk "github.com/cosmos/cosmos-sdk/types"
+	"github.com/cosmos/cosmos-sdk/version"
 
 	ethtypes "github.com/evmos/evmos/v14/types"
 

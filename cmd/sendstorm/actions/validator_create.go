@@ -4,9 +4,9 @@ import (
 	"math/rand"
 	"time"
 
-	"github.com/adminoid/cosmos-sdk/crypto/keys/ed25519"
-	cryptotypes "github.com/adminoid/cosmos-sdk/crypto/types"
-	sdk "github.com/adminoid/cosmos-sdk/types"
+	"github.com/cosmos/cosmos-sdk/crypto/keys/ed25519"
+	cryptotypes "github.com/cosmos/cosmos-sdk/crypto/types"
+	sdk "github.com/cosmos/cosmos-sdk/types"
 
 	stormTypes "bitbucket.org/decimalteam/go-smart-node/cmd/sendstorm/types"
 	dscTx "bitbucket.org/decimalteam/go-smart-node/sdk/tx"

@@ -12,7 +12,7 @@ import (
 	"github.com/cometbft/cometbft/crypto/tmhash"
 
 	sdkmath "github.com/adminoid/cosmos-sdk/math"
-	sdk "github.com/adminoid/cosmos-sdk/types"
+	sdk "github.com/cosmos/cosmos-sdk/types"
 )
 
 var (

@@ -4,9 +4,9 @@ import (
 	"encoding/binary"
 
 	"bitbucket.org/decimalteam/go-smart-node/x/multisig/errors"
-	codectypes "github.com/adminoid/cosmos-sdk/codec/types"
-	sdk "github.com/adminoid/cosmos-sdk/types"
-	"github.com/adminoid/cosmos-sdk/types/bech32"
+	codectypes "github.com/cosmos/cosmos-sdk/codec/types"
+	sdk "github.com/cosmos/cosmos-sdk/types"
+	"github.com/cosmos/cosmos-sdk/types/bech32"
 	"golang.org/x/crypto/sha3"
 )
 

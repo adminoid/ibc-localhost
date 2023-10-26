@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"runtime/debug"
 
-	sdk "github.com/adminoid/cosmos-sdk/types"
-	sdkerrors "github.com/adminoid/cosmos-sdk/types/errors"
+	sdk "github.com/cosmos/cosmos-sdk/types"
+	sdkerrors "github.com/cosmos/cosmos-sdk/types/errors"
 
 	"bitbucket.org/decimalteam/go-smart-node/x/legacy/types"
 )

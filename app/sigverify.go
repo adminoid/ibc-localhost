@@ -3,15 +3,15 @@ package app
 import (
 	"fmt"
 
-	"github.com/adminoid/cosmos-sdk/crypto/keys/ed25519"
-	"github.com/adminoid/cosmos-sdk/crypto/keys/secp256k1"
-	"github.com/adminoid/cosmos-sdk/crypto/types/multisig"
-	sdk "github.com/adminoid/cosmos-sdk/types"
-	sdkerrors "github.com/adminoid/cosmos-sdk/types/errors"
-	"github.com/adminoid/cosmos-sdk/types/tx/signing"
+	"github.com/cosmos/cosmos-sdk/crypto/keys/ed25519"
+	"github.com/cosmos/cosmos-sdk/crypto/keys/secp256k1"
+	"github.com/cosmos/cosmos-sdk/crypto/types/multisig"
+	sdk "github.com/cosmos/cosmos-sdk/types"
+	sdkerrors "github.com/cosmos/cosmos-sdk/types/errors"
+	"github.com/cosmos/cosmos-sdk/types/tx/signing"
 
-	authante "github.com/adminoid/cosmos-sdk/x/auth/ante"
-	authtypes "github.com/adminoid/cosmos-sdk/x/auth/types"
+	authante "github.com/cosmos/cosmos-sdk/x/auth/ante"
+	authtypes "github.com/cosmos/cosmos-sdk/x/auth/types"
 
 	"github.com/evmos/evmos/v14/crypto/ethsecp256k1"
 )

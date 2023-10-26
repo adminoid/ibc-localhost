@@ -11,11 +11,11 @@ import (
 
 	abci "github.com/cometbft/cometbft/abci/types"
 
-	"github.com/adminoid/cosmos-sdk/client"
-	"github.com/adminoid/cosmos-sdk/codec"
-	codectypes "github.com/adminoid/cosmos-sdk/codec/types"
-	sdk "github.com/adminoid/cosmos-sdk/types"
-	"github.com/adminoid/cosmos-sdk/types/module"
+	"github.com/cosmos/cosmos-sdk/client"
+	"github.com/cosmos/cosmos-sdk/codec"
+	codectypes "github.com/cosmos/cosmos-sdk/codec/types"
+	sdk "github.com/cosmos/cosmos-sdk/types"
+	"github.com/cosmos/cosmos-sdk/types/module"
 
 	"bitbucket.org/decimalteam/go-smart-node/x/coin/client/cli"
 	"bitbucket.org/decimalteam/go-smart-node/x/coin/keeper"

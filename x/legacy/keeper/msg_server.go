@@ -3,7 +3,7 @@ package keeper
 import (
 	"context"
 
-	sdk "github.com/adminoid/cosmos-sdk/types"
+	sdk "github.com/cosmos/cosmos-sdk/types"
 	"github.com/evmos/evmos/v14/crypto/ethsecp256k1"
 
 	commonTypes "bitbucket.org/decimalteam/go-smart-node/types"

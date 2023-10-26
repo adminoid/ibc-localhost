@@ -2,9 +2,9 @@ package types
 
 import (
 	"bitbucket.org/decimalteam/go-smart-node/x/multisig/errors"
-	sdk "github.com/adminoid/cosmos-sdk/types"
-	"github.com/adminoid/cosmos-sdk/types/bech32"
-	sdktx "github.com/adminoid/cosmos-sdk/types/tx"
+	sdk "github.com/cosmos/cosmos-sdk/types"
+	"github.com/cosmos/cosmos-sdk/types/bech32"
+	sdktx "github.com/cosmos/cosmos-sdk/types/tx"
 )
 
 var (

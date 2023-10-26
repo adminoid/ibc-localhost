@@ -2,7 +2,7 @@ package types
 
 import (
 	"bitbucket.org/decimalteam/go-smart-node/utils/helpers"
-	sdk "github.com/adminoid/cosmos-sdk/types"
+	sdk "github.com/cosmos/cosmos-sdk/types"
 	"log"
 )
 

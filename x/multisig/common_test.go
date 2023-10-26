@@ -8,10 +8,10 @@ import (
 	tmproto "github.com/cometbft/cometbft/proto/tendermint/types"
 
 	sdkmath "github.com/adminoid/cosmos-sdk/math"
-	"github.com/adminoid/cosmos-sdk/codec"
-	sdk "github.com/adminoid/cosmos-sdk/types"
-	"github.com/adminoid/cosmos-sdk/types/bech32"
-	authtypes "github.com/adminoid/cosmos-sdk/x/auth/types"
+	"github.com/cosmos/cosmos-sdk/codec"
+	sdk "github.com/cosmos/cosmos-sdk/types"
+	"github.com/cosmos/cosmos-sdk/types/bech32"
+	authtypes "github.com/cosmos/cosmos-sdk/x/auth/types"
 
 	feemarkettypes "github.com/evmos/evmos/v14/x/feemarket/types"
 

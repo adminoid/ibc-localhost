@@ -4,7 +4,7 @@ import (
 	"context"
 
 	"bitbucket.org/decimalteam/go-smart-node/x/swap/types"
-	sdk "github.com/adminoid/cosmos-sdk/types"
+	sdk "github.com/cosmos/cosmos-sdk/types"
 	"google.golang.org/grpc/codes"
 	"google.golang.org/grpc/status"
 )

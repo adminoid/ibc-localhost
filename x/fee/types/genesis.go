@@ -4,7 +4,7 @@ import (
 	"bitbucket.org/decimalteam/go-smart-node/cmd/config"
 	feeconfig "bitbucket.org/decimalteam/go-smart-node/x/fee/config"
 	"bitbucket.org/decimalteam/go-smart-node/x/fee/errors"
-	sdk "github.com/adminoid/cosmos-sdk/types"
+	sdk "github.com/cosmos/cosmos-sdk/types"
 )
 
 // NewGenesisState creates a new genesis state.

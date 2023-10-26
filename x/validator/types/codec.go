@@ -1,12 +1,12 @@
 package types
 
 import (
-	"github.com/adminoid/cosmos-sdk/codec"
-	"github.com/adminoid/cosmos-sdk/codec/legacy"
-	cdctypes "github.com/adminoid/cosmos-sdk/codec/types"
-	cryptocodec "github.com/adminoid/cosmos-sdk/crypto/codec"
-	sdk "github.com/adminoid/cosmos-sdk/types"
-	"github.com/adminoid/cosmos-sdk/types/msgservice"
+	"github.com/cosmos/cosmos-sdk/codec"
+	"github.com/cosmos/cosmos-sdk/codec/legacy"
+	cdctypes "github.com/cosmos/cosmos-sdk/codec/types"
+	cryptocodec "github.com/cosmos/cosmos-sdk/crypto/codec"
+	sdk "github.com/cosmos/cosmos-sdk/types"
+	"github.com/cosmos/cosmos-sdk/types/msgservice"
 )
 
 // ModuleCdc references the global validator module codec. Note, the codec should

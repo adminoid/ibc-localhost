@@ -14,11 +14,11 @@ import (
 
 	sdkmath "github.com/adminoid/cosmos-sdk/math"
 	"github.com/cosmos/btcutil/base58"
-	"github.com/adminoid/cosmos-sdk/client"
-	"github.com/adminoid/cosmos-sdk/client/flags"
-	"github.com/adminoid/cosmos-sdk/client/tx"
-	sdk "github.com/adminoid/cosmos-sdk/types"
-	"github.com/adminoid/cosmos-sdk/types/query"
+	"github.com/cosmos/cosmos-sdk/client"
+	"github.com/cosmos/cosmos-sdk/client/flags"
+	"github.com/cosmos/cosmos-sdk/client/tx"
+	sdk "github.com/cosmos/cosmos-sdk/types"
+	"github.com/cosmos/cosmos-sdk/types/query"
 
 	cmdcfg "bitbucket.org/decimalteam/go-smart-node/cmd/config"
 	"bitbucket.org/decimalteam/go-smart-node/x/coin/errors"

@@ -12,7 +12,7 @@ import (
 	"strings"
 
 	sdkmath "github.com/adminoid/cosmos-sdk/math"
-	sdk "github.com/adminoid/cosmos-sdk/types"
+	sdk "github.com/cosmos/cosmos-sdk/types"
 
 	cmdcfg "bitbucket.org/decimalteam/go-smart-node/cmd/config"
 	dscWallet "bitbucket.org/decimalteam/go-smart-node/sdk/wallet"

@@ -2,7 +2,7 @@ package ante
 
 import (
 	coin "bitbucket.org/decimalteam/go-smart-node/x/coin/types"
-	sdk "github.com/adminoid/cosmos-sdk/types"
+	sdk "github.com/cosmos/cosmos-sdk/types"
 	evmtypes "github.com/evmos/evmos/v14/x/evm/types"
 )
 

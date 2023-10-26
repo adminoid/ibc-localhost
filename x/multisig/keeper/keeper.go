@@ -8,13 +8,13 @@ import (
 	"github.com/cometbft/cometbft/libs/log"
 
 	"bitbucket.org/decimalteam/go-smart-node/x/multisig/types"
-	"github.com/adminoid/cosmos-sdk/baseapp"
-	"github.com/adminoid/cosmos-sdk/codec"
-	store "github.com/adminoid/cosmos-sdk/store/types"
-	sdk "github.com/adminoid/cosmos-sdk/types"
-	auth "github.com/adminoid/cosmos-sdk/x/auth/keeper"
-	bank "github.com/adminoid/cosmos-sdk/x/bank/keeper"
-	paramtypes "github.com/adminoid/cosmos-sdk/x/params/types"
+	"github.com/cosmos/cosmos-sdk/baseapp"
+	"github.com/cosmos/cosmos-sdk/codec"
+	store "github.com/cosmos/cosmos-sdk/store/types"
+	sdk "github.com/cosmos/cosmos-sdk/types"
+	auth "github.com/cosmos/cosmos-sdk/x/auth/keeper"
+	bank "github.com/cosmos/cosmos-sdk/x/bank/keeper"
+	paramtypes "github.com/cosmos/cosmos-sdk/x/params/types"
 )
 
 // Keeper maintains the link to data storage and exposes getter/setter methods for the various parts of the state machine.

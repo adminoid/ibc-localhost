@@ -6,8 +6,8 @@ package types
 import (
 	fmt "fmt"
 	_ "github.com/cosmos/cosmos-proto"
-	github_com_cosmos_cosmos_sdk_types "github.com/adminoid/cosmos-sdk/types"
-	types "github.com/adminoid/cosmos-sdk/types"
+	github_com_cosmos_cosmos_sdk_types "github.com/cosmos/cosmos-sdk/types"
+	types "github.com/cosmos/cosmos-sdk/types"
 	_ "github.com/gogo/protobuf/gogoproto"
 	proto "github.com/gogo/protobuf/proto"
 	io "io"
@@ -30,7 +30,7 @@ const _ = proto.GoGoProtoPackageIsVersion3 // please upgrade the proto package
 type EventReturnLegacyCoins struct {
 	LegacyOwner string                                   `protobuf:"bytes,1,opt,name=legacy_owner,json=legacyOwner,proto3" json:"legacy_owner,omitempty"`
 	Owner       string                                   `protobuf:"bytes,2,opt,name=owner,proto3" json:"owner,omitempty"`
-	Coins       github_com_cosmos_cosmos_sdk_types.Coins `protobuf:"bytes,3,rep,name=coins,proto3,castrepeated=github.com/adminoid/cosmos-sdk/types.Coins" json:"coins"`
+	Coins       github_com_cosmos_cosmos_sdk_types.Coins `protobuf:"bytes,3,rep,name=coins,proto3,castrepeated=github.com/cosmos/cosmos-sdk/types.Coins" json:"coins"`
 }
 
 func (m *EventReturnLegacyCoins) Reset()         { *m = EventReturnLegacyCoins{} }

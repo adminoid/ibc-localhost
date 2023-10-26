@@ -3,9 +3,9 @@ package main
 import (
 	"fmt"
 
-	"github.com/adminoid/cosmos-sdk/crypto/keys/secp256k1"
-	"github.com/adminoid/cosmos-sdk/types/bech32"
-	cosmosAuthTypes "github.com/adminoid/cosmos-sdk/x/auth/types"
+	"github.com/cosmos/cosmos-sdk/crypto/keys/secp256k1"
+	"github.com/cosmos/cosmos-sdk/types/bech32"
+	cosmosAuthTypes "github.com/cosmos/cosmos-sdk/x/auth/types"
 	"github.com/evmos/evmos/v14/crypto/ethsecp256k1"
 
 	cmdcfg "bitbucket.org/decimalteam/go-smart-node/cmd/config"

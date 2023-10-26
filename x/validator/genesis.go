@@ -5,8 +5,8 @@ import (
 
 	tmtypes "github.com/cometbft/cometbft/types"
 
-	cryptocodec "github.com/adminoid/cosmos-sdk/crypto/codec"
-	sdk "github.com/adminoid/cosmos-sdk/types"
+	cryptocodec "github.com/cosmos/cosmos-sdk/crypto/codec"
+	sdk "github.com/cosmos/cosmos-sdk/types"
 
 	"bitbucket.org/decimalteam/go-smart-node/x/validator/keeper"
 	"bitbucket.org/decimalteam/go-smart-node/x/validator/types"

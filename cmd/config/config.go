@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"os"
 
-	sdk "github.com/adminoid/cosmos-sdk/types"
+	sdk "github.com/cosmos/cosmos-sdk/types"
 
 	ethermint "github.com/evmos/evmos/v14/types"
 )

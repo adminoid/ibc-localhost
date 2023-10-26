@@ -11,11 +11,11 @@ import (
 
 	abci "github.com/cometbft/cometbft/abci/types"
 
-	"github.com/adminoid/cosmos-sdk/client"
-	"github.com/adminoid/cosmos-sdk/codec"
-	codectypes "github.com/adminoid/cosmos-sdk/codec/types"
-	sdk "github.com/adminoid/cosmos-sdk/types"
-	"github.com/adminoid/cosmos-sdk/types/module"
+	"github.com/cosmos/cosmos-sdk/client"
+	"github.com/cosmos/cosmos-sdk/codec"
+	codectypes "github.com/cosmos/cosmos-sdk/codec/types"
+	sdk "github.com/cosmos/cosmos-sdk/types"
+	"github.com/cosmos/cosmos-sdk/types/module"
 
 	feemarkettypes "github.com/evmos/evmos/v14/x/feemarket/types"
 

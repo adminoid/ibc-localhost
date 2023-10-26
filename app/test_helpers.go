@@ -16,14 +16,14 @@ import (
 	tmtypes "github.com/cometbft/cometbft/types"
 
 	sdkmath "github.com/adminoid/cosmos-sdk/math"
-	"github.com/adminoid/cosmos-sdk/codec"
-	codectypes "github.com/adminoid/cosmos-sdk/codec/types"
-	cryptocodec "github.com/adminoid/cosmos-sdk/crypto/codec"
-	"github.com/adminoid/cosmos-sdk/crypto/keys/ed25519"
-	sdk "github.com/adminoid/cosmos-sdk/types"
-	authtypes "github.com/adminoid/cosmos-sdk/x/auth/types"
-	banktypes "github.com/adminoid/cosmos-sdk/x/bank/types"
-	stakingtypes "github.com/adminoid/cosmos-sdk/x/staking/types"
+	"github.com/cosmos/cosmos-sdk/codec"
+	codectypes "github.com/cosmos/cosmos-sdk/codec/types"
+	cryptocodec "github.com/cosmos/cosmos-sdk/crypto/codec"
+	"github.com/cosmos/cosmos-sdk/crypto/keys/ed25519"
+	sdk "github.com/cosmos/cosmos-sdk/types"
+	authtypes "github.com/cosmos/cosmos-sdk/x/auth/types"
+	banktypes "github.com/cosmos/cosmos-sdk/x/bank/types"
+	stakingtypes "github.com/cosmos/cosmos-sdk/x/staking/types"
 
 	"github.com/cosmos/ibc-go/v7/testing/simapp"
 

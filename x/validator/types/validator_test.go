@@ -10,11 +10,11 @@ import (
 
 	tmtypes "github.com/cometbft/cometbft/types"
 
-	"github.com/adminoid/cosmos-sdk/codec/legacy"
-	cryptocodec "github.com/adminoid/cosmos-sdk/crypto/codec"
-	"github.com/adminoid/cosmos-sdk/crypto/keys/ed25519"
-	cryptotypes "github.com/adminoid/cosmos-sdk/crypto/types"
-	sdk "github.com/adminoid/cosmos-sdk/types"
+	"github.com/cosmos/cosmos-sdk/codec/legacy"
+	cryptocodec "github.com/cosmos/cosmos-sdk/crypto/codec"
+	"github.com/cosmos/cosmos-sdk/crypto/keys/ed25519"
+	cryptotypes "github.com/cosmos/cosmos-sdk/crypto/types"
+	sdk "github.com/cosmos/cosmos-sdk/types"
 
 	"bitbucket.org/decimalteam/go-smart-node/x/validator/testvalidator"
 	"bitbucket.org/decimalteam/go-smart-node/x/validator/types"

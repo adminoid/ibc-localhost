@@ -6,7 +6,7 @@ import (
 	"github.com/stretchr/testify/require"
 
 	sdkmath "github.com/adminoid/cosmos-sdk/math"
-	sdk "github.com/adminoid/cosmos-sdk/types"
+	sdk "github.com/cosmos/cosmos-sdk/types"
 	abci "github.com/cometbft/cometbft/abci/types"
 
 	cmdcfg "bitbucket.org/decimalteam/go-smart-node/cmd/config"

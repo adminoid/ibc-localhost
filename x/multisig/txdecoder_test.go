@@ -6,8 +6,8 @@ import (
 	"testing"
 
 	"bitbucket.org/decimalteam/go-smart-node/app"
-	codectypes "github.com/adminoid/cosmos-sdk/codec/types"
-	sdk "github.com/adminoid/cosmos-sdk/types"
+	codectypes "github.com/cosmos/cosmos-sdk/codec/types"
+	sdk "github.com/cosmos/cosmos-sdk/types"
 	"github.com/evmos/evmos/v14/encoding"
 )
 

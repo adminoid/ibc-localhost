@@ -7,12 +7,12 @@ import (
 
 	tmtypes "github.com/cometbft/cometbft/types"
 
-	"github.com/adminoid/cosmos-sdk/codec"
-	codectypes "github.com/adminoid/cosmos-sdk/codec/types"
-	cryptocodec "github.com/adminoid/cosmos-sdk/crypto/codec"
-	sdk "github.com/adminoid/cosmos-sdk/types"
-	authtypes "github.com/adminoid/cosmos-sdk/x/auth/types"
-	banktypes "github.com/adminoid/cosmos-sdk/x/bank/types"
+	"github.com/cosmos/cosmos-sdk/codec"
+	codectypes "github.com/cosmos/cosmos-sdk/codec/types"
+	cryptocodec "github.com/cosmos/cosmos-sdk/crypto/codec"
+	sdk "github.com/cosmos/cosmos-sdk/types"
+	authtypes "github.com/cosmos/cosmos-sdk/x/auth/types"
+	banktypes "github.com/cosmos/cosmos-sdk/x/bank/types"
 
 	cmdcfg "bitbucket.org/decimalteam/go-smart-node/cmd/config"
 	"bitbucket.org/decimalteam/go-smart-node/utils/helpers"

@@ -6,8 +6,8 @@ package types
 import (
 	fmt "fmt"
 	_ "github.com/cosmos/cosmos-proto"
-	github_com_cosmos_cosmos_sdk_types "github.com/adminoid/cosmos-sdk/types"
-	types "github.com/adminoid/cosmos-sdk/types"
+	github_com_cosmos_cosmos_sdk_types "github.com/cosmos/cosmos-sdk/types"
+	types "github.com/cosmos/cosmos-sdk/types"
 	_ "github.com/gogo/protobuf/gogoproto"
 	proto "github.com/gogo/protobuf/proto"
 	io "io"
@@ -95,7 +95,7 @@ type GenesisTransaction struct {
 	Id        string                                   `protobuf:"bytes,1,opt,name=id,proto3" json:"id,omitempty"`
 	Wallet    string                                   `protobuf:"bytes,2,opt,name=wallet,proto3" json:"wallet,omitempty"`
 	Receiver  string                                   `protobuf:"bytes,3,opt,name=receiver,proto3" json:"receiver,omitempty"`
-	Coins     github_com_cosmos_cosmos_sdk_types.Coins `protobuf:"bytes,4,rep,name=coins,proto3,castrepeated=github.com/adminoid/cosmos-sdk/types.Coins" json:"coins"`
+	Coins     github_com_cosmos_cosmos_sdk_types.Coins `protobuf:"bytes,4,rep,name=coins,proto3,castrepeated=github.com/cosmos/cosmos-sdk/types.Coins" json:"coins"`
 	Signers   []string                                 `protobuf:"bytes,5,rep,name=signers,proto3" json:"signers,omitempty"`
 	CreatedAt int64                                    `protobuf:"varint,6,opt,name=created_at,json=createdAt,proto3" json:"created_at,omitempty"`
 }

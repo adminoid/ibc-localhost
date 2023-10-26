@@ -5,8 +5,8 @@ import (
 	"runtime/debug"
 
 	"bitbucket.org/decimalteam/go-smart-node/x/fee/types"
-	sdk "github.com/adminoid/cosmos-sdk/types"
-	sdkerrors "github.com/adminoid/cosmos-sdk/types/errors"
+	sdk "github.com/cosmos/cosmos-sdk/types"
+	sdkerrors "github.com/cosmos/cosmos-sdk/types/errors"
 )
 
 // NewHandler defines the module handler instance.

@@ -6,9 +6,9 @@ import (
 
 	ethereumCommon "github.com/ethereum/go-ethereum/common"
 
-	sdk "github.com/adminoid/cosmos-sdk/types"
-	sdkerrors "github.com/adminoid/cosmos-sdk/types/errors"
-	sdkAuthTypes "github.com/adminoid/cosmos-sdk/x/auth/types"
+	sdk "github.com/cosmos/cosmos-sdk/types"
+	sdkerrors "github.com/cosmos/cosmos-sdk/types/errors"
+	sdkAuthTypes "github.com/cosmos/cosmos-sdk/x/auth/types"
 
 	ethante "github.com/evmos/evmos/v14/app/ante"
 	ethermint "github.com/evmos/evmos/v14/types"

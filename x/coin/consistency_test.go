@@ -6,9 +6,9 @@ import (
 	"github.com/stretchr/testify/require"
 
 	sdkmath "github.com/adminoid/cosmos-sdk/math"
-	sdk "github.com/adminoid/cosmos-sdk/types"
-	sdkAuthTypes "github.com/adminoid/cosmos-sdk/x/auth/types"
-	cosmosBankTypes "github.com/adminoid/cosmos-sdk/x/bank/types"
+	sdk "github.com/cosmos/cosmos-sdk/types"
+	sdkAuthTypes "github.com/cosmos/cosmos-sdk/x/auth/types"
+	cosmosBankTypes "github.com/cosmos/cosmos-sdk/x/bank/types"
 
 	appMain "bitbucket.org/decimalteam/go-smart-node/app"
 	appAnte "bitbucket.org/decimalteam/go-smart-node/app/ante"

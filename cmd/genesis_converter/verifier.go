@@ -5,7 +5,7 @@ import (
 	"strconv"
 
 	"github.com/adminoid/cosmos-sdk/math"
-	sdk "github.com/adminoid/cosmos-sdk/types"
+	sdk "github.com/cosmos/cosmos-sdk/types"
 )
 
 type SubTokenRecord struct {

@@ -8,9 +8,9 @@ import (
 	"google.golang.org/grpc/status"
 
 	sdkmath "github.com/adminoid/cosmos-sdk/math"
-	"github.com/adminoid/cosmos-sdk/codec"
-	sdk "github.com/adminoid/cosmos-sdk/types"
-	sdktx "github.com/adminoid/cosmos-sdk/types/tx"
+	"github.com/cosmos/cosmos-sdk/codec"
+	sdk "github.com/cosmos/cosmos-sdk/types"
+	sdktx "github.com/cosmos/cosmos-sdk/types/tx"
 
 	feemarkettypes "github.com/evmos/evmos/v14/x/feemarket/types"
 

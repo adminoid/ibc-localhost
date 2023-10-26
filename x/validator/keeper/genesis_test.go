@@ -8,8 +8,8 @@ import (
 	"github.com/stretchr/testify/require"
 
 	sdkmath "github.com/adminoid/cosmos-sdk/math"
-	codectypes "github.com/adminoid/cosmos-sdk/codec/types"
-	sdk "github.com/adminoid/cosmos-sdk/types"
+	codectypes "github.com/cosmos/cosmos-sdk/codec/types"
+	sdk "github.com/cosmos/cosmos-sdk/types"
 	abci "github.com/cometbft/cometbft/abci/types"
 	tmproto "github.com/cometbft/cometbft/proto/tendermint/types"
 

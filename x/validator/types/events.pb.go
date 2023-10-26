@@ -7,8 +7,8 @@ import (
 	cosmossdk_io_math "github.com/adminoid/cosmos-sdk/math"
 	fmt "fmt"
 	_ "github.com/cosmos/cosmos-proto"
-	github_com_cosmos_cosmos_sdk_types "github.com/adminoid/cosmos-sdk/types"
-	types "github.com/adminoid/cosmos-sdk/types"
+	github_com_cosmos_cosmos_sdk_types "github.com/cosmos/cosmos-sdk/types"
+	types "github.com/cosmos/cosmos-sdk/types"
 	_ "github.com/gogo/protobuf/gogoproto"
 	proto "github.com/gogo/protobuf/proto"
 	github_com_gogo_protobuf_types "github.com/gogo/protobuf/types"
@@ -38,7 +38,7 @@ type EventCreateValidator struct {
 	RewardAddress   string                                 `protobuf:"bytes,3,opt,name=reward_address,json=rewardAddress,proto3" json:"reward_address,omitempty"`
 	ConsensusPubkey string                                 `protobuf:"bytes,4,opt,name=consensus_pubkey,json=consensusPubkey,proto3" json:"consensus_pubkey,omitempty"`
 	Description     Description                            `protobuf:"bytes,5,opt,name=description,proto3" json:"description"`
-	Commission      github_com_cosmos_cosmos_sdk_types.Dec `protobuf:"bytes,6,opt,name=commission,proto3,customtype=github.com/adminoid/cosmos-sdk/types.Dec" json:"commission"`
+	Commission      github_com_cosmos_cosmos_sdk_types.Dec `protobuf:"bytes,6,opt,name=commission,proto3,customtype=github.com/cosmos/cosmos-sdk/types.Dec" json:"commission"`
 	Stake           types.Coin                             `protobuf:"bytes,7,opt,name=stake,proto3" json:"stake"`
 }
 
