@@ -4,7 +4,7 @@ import (
 	"bitbucket.org/decimalteam/go-smart-node/utils/formulas"
 	nfttypes "bitbucket.org/decimalteam/go-smart-node/x/nft/types"
 	"bitbucket.org/decimalteam/go-smart-node/x/validator/errors"
-	sdkmath "github.com/adminoid/cosmos-sdk/math"
+	sdkmath "cosmossdk.io/math"
 	sdk "github.com/cosmos/cosmos-sdk/types"
 )
 

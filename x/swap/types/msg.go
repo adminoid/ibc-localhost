@@ -3,7 +3,7 @@ package types
 import (
 	"encoding/hex"
 
-	"github.com/adminoid/cosmos-sdk/math"
+	"cosmossdk.io/math"
 	sdk "github.com/cosmos/cosmos-sdk/types"
 
 	"bitbucket.org/decimalteam/go-smart-node/x/swap/errors"

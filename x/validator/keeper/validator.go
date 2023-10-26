@@ -7,7 +7,7 @@ import (
 
 	gogotypes "github.com/gogo/protobuf/types"
 
-	sdkmath "github.com/adminoid/cosmos-sdk/math"
+	sdkmath "cosmossdk.io/math"
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	stakingtypes "github.com/cosmos/cosmos-sdk/x/staking/types"
 

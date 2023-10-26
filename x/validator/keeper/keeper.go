@@ -5,9 +5,9 @@ import (
 
 	"github.com/cometbft/cometbft/libs/log"
 
-	sdkmath "github.com/adminoid/cosmos-sdk/math"
+	sdkmath "cosmossdk.io/math"
 	"github.com/cosmos/cosmos-sdk/codec"
-	storetypes "github.com/cosmos/cosmos-sdk/store/types"
+	storetypes "cosmossdk.io/store/types"
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	paramtypes "github.com/cosmos/cosmos-sdk/x/params/types"
 

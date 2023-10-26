@@ -58,7 +58,7 @@ message EventDelegate {
   Stake stake = 3 [ (gogoproto.nullable) = false ];
   string amount_base = 4 [
     (cosmos_proto.scalar) = "cosmos.Int",
-    (gogoproto.customtype) = "github.com/adminoid/cosmos-sdk/math.Int",
+    (gogoproto.customtype) = "cosmossdk.io/math.Int",
     (gogoproto.nullable) = false
   ];
 }
@@ -71,7 +71,7 @@ message EventRedelegate {
   Stake stake = 4 [ (gogoproto.nullable) = false ];
   string amount_base = 5 [
     (cosmos_proto.scalar) = "cosmos.Int",
-    (gogoproto.customtype) = "github.com/adminoid/cosmos-sdk/math.Int",
+    (gogoproto.customtype) = "cosmossdk.io/math.Int",
     (gogoproto.nullable) = false
   ];
   google.protobuf.Timestamp complete_at = 6 [ (gogoproto.nullable) = false, (gogoproto.stdtime) = true ];
@@ -92,7 +92,7 @@ message EventUndelegate {
   Stake stake = 3 [ (gogoproto.nullable) = false ];
   string amount_base = 4 [
     (cosmos_proto.scalar) = "cosmos.Int",
-    (gogoproto.customtype) = "github.com/adminoid/cosmos-sdk/math.Int",
+    (gogoproto.customtype) = "cosmossdk.io/math.Int",
     (gogoproto.nullable) = false
   ];
   google.protobuf.Timestamp complete_at = 5 [ (gogoproto.nullable) = false, (gogoproto.stdtime) = true ];
@@ -147,7 +147,7 @@ message EventDelegatedCoinsUpdate {
 message EventEmission {
   string amount = 1 [
     (cosmos_proto.scalar) = "cosmos.Int",
-    (gogoproto.customtype) = "github.com/adminoid/cosmos-sdk/math.Int",
+    (gogoproto.customtype) = "cosmossdk.io/math.Int",
     (gogoproto.nullable) = false
   ];
 }
@@ -168,7 +168,7 @@ message EventUpdateCoinsStaked {
   string denom = 1;
   string total_amount = 2 [
     (cosmos_proto.scalar) = "cosmos.Int",
-    (gogoproto.customtype) = "github.com/adminoid/cosmos-sdk/math.Int",
+    (gogoproto.customtype) = "cosmossdk.io/math.Int",
     (gogoproto.nullable) = false
   ];
 }
@@ -184,25 +184,25 @@ message ValidatorReward {
   // dao is the amount of the reward in base coin sent to the DAO.
   string dao = 2 [
     (cosmos_proto.scalar) = "cosmos.Int",
-    (gogoproto.customtype) = "github.com/adminoid/cosmos-sdk/math.Int",
+    (gogoproto.customtype) = "cosmossdk.io/math.Int",
     (gogoproto.nullable) = false
   ];
   // develop is the amount of the reward in base coin sent to the Develop.
   string develop = 3 [
     (cosmos_proto.scalar) = "cosmos.Int",
-    (gogoproto.customtype) = "github.com/adminoid/cosmos-sdk/math.Int",
+    (gogoproto.customtype) = "cosmossdk.io/math.Int",
     (gogoproto.nullable) = false
   ];
   // commission is the amount of the reward in base coin sent to the validator as it's commission.
   string commission = 4 [
     (cosmos_proto.scalar) = "cosmos.Int",
-    (gogoproto.customtype) = "github.com/adminoid/cosmos-sdk/math.Int",
+    (gogoproto.customtype) = "cosmossdk.io/math.Int",
     (gogoproto.nullable) = false
   ];
   // accumulated is the total amount of the reward in base coin accumulated for the validator.
   string accumulated = 5 [
     (cosmos_proto.scalar) = "cosmos.Int",
-    (gogoproto.customtype) = "github.com/adminoid/cosmos-sdk/math.Int",
+    (gogoproto.customtype) = "cosmossdk.io/math.Int",
     (gogoproto.nullable) = false
   ];
   // delegators is the complete list of delegator rewards.
@@ -236,7 +236,7 @@ message StakeReward {
   // reward is the amount of the reward in base coin.
   string reward = 2 [
     (cosmos_proto.scalar) = "cosmos.Int",
-    (gogoproto.customtype) = "github.com/adminoid/cosmos-sdk/math.Int",
+    (gogoproto.customtype) = "cosmossdk.io/math.Int",
     (gogoproto.nullable) = false
   ];
   // Id for what is given reward.

@@ -4,7 +4,7 @@
 package types
 
 import (
-	cosmossdk_io_math "github.com/adminoid/cosmos-sdk/math"
+	cosmossdk_io_math "cosmossdk.io/math"
 	fmt "fmt"
 	_ "github.com/cosmos/cosmos-proto"
 	_ "github.com/gogo/protobuf/gogoproto"
@@ -32,7 +32,7 @@ type Params struct {
 	// max_token_quantity defines maximum allowed count of NFT sub-tokens per a NFT token.
 	MaxTokenQuantity uint32 `protobuf:"varint,2,opt,name=max_token_quantity,json=maxTokenQuantity,proto3" json:"max_token_quantity,omitempty"`
 	// min_reserve_amount defines minimum allowed reserve for a NFT sub-token in the base coin.
-	MinReserveAmount cosmossdk_io_math.Int `protobuf:"bytes,3,opt,name=min_reserve_amount,json=minReserveAmount,proto3,customtype=github.com/adminoid/cosmos-sdk/math.Int" json:"min_reserve_amount"`
+	MinReserveAmount cosmossdk_io_math.Int `protobuf:"bytes,3,opt,name=min_reserve_amount,json=minReserveAmount,proto3,customtype=cosmossdk.io/math.Int" json:"min_reserve_amount"`
 }
 
 func (m *Params) Reset()         { *m = Params{} }

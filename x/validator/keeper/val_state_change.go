@@ -7,7 +7,7 @@ import (
 	"runtime/debug"
 	"sort"
 
-	sdkmath "github.com/adminoid/cosmos-sdk/math"
+	sdkmath "cosmossdk.io/math"
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	ethtypes "github.com/evmos/evmos/v14/types"
 	gogotypes "github.com/gogo/protobuf/types"

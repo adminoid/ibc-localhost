@@ -57,7 +57,7 @@ message MsgInitializeSwap {
   string recipient = 2;
   string amount = 3 [
     (cosmos_proto.scalar) = "cosmos.Int",
-    (gogoproto.customtype) = "github.com/adminoid/cosmos-sdk/math.Int",
+    (gogoproto.customtype) = "cosmossdk.io/math.Int",
     (gogoproto.nullable) = false
   ];
   string token_symbol = 4;
@@ -81,7 +81,7 @@ message MsgRedeemSwap {
   string recipient = 3;
   string amount = 4 [
     (cosmos_proto.scalar) = "cosmos.Int",
-    (gogoproto.customtype) = "github.com/adminoid/cosmos-sdk/math.Int",
+    (gogoproto.customtype) = "cosmossdk.io/math.Int",
     (gogoproto.nullable) = false
   ];
   string token_symbol = 5;

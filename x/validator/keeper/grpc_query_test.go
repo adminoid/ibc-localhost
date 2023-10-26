@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"testing"
 
-	sdkmath "github.com/adminoid/cosmos-sdk/math"
+	sdkmath "cosmossdk.io/math"
 	"github.com/stretchr/testify/require"
 
 	"github.com/adminoid/cosmos-sdk/simapp"

@@ -5,7 +5,7 @@ import (
 	"sort"
 	"strconv"
 
-	"github.com/adminoid/cosmos-sdk/math"
+	"cosmossdk.io/math"
 	sdk "github.com/cosmos/cosmos-sdk/types"
 
 	coinconfig "bitbucket.org/decimalteam/go-smart-node/x/coin/config"

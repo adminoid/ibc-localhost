@@ -3,7 +3,7 @@ package types
 import (
 	"fmt"
 
-	sdkmath "github.com/adminoid/cosmos-sdk/math"
+	sdkmath "cosmossdk.io/math"
 	paramtypes "github.com/cosmos/cosmos-sdk/x/params/types"
 
 	"bitbucket.org/decimalteam/go-smart-node/utils/helpers"

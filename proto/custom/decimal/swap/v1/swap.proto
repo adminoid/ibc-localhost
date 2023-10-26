@@ -28,7 +28,7 @@ message Swap {
   // amount defines amount of coins the swap initialized.
   string amount = 4 [
     (cosmos_proto.scalar) = "cosmos.Int",
-    (gogoproto.customtype) = "github.com/adminoid/cosmos-sdk/math.Int",
+    (gogoproto.customtype) = "cosmossdk.io/math.Int",
     (gogoproto.nullable) = false
   ];
   // timestamp defines time moment when the swap was initialized.

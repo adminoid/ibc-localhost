@@ -3,7 +3,7 @@ package errors
 import (
 	"fmt"
 
-	"github.com/cosmos/cosmos-sdk/errors"
+	"cosmossdk.io/errors"
 
 	"bitbucket.org/decimalteam/go-smart-node/x/coin/config"
 )

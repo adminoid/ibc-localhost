@@ -3,7 +3,7 @@ package formulas
 import (
 	"math/big"
 
-	sdkmath "github.com/adminoid/cosmos-sdk/math"
+	sdkmath "cosmossdk.io/math"
 
 	"bitbucket.org/decimalteam/go-smart-node/types/bigfloat"
 )

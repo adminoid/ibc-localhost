@@ -5,7 +5,7 @@ import (
 	"encoding/base64"
 	"fmt"
 
-	"github.com/adminoid/cosmos-sdk/math"
+	"cosmossdk.io/math"
 	"github.com/cosmos/btcutil/base58"
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	"github.com/ethereum/go-ethereum/crypto"

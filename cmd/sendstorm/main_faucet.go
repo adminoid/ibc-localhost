@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"time"
 
-	sdkmath "github.com/adminoid/cosmos-sdk/math"
+	sdkmath "cosmossdk.io/math"
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	"github.com/go-resty/resty/v2"
 	"github.com/spf13/cobra"

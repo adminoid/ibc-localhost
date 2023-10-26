@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"math"
 
-	sdkStore "github.com/cosmos/cosmos-sdk/store/types"
+	sdkStore "cosmossdk.io/store/types"
 	sdk "github.com/cosmos/cosmos-sdk/types"
 )
 

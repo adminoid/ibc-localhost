@@ -3,7 +3,7 @@ package formulas
 import (
 	"testing"
 
-	sdkmath "github.com/adminoid/cosmos-sdk/math"
+	sdkmath "cosmossdk.io/math"
 )
 
 type PurchaseReturnData struct {

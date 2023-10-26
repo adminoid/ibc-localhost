@@ -4,7 +4,7 @@
 package types
 
 import (
-	cosmossdk_io_math "github.com/adminoid/cosmos-sdk/math"
+	cosmossdk_io_math "cosmossdk.io/math"
 	fmt "fmt"
 	_ "github.com/cosmos/cosmos-proto"
 	types "github.com/cosmos/cosmos-sdk/codec/types"
@@ -127,10 +127,10 @@ type Validator struct {
 	UnbondingTime time.Time `protobuf:"bytes,10,opt,name=unbonding_time,json=unbondingTime,proto3,stdtime" json:"unbonding_time"`
 	// rewards defines accumulated amount of collected rewards that are not yet distributed to a delegators.
 	// NOTE: It is stored separately in the KVStore.
-	Rewards cosmossdk_io_math.Int `protobuf:"bytes,11,opt,name=rewards,proto3,customtype=github.com/adminoid/cosmos-sdk/math.Int" json:"rewards"`
+	Rewards cosmossdk_io_math.Int `protobuf:"bytes,11,opt,name=rewards,proto3,customtype=cosmossdk.io/math.Int" json:"rewards"`
 	// total_rewards defines total amount of all collected rewards.
 	// NOTE: It is stored separately in the KVStore.
-	TotalRewards cosmossdk_io_math.Int `protobuf:"bytes,12,opt,name=total_rewards,json=totalRewards,proto3,customtype=github.com/adminoid/cosmos-sdk/math.Int" json:"total_rewards"`
+	TotalRewards cosmossdk_io_math.Int `protobuf:"bytes,12,opt,name=total_rewards,json=totalRewards,proto3,customtype=cosmossdk.io/math.Int" json:"total_rewards"`
 	// stake is power of all delegations stake
 	// NOTE: It is stored separately in the KVStore.
 	Stake int64 `protobuf:"varint,13,opt,name=stake,proto3" json:"stake,omitempty"`
@@ -172,9 +172,9 @@ var xxx_messageInfo_Validator proto.InternalMessageInfo
 // ValidatorRS defines internal object containing dynamic validator's info like rewards or stakes.
 type ValidatorRS struct {
 	// rewards defines accumulated amount of collected rewards that are not yet distributed to a delegators.
-	Rewards cosmossdk_io_math.Int `protobuf:"bytes,1,opt,name=rewards,proto3,customtype=github.com/adminoid/cosmos-sdk/math.Int" json:"rewards"`
+	Rewards cosmossdk_io_math.Int `protobuf:"bytes,1,opt,name=rewards,proto3,customtype=cosmossdk.io/math.Int" json:"rewards"`
 	// total_rewards defines total amount of all collected rewards.
-	TotalRewards cosmossdk_io_math.Int `protobuf:"bytes,2,opt,name=total_rewards,json=totalRewards,proto3,customtype=github.com/adminoid/cosmos-sdk/math.Int" json:"total_rewards"`
+	TotalRewards cosmossdk_io_math.Int `protobuf:"bytes,2,opt,name=total_rewards,json=totalRewards,proto3,customtype=cosmossdk.io/math.Int" json:"total_rewards"`
 	// stake is power of all delegations stake
 	Stake int64 `protobuf:"varint,3,opt,name=stake,proto3" json:"stake,omitempty"`
 }

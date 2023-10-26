@@ -11,7 +11,7 @@ import (
 	"strconv"
 	"strings"
 
-	sdkmath "github.com/adminoid/cosmos-sdk/math"
+	sdkmath "cosmossdk.io/math"
 	sdk "github.com/cosmos/cosmos-sdk/types"
 
 	cmdcfg "bitbucket.org/decimalteam/go-smart-node/cmd/config"

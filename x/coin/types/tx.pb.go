@@ -5,7 +5,7 @@ package types
 
 import (
 	context "context"
-	cosmossdk_io_math "github.com/adminoid/cosmos-sdk/math"
+	cosmossdk_io_math "cosmossdk.io/math"
 	fmt "fmt"
 	_ "github.com/cosmos/cosmos-proto"
 	types "github.com/cosmos/cosmos-sdk/types"
@@ -38,13 +38,13 @@ type MsgCreateCoin struct {
 	Denom          string                `protobuf:"bytes,2,opt,name=denom,proto3" json:"denom,omitempty"`
 	Title          string                `protobuf:"bytes,3,opt,name=title,proto3" json:"title,omitempty"`
 	CRR            uint32                `protobuf:"varint,4,opt,name=crr,proto3" json:"crr,omitempty"`
-	InitialVolume  cosmossdk_io_math.Int `protobuf:"bytes,5,opt,name=initial_volume,json=initialVolume,proto3,customtype=github.com/adminoid/cosmos-sdk/math.Int" json:"initial_volume"`
-	InitialReserve cosmossdk_io_math.Int `protobuf:"bytes,6,opt,name=initial_reserve,json=initialReserve,proto3,customtype=github.com/adminoid/cosmos-sdk/math.Int" json:"initial_reserve"`
-	LimitVolume    cosmossdk_io_math.Int `protobuf:"bytes,7,opt,name=limit_volume,json=limitVolume,proto3,customtype=github.com/adminoid/cosmos-sdk/math.Int" json:"limit_volume"`
+	InitialVolume  cosmossdk_io_math.Int `protobuf:"bytes,5,opt,name=initial_volume,json=initialVolume,proto3,customtype=cosmossdk.io/math.Int" json:"initial_volume"`
+	InitialReserve cosmossdk_io_math.Int `protobuf:"bytes,6,opt,name=initial_reserve,json=initialReserve,proto3,customtype=cosmossdk.io/math.Int" json:"initial_reserve"`
+	LimitVolume    cosmossdk_io_math.Int `protobuf:"bytes,7,opt,name=limit_volume,json=limitVolume,proto3,customtype=cosmossdk.io/math.Int" json:"limit_volume"`
 	Identity       string                `protobuf:"bytes,8,opt,name=identity,proto3" json:"identity,omitempty"`
 	// min_volume defines optional minimal allowed supply for the coin.
 	// NOTE: when value is zero it means that the coin does not support minimal supply limitations.
-	MinVolume cosmossdk_io_math.Int `protobuf:"bytes,9,opt,name=min_volume,json=minVolume,proto3,customtype=github.com/adminoid/cosmos-sdk/math.Int" json:"min_volume"`
+	MinVolume cosmossdk_io_math.Int `protobuf:"bytes,9,opt,name=min_volume,json=minVolume,proto3,customtype=cosmossdk.io/math.Int" json:"min_volume"`
 	// erc20_address is the hex address of ERC20 contract token
 	Erc20Address string `protobuf:"bytes,10,opt,name=erc20_address,json=erc20Address,proto3" json:"erc20_address,omitempty"`
 }
@@ -165,11 +165,11 @@ var xxx_messageInfo_MsgCreateCoinResponse proto.InternalMessageInfo
 type MsgUpdateCoin struct {
 	Sender      string                `protobuf:"bytes,1,opt,name=sender,proto3" json:"sender,omitempty"`
 	Denom       string                `protobuf:"bytes,2,opt,name=denom,proto3" json:"denom,omitempty"`
-	LimitVolume cosmossdk_io_math.Int `protobuf:"bytes,3,opt,name=limit_volume,json=limitVolume,proto3,customtype=github.com/adminoid/cosmos-sdk/math.Int" json:"limit_volume"`
+	LimitVolume cosmossdk_io_math.Int `protobuf:"bytes,3,opt,name=limit_volume,json=limitVolume,proto3,customtype=cosmossdk.io/math.Int" json:"limit_volume"`
 	Identity    string                `protobuf:"bytes,4,opt,name=identity,proto3" json:"identity,omitempty"`
 	// min_volume defines optional minimal allowed supply for the coin.
 	// NOTE: when value is zero it means that the coin does not support minimal supply limitations.
-	MinVolume cosmossdk_io_math.Int `protobuf:"bytes,5,opt,name=min_volume,json=minVolume,proto3,customtype=github.com/adminoid/cosmos-sdk/math.Int" json:"min_volume"`
+	MinVolume cosmossdk_io_math.Int `protobuf:"bytes,5,opt,name=min_volume,json=minVolume,proto3,customtype=cosmossdk.io/math.Int" json:"min_volume"`
 	// erc20_address is the hex address of ERC20 contract token
 	Drc20Address string `protobuf:"bytes,6,opt,name=drc20_address,json=drc20Address,proto3" json:"drc20_address,omitempty"`
 }

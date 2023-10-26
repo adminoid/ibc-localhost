@@ -5,7 +5,7 @@ package types
 
 import (
 	context "context"
-	cosmossdk_io_math "github.com/adminoid/cosmos-sdk/math"
+	cosmossdk_io_math "cosmossdk.io/math"
 	fmt "fmt"
 	_ "github.com/cosmos/cosmos-proto"
 	github_com_cosmos_cosmos_sdk_types "github.com/cosmos/cosmos-sdk/types"
@@ -1676,7 +1676,7 @@ func (m *QueryTotalCustomCoinRequest) GetDenom() string {
 }
 
 type QueryTotalCustomCoinResponse struct {
-	TotalAmount cosmossdk_io_math.Int `protobuf:"bytes,1,opt,name=total_amount,json=totalAmount,proto3,customtype=github.com/adminoid/cosmos-sdk/math.Int" json:"total_amount"`
+	TotalAmount cosmossdk_io_math.Int `protobuf:"bytes,1,opt,name=total_amount,json=totalAmount,proto3,customtype=cosmossdk.io/math.Int" json:"total_amount"`
 }
 
 func (m *QueryTotalCustomCoinResponse) Reset()         { *m = QueryTotalCustomCoinResponse{} }
